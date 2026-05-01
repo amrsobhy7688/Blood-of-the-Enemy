@@ -4,9 +4,9 @@ Static campaign dashboard for Blood of the Enemy.
 
 ## Update Flow
 
-1. Add or revise structured campaign data in `data/campaign.json`.
-2. Add or revise one session file in `data/sessions/`.
-3. Store long transcript text in `data/transcripts/`.
+1. Update the live Google Doc listed in `data/transcript-source.json`.
+2. Ask Codex to update the dashboard from the transcript source.
+3. Codex reads the Google Doc, updates `data/transcripts/`, `data/sessions/`, `data/campaign.json`, hooks, timeline entries, and crosslinks.
 4. Run `npm run validate`.
 5. Run `npm run build`.
 6. Serve `public/` locally or push to GitHub for Vercel deployment.

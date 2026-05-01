@@ -1,0 +1,7 @@
+{
+  "provider": "google-drive",
+  "documentId": "1uH1hU_-5L5yIPccM4sUhCHKyCO-JVRvC31IP-6vxA88",
+  "title": "Blood of the Enemy - Sessions Transcript - Cleaned",
+  "url": "https://docs.google.com/document/d/1uH1hU_-5L5yIPccM4sUhCHKyCO-JVRvC31IP-6vxA88/edit?usp=drive_link",
+  "usage": "Live transcript source. When this document changes, read it from Google Drive, then update data/transcripts, data/sessions, data/campaign, hooks, timeline entries, and crosslinks before validating and deploying."
+}
