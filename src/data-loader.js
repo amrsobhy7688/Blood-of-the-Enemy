@@ -18,9 +18,21 @@
   registerAll(data.hooks, "hook");
 
   const NAME_TO_ID = {};
+  const AUTO_LINK_STOPWORDS = new Set([
+    "general",
+    "captain",
+    "lady",
+    "elder",
+    "auditor",
+    "former",
+    "woman",
+    "man",
+    "the"
+  ]);
   const register = (name, id) => {
     if (!name) return;
     const k = name.toLowerCase();
+    if (AUTO_LINK_STOPWORDS.has(k)) return;
     if (!NAME_TO_ID[k]) NAME_TO_ID[k] = id;
   };
 
@@ -30,7 +42,7 @@
     if (x.alt) register(x.alt, x.id);
     if (x.kind === "pc" || x.kind === "npc") {
       const first = x.name.split(/\s+/)[0];
-      if (first.length >= 4) register(first, x.id);
+      if (first.length >= 4 && !AUTO_LINK_STOPWORDS.has(first.toLowerCase())) register(first, x.id);
     }
   });
 

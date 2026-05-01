@@ -1035,5 +1035,252 @@
     "h-sovereignsafter",
     "h-constructorigin",
     "w-voice"
+  ],
+  "summaryScenes": [
+    {
+      "id": "s35-display-01",
+      "title": "The cavern fight is interrupted",
+      "loc": "{cavernsorrow}",
+      "prose": [
+        "The session resumes in the unresolved cavern combat with {mervel}, her followers, {zaren}, {caspian}, and {lysandra}. A follower kills Lysandra's summoned demon, but the fight is cut short when Mervel screams in terror rather than triumph.",
+        "The glass inside the party turns ice-cold. Lysandra's inner voice falls silent, and something larger than the present battle begins to press into the cavern."
+      ],
+      "atmosphere": [],
+      "reveals": [
+        "{mervel} is afraid of the arriving event rather than commanding it."
+      ],
+      "consequences": [
+        "The present-day fight is left unresolved as the tide-memory takes over."
+      ]
+    },
+    {
+      "id": "s35-display-02",
+      "title": "The tide breaks through the stone",
+      "loc": "{cavernsorrow}",
+      "prose": [
+        "Black seawater bursts in through the walls, ceiling, and stone formations, filling passages that had been dry for years. The flood sweeps everyone under, extinguishes the light, and drags the party beyond ordinary time.",
+        "The party receives the effect of a long rest as the cold stops being cold and everything stops."
+      ],
+      "atmosphere": [],
+      "reveals": [
+        "The tide is tied to old memory and the cavern itself, not only to the sea."
+      ],
+      "consequences": [
+        "The party is carried into a preserved pre-Shattering moment."
+      ]
+    },
+    {
+      "id": "s35-display-03",
+      "title": "The same cavern before ruin",
+      "loc": "{churchfather}, pre-Shattering {cavernsorrow}",
+      "prose": [
+        "{caspian} and {lysandra} wake into warmth, clean air, living stone, and ordinary community voices. The same cavern has become a candlelit church around the pool, without glass veins, static, smog, or broken ground.",
+        "The scene feels physical rather than dreamlike. They are not watching a vision from outside; they are standing inside a preserved moment."
+      ],
+      "atmosphere": [
+        "Warmth, fresh earth, clean air, candles, limestone, and living ground replace Vastraya's cold ruin."
+      ],
+      "reveals": [
+        "The {cavernsorrow} was once {churchfather}."
+      ],
+      "consequences": [
+        "The party gains a direct before-and-after comparison for the Shattering."
+      ]
+    },
+    {
+      "id": "s35-display-04",
+      "title": "The witnesses are expected",
+      "loc": "{churchfather}",
+      "prose": [
+        "A woman recognizes Caspian and Lysandra as witnesses sent by the Father. Their arrival is treated as meaningful rather than impossible, and the church community already has a place for them in the event.",
+        "Their attempts to understand the magic suggest a memory saturated with psychic and theological weight, not a staged illusion."
+      ],
+      "atmosphere": [],
+      "reveals": [
+        "{caspian} and {lysandra} are identified as {fatherwitnesses}."
+      ],
+      "consequences": [
+        "Their role is to know and carry the truth of what happened."
+      ]
+    },
+    {
+      "id": "s35-display-05",
+      "title": "Old churches, old gods, and the Father",
+      "loc": "{churchfather}",
+      "prose": [
+        "Caspian overhears anxiety about silent eastern churches, while Lysandra hears older religious tensions around {lyria}, the Weaver, and the old pantheon. The Father's followers believe the gods are real but derivative, drawing from something deeper than themselves.",
+        "The church is not a simple cult scene. It is a living community in the middle of religious transition, grief, doubt, and doctrine."
+      ],
+      "atmosphere": [],
+      "reveals": [
+        "Several churches of the Father have gone silent before the attack.",
+        "{lyria} and the old gods remain real theological forces."
+      ],
+      "consequences": [
+        "The old religious order and the Father's doctrine are put in direct tension."
+      ]
+    },
+    {
+      "id": "s35-display-06",
+      "title": "The dragonborn guard explains the threat",
+      "loc": "{churchfather}",
+      "prose": [
+        "A violet-scaled {dragonbornguard} accepts Caspian as a promised witness and explains that this church is one of forty-seven active churches across {stripe}. The Father's presence is strongest inland and weakest near the coast.",
+        "He believes the silent eastern churches were taken by forces the Sovereigns are using. Haren has hidden the church's most important objects because an attack is expected."
+      ],
+      "atmosphere": [],
+      "reveals": [
+        "{dragonborn} existed in the pre-Shattering world.",
+        "The {sovereigns} are moving forces toward a convergence point."
+      ],
+      "consequences": [
+        "The witnesses learn they are not here to prevent the attack, but to know it."
+      ]
+    },
+    {
+      "id": "s35-display-07",
+      "title": "The Keeper names the old doctrine",
+      "loc": "{churchfather}",
+      "prose": [
+        "{keeper} recognizes Lysandra as carrying the Father's voice and names both party members Witnesses of the First Land. She explains that the old Flame greeting once had a different answer: \"And the ground holds,\" followed by \"And we have felt it.\"",
+        "She teaches the difference between gods and the Father through the image of fire: gods are fires that require tending, while the Father is what burns."
+      ],
+      "atmosphere": [],
+      "reveals": [
+        "{oldgreeting} preserves an older response lost by the modern {flame}.",
+        "The Father is framed as a primordial source rather than a god among gods."
+      ],
+      "consequences": [
+        "Modern Flame liturgy is revealed as a changed remnant of older worship."
+      ]
+    },
+    {
+      "id": "s35-display-08",
+      "title": "Haren prepares the witnesses",
+      "loc": "{churchfather}",
+      "prose": [
+        "{haren} arrives and speaks with Caspian and Lysandra as if he has been waiting for them. He says what is broken cannot be unbroken, but what is dispersed can be gathered.",
+        "He explains that the Father may not be choosing violence as a person chooses violence. A primordial acts according to its nature when the world tries to contain it."
+      ],
+      "atmosphere": [],
+      "reveals": [
+        "{haren} expected witnesses and understands the coming catastrophe as a primordial event."
+      ],
+      "consequences": [
+        "The coming disaster is reframed as nature, containment, and consequence rather than ordinary malice."
+      ]
+    },
+    {
+      "id": "s35-display-09",
+      "title": "Constructs breach the church",
+      "loc": "{churchfather}",
+      "prose": [
+        "The attack begins when constructs arrive through the church entrance. The dragonborn guard is killed, worshippers scatter, and the machines advance with seal-bearing purpose rather than ordinary battlefield instinct.",
+        "Caspian and Lysandra intervene inside the memory, trying to disrupt the constructs and protect the people even though they were told their purpose was to witness."
+      ],
+      "atmosphere": [],
+      "reveals": [
+        "Pre-Shattering constructs are tied to the Sovereigns' attack."
+      ],
+      "consequences": [
+        "The party becomes an actor inside the preserved moment, not merely an observer."
+      ]
+    },
+    {
+      "id": "s35-display-10",
+      "title": "Haren gives two of three signs",
+      "loc": "{churchfather}",
+      "prose": [
+        "The constructs restrain Haren and begin killing him. Before his death he delivers two signs: first, that the Father will enter the world through fracture; second, that the children of the ash will remember what the children of law forget.",
+        "The third sign is cut off when a spike is driven into his heart."
+      ],
+      "atmosphere": [],
+      "reveals": [
+        "Only two parts of {threesigns} are known; the third remains missing."
+      ],
+      "consequences": [
+        "The incomplete prophecy becomes a major unresolved hook."
+      ]
+    },
+    {
+      "id": "s35-display-11",
+      "title": "The Father notices the moment",
+      "loc": "{churchfather}",
+      "prose": [
+        "Caspian's shard heats, the constructs freeze, and a pulse rises through limestone, feet, chest, and glass. The ground finds Caspian and Lysandra with the meaning of one word: \"Witnessed.\"",
+        "The moment itself has been held for 643 years, and the Father's attention changes it."
+      ],
+      "atmosphere": [],
+      "reveals": [
+        "The {preservedpause} is a held moment, not simply a replay.",
+        "Caspian and Lysandra are sealed as witnesses."
+      ],
+      "consequences": [
+        "The Father's notice becomes the hinge between memory and worldbreak."
+      ]
+    },
+    {
+      "id": "s35-display-12",
+      "title": "The world breaks and the party returns",
+      "loc": "{cavernsorrow}",
+      "prose": [
+        "The preserved church becomes catastrophe. The world breaks at a scale the cavern cannot contain, and Caspian and Lysandra are thrown back into their own time.",
+        "They wake underwater in the present-day cavern as the water drains away. Before the scene ends, Lysandra's inner voice calls her by name: \"Lysandra.\""
+      ],
+      "atmosphere": [],
+      "reveals": [
+        "The Shattering is directly connected to the Father's notice, the Sovereigns' attack, and the preserved church."
+      ],
+      "consequences": [
+        "The present-day cavern aftermath resumes with Mervel's fate and the party's position unresolved."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Mervel screams and the tide-memory opens",
+      "loc": "{cavernsorrow}",
+      "body": "The unresolved fight inside {cavernsorrow} fractures when {mervel} screams in terror instead of command. Her followers are still attacking, {zaren}, {caspian}, and {lysandra} are still mid-crisis, and then the glass inside the party turns ice-cold. The tide does not enter only through the cave mouth; seawater bursts through walls, ceiling, and stone channels that had been dry for years. The present-day combat is not resolved. It is swallowed by a force older than the current battle, leaving Mervel's fate and the followers' condition suspended."
+    },
+    {
+      "title": "Caspian and Lysandra enter the preserved church",
+      "loc": "{churchfather}, pre-Shattering {cavernsorrow}",
+      "body": "{caspian} and {lysandra} wake in the same cavern, but 643 years before its ruin. Cold, smog, static, glass veins, and dead stone are replaced by warmth, clear air, candles, living limestone, ordinary voices, and a church gathered around the same pool. The contrast proves that the {cavernsorrow} was once {churchfather}, a functioning community space before the Shattering. This is not a distant vision or stylized dream; the ground, smells, heat, and social detail all make the memory feel physically inhabited."
+    },
+    {
+      "title": "The witnesses are recognized",
+      "loc": "{churchfather}",
+      "body": "The people in the church do not treat Caspian and Lysandra as random intruders. A woman quietly names them as witnesses sent by the Father, and {keeper} later confirms the role more formally as {fatherwitnesses}, Witnesses of the First Land. Their presence was expected, which changes the meaning of the memory: they are not simply seeing history by accident. They have been placed inside an event that wants to be known, carried, and eventually interpreted by people from after the disaster."
+    },
+    {
+      "title": "Old doctrine surfaces around the Father and the gods",
+      "loc": "{churchfather}",
+      "body": "The preserved church reveals a religious world in transition rather than a simple cult. Caspian overhears fear that eastern churches have gone silent, while Lysandra encounters devotion, doubt, and old grief around {lyria}, the Weaver, and the older gods. The Father's followers do not deny that the old gods answer prayers; instead, their doctrine claims those gods draw from something deeper than themselves. The old Flame greeting also appears in an earlier form: \"May the embers never cool\" is answered by \"And the ground holds\" and \"And we have felt it,\" showing that modern {flame} liturgy is a damaged remnant."
+    },
+    {
+      "title": "The dragonborn guard frames the coming attack",
+      "loc": "{churchfather}",
+      "body": "A violet-scaled {dragonbornguard} gives the party a wider map of the old world. He identifies himself as one of the Children of the Flame, says this coastal church is one of forty-seven active churches across {stripe}, and explains that the Father's presence is strongest inland and weakest near the coast. Three eastern churches have gone silent, and Haren believes the threat is not the gods arriving directly, but armor and agents moving in ways the {sovereigns} can use. The church has hidden its most important objects because it knows an attack may come."
+    },
+    {
+      "title": "Haren prepares the witnesses for catastrophe",
+      "loc": "{churchfather}",
+      "body": "{haren} arrives with the calm of someone who has expected witnesses and already knows the night cannot be saved in the ordinary sense. He tells Caspian and Lysandra, \"What is broken cannot be unbroken. What is dispersed can be gathered,\" setting the emotional logic for the whole memory. His doctrine reframes the Father not as a god choosing violence like a person, but as a primordial being whose nature strains against containment. The coming disaster becomes a collision between world, law, divine machinery, and primordial pressure."
+    },
+    {
+      "title": "Constructs attack the church and the witnesses intervene",
+      "loc": "{churchfather}",
+      "body": "The attack begins when constructs breach the church. The {dragonbornguard} is killed, worshippers scatter, and the machines advance with seal-bearing purpose. These constructs are not merely battlefield tools; they appear tied to Sovereign force, old command structures, and the same category of constructed logic the party has been studying in the present. Caspian and Lysandra choose to act inside the preserved memory, using magic and tactics to interrupt the slaughter even though every lesson around them says their central role is to witness rather than rescue."
+    },
+    {
+      "title": "Two signs are spoken; the third is lost",
+      "loc": "{churchfather}",
+      "body": "The constructs restrain {haren} and begin killing him. Before the spike reaches his heart, he gives two parts of {threesigns}: the Father will enter the world through fracture, and the children of ash will remember what the children of law forget. The third sign is cut off by his death. That interruption matters as much as the prophecy itself. The party now holds an incomplete doctrinal key, one that links the Father, ash, law, fracture, and memory while leaving the missing final sign as a live campaign hook."
+    },
+    {
+      "title": "The Father notices, and the world breaks",
+      "loc": "{churchfather} -> {cavernsorrow}",
+      "body": "Caspian's shard heats, the constructs freeze, and a pulse rises through the limestone, their bodies, and the glass inside them. The preserved moment is not only replaying; it is being noticed. The ground finds {caspian} and {lysandra} with the meaning of one word: \"Witnessed.\" Then the scale of the event exceeds the cavern. The Shattering begins as consequence, the preserved church collapses into worldbreak, and the party returns underwater to the present-day cavern as the water recedes and Lysandra's inner voice calls her by name for the first time."
+    }
   ]
 }

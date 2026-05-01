@@ -1,6 +1,7 @@
 .agents/
 .codex/
 .edge-check/
+.preview/
 .npm-cache/
 .vercel/
 .preview-server.err.log

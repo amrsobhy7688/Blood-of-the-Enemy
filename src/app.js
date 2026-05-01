@@ -19,10 +19,10 @@ const TRANSCRIPTS = window.BOTE.transcripts || {};
 // ────────────────────────────────────────────────────────────
 
 // Build auto-link regex from all registered names (longest first)
-const AUTO_NAMES = Object.keys(NAME_TO_ID).sort((a, b) => b.length - a.length);
+const AUTO_NAMES = Object.keys(NAME_TO_ID).filter(name => name.length >= 4).sort((a, b) => b.length - a.length);
 const escapeRegex = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 // Escape names for regex, join, bound with word boundaries (including apostrophe handling)
-const AUTO_RE = new RegExp(`\\b(${AUTO_NAMES.map(escapeRegex).join("|")})\\b`, "gi");
+const AUTO_RE = AUTO_NAMES.length ? new RegExp(`\\b(${AUTO_NAMES.map(escapeRegex).join("|")})\\b`, "gi") : null;
 function entityName(ent) {
   return ent?.name || ent?.title || ent?.id || "Unknown";
 }
@@ -86,6 +86,12 @@ function renderText(text, {
     }
     let lastIdx = 0;
     let match;
+    if (!AUTO_RE) {
+      out.push(/*#__PURE__*/React.createElement("span", {
+        key: `${key}-${i++}`
+      }, p.content));
+      continue;
+    }
     AUTO_RE.lastIndex = 0;
     while ((match = AUTO_RE.exec(p.content)) !== null) {
       if (match.index > lastIdx) {
@@ -833,7 +839,8 @@ function entityInitial(ent) {
   return (words[0][0] + words[words.length - 1][0]).toUpperCase();
 }
 function sessionEntries(s) {
-  return s.scenes?.length ? s.scenes.map(sc => ({
+  const source = s.summaryScenes?.length ? s.summaryScenes : s.scenes?.length ? s.scenes : null;
+  return source ? source.map(sc => ({
     title: sc.title,
     loc: sc.loc,
     body: sc.prose && sc.prose.join(" ") || sc.atmosphere && sc.atmosphere.join(" ") || "",
@@ -847,6 +854,14 @@ function sessionEntries(s) {
     atmosphere: [],
     reveals: [],
     consequences: []
+  }));
+}
+function timelineEntries(s) {
+  const source = s.timeline?.length ? s.timeline : s.summaryScenes?.length ? s.summaryScenes : s.scenes?.length ? s.scenes : s.beats || [];
+  return source.map(entry => ({
+    title: entry.title,
+    loc: entry.loc,
+    body: entry.body || [...(entry.prose || []), ...(entry.atmosphere || []), ...(entry.reveals || []), ...(entry.consequences || [])].filter(Boolean).join(" ") || s.recap
   }));
 }
 function collectEntityIds(text, max = 7) {
@@ -1196,15 +1211,108 @@ function NotesTab({
 }) {
   const latestId = DATA.sessions[DATA.sessions.length - 1].id;
   const [active, setActive] = useState(focusSessionId || latestId);
+  const [expandedSessionId, setExpandedSessionId] = useState(null);
   useEffect(() => {
-    if (focusSessionId) setActive(focusSessionId);
+    if (focusSessionId) {
+      setActive(focusSessionId);
+      setExpandedSessionId(null);
+    }
   }, [focusSessionId]);
   const selected = DATA.sessions.find(s => s.id === active) || DATA.sessions[DATA.sessions.length - 1];
-  const entries = sessionEntries(selected);
   const clues = allSessionClues(selected, 10);
   const mentions = sessionMentionIds(selected, 10);
   const relatedHooks = DATA.hooks.filter(h => (h.tags || []).some(id => mentions.includes(id))).slice(0, 6);
-  const transcriptText = TRANSCRIPTS[selected.id] || "";
+  const displaySessions = DATA.sessions.slice().reverse();
+  const sessionBadge = s => String(s.num || "").replace(/^Session\s*/i, "") || "?";
+  const selectSession = id => {
+    setActive(id);
+    setExpandedSessionId(null);
+  };
+  const toggleSession = id => {
+    setActive(id);
+    setExpandedSessionId(expandedSessionId === id ? null : id);
+  };
+  const renderSessionCard = s => {
+    const sessionIsExpanded = expandedSessionId === s.id;
+    const cardEntries = sessionEntries(s);
+    const transcriptText = TRANSCRIPTS[s.id] || "";
+    return /*#__PURE__*/React.createElement("article", {
+      key: s.id,
+      className: `blood-frame notes-overview-card${sessionIsExpanded ? " notes-overview-open" : ""}`,
+      role: "button",
+      tabIndex: 0,
+      "aria-expanded": sessionIsExpanded,
+      onClick: () => toggleSession(s.id),
+      onKeyDown: e => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          toggleSession(s.id);
+        }
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "recap-meta"
+    }, s.num, " \xB7 ", renderText(s.when, {
+      onOpen
+    })), /*#__PURE__*/React.createElement("h2", {
+      className: "recap-title"
+    }, s.title), /*#__PURE__*/React.createElement("p", {
+      className: "notes-card-recap"
+    }, renderText(sessionIsExpanded ? s.recap : clipText(s.recap, 360), {
+      onOpen
+    })), /*#__PURE__*/React.createElement("div", {
+      className: "notes-expand-cue"
+    }, sessionIsExpanded ? "Collapse session" : "Expand session", " \xB7 ", cardEntries.length, " scenes", transcriptText ? " \xB7 Transcript ready" : ""), sessionIsExpanded && s.hookQuote && /*#__PURE__*/React.createElement("blockquote", {
+      className: "bs-pull",
+      style: {
+        marginBottom: 0
+      }
+    }, renderText(s.hookQuote, {
+      onOpen
+    }), /*#__PURE__*/React.createElement("span", {
+      className: "bs-pull-credit"
+    }, renderText(s.hookCredit, {
+      onOpen
+    }))), sessionIsExpanded && /*#__PURE__*/React.createElement("div", {
+      className: "scene-timeline"
+    }, cardEntries.map((e, i) => /*#__PURE__*/React.createElement("article", {
+      key: i,
+      className: "blood-frame scene-row"
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "scene-num"
+    }, String(i + 1).padStart(2, "0")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", {
+      className: "scene-title"
+    }, e.title), e.loc && /*#__PURE__*/React.createElement("div", {
+      className: "scene-loc"
+    }, renderText(e.loc, {
+      onOpen
+    })), /*#__PURE__*/React.createElement("div", {
+      className: "scene-copy"
+    }, (e.prose?.length ? e.prose : [e.body]).filter(Boolean).map((p, j) => /*#__PURE__*/React.createElement("p", {
+      key: j
+    }, renderText(p, {
+      onOpen
+    })))), e.atmosphere?.length || e.reveals?.length || e.consequences?.length ? /*#__PURE__*/React.createElement("div", {
+      className: "scene-bullets"
+    }, [...(e.atmosphere || []), ...(e.reveals || []), ...(e.consequences || [])].slice(0, 10).map((b, j) => /*#__PURE__*/React.createElement("div", {
+      className: "scene-bullet",
+      key: j
+    }, /*#__PURE__*/React.createElement("span", {
+      className: "scene-bullet-text"
+    }, renderText(b, {
+      onOpen
+    }))))) : null)))), sessionIsExpanded && transcriptText && /*#__PURE__*/React.createElement("details", {
+      className: "transcript-shell",
+      onClick: e => e.stopPropagation()
+    }, /*#__PURE__*/React.createElement("summary", null, /*#__PURE__*/React.createElement("span", null, "Expanded cleaned transcript record"), /*#__PURE__*/React.createElement("span", {
+      className: "transcript-meta"
+    }, "Open full text")), /*#__PURE__*/React.createElement("div", {
+      className: "transcript-note"
+    }, "Use this as the uncompressed source layer for the session."), /*#__PURE__*/React.createElement("div", {
+      className: "transcript-raw"
+    }, renderText(transcriptText, {
+      onOpen
+    }))));
+  };
   return /*#__PURE__*/React.createElement("div", {
     className: "container"
   }, /*#__PURE__*/React.createElement(PageHead, {
@@ -1222,8 +1330,8 @@ function NotesTab({
     key: s.id,
     className: "session-pick",
     "aria-selected": selected.id === s.id,
-    onClick: () => setActive(s.id)
-  }, /*#__PURE__*/React.createElement(Sigil, null, String(s.num).match(/\d+/)?.[0] || i + 1), /*#__PURE__*/React.createElement("span", null, /*#__PURE__*/React.createElement("span", {
+    onClick: () => selectSession(s.id)
+  }, /*#__PURE__*/React.createElement(Sigil, null, sessionBadge(s)), /*#__PURE__*/React.createElement("span", null, /*#__PURE__*/React.createElement("span", {
     className: "row-title"
   }, s.num), /*#__PURE__*/React.createElement("span", {
     className: "row-sub"
@@ -1242,78 +1350,7 @@ function NotesTab({
     actionLabel: "open"
   }))))), /*#__PURE__*/React.createElement("section", {
     className: "codex-main"
-  }, /*#__PURE__*/React.createElement("article", {
-    className: "blood-frame",
-    style: {
-      padding: "1rem",
-      marginBottom: "1rem"
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "recap-meta"
-  }, selected.num, " \xB7 ", renderText(selected.when, {
-    onOpen
-  })), /*#__PURE__*/React.createElement("h2", {
-    className: "recap-title",
-    style: {
-      fontSize: "2.1rem"
-    }
-  }, selected.title), /*#__PURE__*/React.createElement("p", {
-    style: {
-      color: "var(--ink-1)",
-      lineHeight: 1.6
-    }
-  }, renderText(selected.recap, {
-    onOpen
-  })), selected.hookQuote && /*#__PURE__*/React.createElement("blockquote", {
-    className: "bs-pull",
-    style: {
-      marginBottom: 0
-    }
-  }, renderText(selected.hookQuote, {
-    onOpen
-  }), /*#__PURE__*/React.createElement("span", {
-    className: "bs-pull-credit"
-  }, renderText(selected.hookCredit, {
-    onOpen
-  })))), /*#__PURE__*/React.createElement("div", {
-    className: "scene-timeline"
-  }, entries.map((e, i) => /*#__PURE__*/React.createElement("article", {
-    key: i,
-    className: "blood-frame scene-row"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "scene-num"
-  }, String(i + 1).padStart(2, "0")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", {
-    className: "scene-title"
-  }, e.title), e.loc && /*#__PURE__*/React.createElement("div", {
-    className: "scene-loc"
-  }, renderText(e.loc, {
-    onOpen
-  })), /*#__PURE__*/React.createElement("div", {
-    className: "scene-copy"
-  }, (e.prose?.length ? e.prose : [e.body]).filter(Boolean).map((p, j) => /*#__PURE__*/React.createElement("p", {
-    key: j
-  }, renderText(p, {
-    onOpen
-  })))), e.atmosphere?.length || e.reveals?.length || e.consequences?.length ? /*#__PURE__*/React.createElement("div", {
-    className: "scene-bullets"
-  }, [...(e.atmosphere || []), ...(e.reveals || []), ...(e.consequences || [])].slice(0, 10).map((b, j) => /*#__PURE__*/React.createElement("div", {
-    className: "scene-bullet",
-    key: j
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "scene-bullet-text"
-  }, renderText(b, {
-    onOpen
-  }))))) : null)))), transcriptText && /*#__PURE__*/React.createElement("details", {
-    className: "transcript-shell"
-  }, /*#__PURE__*/React.createElement("summary", null, /*#__PURE__*/React.createElement("span", null, "Expanded cleaned transcript record"), /*#__PURE__*/React.createElement("span", {
-    className: "transcript-meta"
-  }, "Open full text")), /*#__PURE__*/React.createElement("div", {
-    className: "transcript-note"
-  }, "Use this as the uncompressed source layer for the session."), /*#__PURE__*/React.createElement("div", {
-    className: "transcript-raw"
-  }, renderText(transcriptText, {
-    onOpen
-  })))), /*#__PURE__*/React.createElement("div", {
+  }, displaySessions.map(renderSessionCard)), /*#__PURE__*/React.createElement("div", {
     className: "side-stack"
   }, /*#__PURE__*/React.createElement(BloodPanel, {
     title: "Key Clues",
@@ -1370,12 +1407,12 @@ function TimelineTab({
     sessionId: s.id
   }));
   const sessionGroups = DATA.sessions.map((s, sessionIndex) => {
-    const entries = sessionEntries(s);
+    const entries = timelineEntries(s);
     return {
       session: s,
       sessionIndex,
       events: entries.map((entry, eventIndex) => {
-        const body = entry.body || [...(entry.prose || []), ...(entry.atmosphere || []), ...(entry.reveals || []), ...(entry.consequences || [])].filter(Boolean).join(" ") || s.recap;
+        const body = entry.body || s.recap;
         const mentionIds = collectEntityIds([entry.title, entry.loc, body].filter(Boolean).join(" "), 4);
         return {
           eventIndex,
@@ -1574,7 +1611,7 @@ function CompendiumTab({
     action: `${filtered.length} shown`
   }, /*#__PURE__*/React.createElement("div", {
     className: "entity-list"
-  }, filtered.slice(0, 10).map(ent => /*#__PURE__*/React.createElement("button", {
+  }, filtered.map(ent => /*#__PURE__*/React.createElement("button", {
     key: ent.id,
     className: "entity-row",
     "aria-selected": selected?.id === ent.id,
@@ -1630,7 +1667,7 @@ function CompendiumTab({
     }
   }, "Open full entry \u203A"))) : /*#__PURE__*/React.createElement(BloodPanel, null, "No matching entries."), /*#__PURE__*/React.createElement("div", {
     className: "cmp-grid"
-  }, filtered.slice(0, 12).map(ent => /*#__PURE__*/React.createElement("article", {
+  }, filtered.map(ent => /*#__PURE__*/React.createElement("article", {
     key: ent.id,
     className: "blood-frame cmp-card cmp-clickable",
     role: "button",
@@ -1993,6 +2030,8 @@ function TweaksPanel() {
 }
 function App() {
   const [tab, setTab] = useState(() => {
+    const urlTab = new URLSearchParams(window.location.search).get("tab");
+    if (urlTab && TABS.some(t => t.id === urlTab)) return urlTab;
     try {
       return localStorage.getItem("bote:tab") || "recaps";
     } catch {
@@ -2137,13 +2176,7 @@ function App() {
     key: letter
   }, letter))))), /*#__PURE__*/React.createElement("div", {
     className: "header-spacer"
-  }), /*#__PURE__*/React.createElement("button", {
-    className: "search-btn",
-    onClick: () => setCmdkOpen(true),
-    "aria-label": "Search"
-  }, /*#__PURE__*/React.createElement(SearchIcon, null), /*#__PURE__*/React.createElement("span", {
-    className: "search-label"
-  }, "Search the Codex\u2026"), /*#__PURE__*/React.createElement("kbd", null, "\u2318K"))), /*#__PURE__*/React.createElement("nav", {
+  })), /*#__PURE__*/React.createElement("nav", {
     className: "tabs",
     role: "tablist"
   }, /*#__PURE__*/React.createElement("div", {
@@ -2163,7 +2196,13 @@ function App() {
         top: 0
       });
     }
-  }, t.label))))), /*#__PURE__*/React.createElement("main", {
+  }, t.label))), /*#__PURE__*/React.createElement("button", {
+    className: "search-btn nav-search-btn",
+    onClick: () => setCmdkOpen(true),
+    "aria-label": "Search"
+  }, /*#__PURE__*/React.createElement(SearchIcon, null), /*#__PURE__*/React.createElement("span", {
+    className: "search-label"
+  }, "Search the Codex\u2026"), /*#__PURE__*/React.createElement("kbd", null, "\u2318K")))), /*#__PURE__*/React.createElement("main", {
     role: "tabpanel",
     id: `panel-${tab}`,
     "aria-labelledby": `tab-${tab}`
