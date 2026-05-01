@@ -1,0 +1,2004 @@
+{
+  "meta": {
+    "title": "Blood of the Enemy",
+    "sessions": 5,
+    "currentLevel": 6,
+    "currentArc": "The Shore & Hold Mount",
+    "currentLocation": "Cavern of Sorrow",
+    "status": "Combat — vs. Mervel (unresolved)"
+  },
+  "pcs": [
+    {
+      "id": "caspian",
+      "name": "Caspian Talus Dryce",
+      "player": "Amr",
+      "role": "Researcher Prime · Framed Heretic · Secret Child of the Flame (5 years)",
+      "class": "Arcane researcher / Artificer-tinker hybrid",
+      "status": "active",
+      "portrait": "C",
+      "facts": [
+        [
+          "House",
+          "{talus} (exiled) · cousin of {alex}"
+        ],
+        [
+          "Faith",
+          "Formerly Lunaria, faithless-curious; infiltrated {flame}"
+        ],
+        [
+          "Signature",
+          "Tattooed bronze toolkit in his own skin — functional thieves' tools"
+        ],
+        [
+          "Shard",
+          "Gray smoke, between fingers. Stops reflecting light. Defer damage 1/day."
+        ],
+        [
+          "Invention",
+          "Aether siphon — stolen by {aurelian}"
+        ],
+        [
+          "Hands",
+          "Two Null Sigils (broken by {mara}); healed by {marisha}"
+        ],
+        [
+          "Current",
+          "In Cavern of Sorrow vs {mervel}"
+        ]
+      ],
+      "body": "A Researcher Prime of the Ministry who was maneuvered into sounding heretical at the Beacon Ignition so his patents could be seized by {aurelian}. He joined {flame} five years ago out of curiosity, not devotion — \"I've been knocking on every door.\" Branded with two Null Sigils, exiled on {penance}, now free to cast again.\n\nHe thinks in systems. Even bound on the bench of a prison ship he read {castrell}'s surface thoughts while finishing lockpicks from tattoo-ink tools. He has revealed himself to {zaren} as {flame}. His shield channels preserving energy through his familiar — a mechanism he doesn't yet understand.",
+      "relationships": [
+        [
+          "zaren",
+          "cell · {flame} brother"
+        ],
+        [
+          "alex",
+          "cousin"
+        ],
+        [
+          "lysandra",
+          "shipmate · theory-testing"
+        ],
+        [
+          "mara",
+          "sigils broken by her"
+        ],
+        [
+          "mccord",
+          "framed him"
+        ],
+        [
+          "dominus",
+          "suspects betrayed him"
+        ],
+        [
+          "aurelian",
+          "stole his patents"
+        ]
+      ]
+    },
+    {
+      "id": "zaren",
+      "name": "Zaren Dryce",
+      "player": "Mahmoud",
+      "role": "Marshal of the Guilded Guard · Winged Watch façade · deep-cover Children of the Flame",
+      "class": "Paladin / officer · 55, scarred, cheek & forehead tattoos",
+      "status": "active",
+      "portrait": "Z",
+      "facts": [
+        [
+          "House",
+          "{dryce} — fractured across {solaris}"
+        ],
+        [
+          "Faith (visible)",
+          "{wingedwatch} — Seraphex path"
+        ],
+        [
+          "Faith (true)",
+          "{flame} — embedded to hunt his own, save martyrs"
+        ],
+        [
+          "Handler",
+          "{vein} · phrase: \"the flame will not drown\""
+        ],
+        [
+          "Shard",
+          "Purple coin, shin. +10kg heavy feel. Move-resist advantage; auto-fail Acrobatics."
+        ],
+        [
+          "Family",
+          "Wife, daughter (~10, receiving her {feastofnails}), elderly parents"
+        ],
+        [
+          "Current",
+          "In Cavern of Sorrow; revealed his mark to {mervel}"
+        ]
+      ],
+      "body": "Fifty-five. Veteran enforcer. His inner sanctum at the {dryce} estate is three feet of metal-lined stone built by {vein}. For years he has hunted his own brotherhood while feeding intel back to it — \"They are martyrs. They understand.\"\n\nHe was handed the {penance} escort by {mccord} and ordered by {vein} to sabotage it. He refused the sabotage but kept the prisms. On the shore, in a coded exchange, {mara} placed him: \"the tide is coming\" / \"but the seal will hold.\" His Unbroken-raid memory returned: {unbroken} children reciting the Fifth Nail. In the Cavern he pressed ash to his mark and the cave answered.",
+      "relationships": [
+        [
+          "caspian",
+          "cell · revealed {flame}"
+        ],
+        [
+          "vein",
+          "handler"
+        ],
+        [
+          "mccord",
+          "commanding officer / target"
+        ],
+        [
+          "mara",
+          "coded recognition"
+        ],
+        [
+          "dominus",
+          "also {flame} (according to Z)"
+        ],
+        [
+          "mosh",
+          "also {flame} (according to Z)"
+        ],
+        [
+          "silver",
+          "ward · trusts him"
+        ]
+      ]
+    },
+    {
+      "id": "alex",
+      "name": "Alex Talus",
+      "player": "Marah",
+      "role": "Ministry-certified crystal monitor · Researcher · House Talus blood sacrifice",
+      "class": "Ranger-scholar · ranged control · familiar bond",
+      "status": "active",
+      "portrait": "A",
+      "facts": [
+        [
+          "House",
+          "{talus} — 74% of holdings on Ministry contract"
+        ],
+        [
+          "Father",
+          "Gerald Talus — forced her aboard {penance}"
+        ],
+        [
+          "Studied under",
+          "{caspian} (cousin)"
+        ],
+        [
+          "Shard",
+          "Black needle ring on right ear. Hide in dim light."
+        ],
+        [
+          "Familiar",
+          "Spider · plus a black cat with silver eyes from the dead shore"
+        ],
+        [
+          "Voice",
+          "A childlike voice inside her mind since {silver} spoke about family"
+        ]
+      ],
+      "body": "Conscripted at the foyer as {mccord} cornered her father: a flaw was detected, the Ministry needed a Talus monitor, the choice was not a choice. Her father called it privately \"a blood sacrifice to prove the family is still in line\" and told her: \"Stick close to {zaren}. He will protect you.\"\n\nShe returned from the shore with blood on her face; {caspian} returned clean. She hasn't explained. She doesn't trust {zaren} yet and was caught by {silver} trying to search {mara}'s tent. Her stated goal widened from \"go home\" to \"understand Vastraya — what happens here is tied to what happened there.\"",
+      "relationships": [
+        [
+          "caspian",
+          "cousin · mentor"
+        ],
+        [
+          "zaren",
+          "under his command (formally)"
+        ],
+        [
+          "silver",
+          "caught her snooping; later bonded"
+        ],
+        [
+          "mccord",
+          "extracted her from the family"
+        ],
+        [
+          "lysandra",
+          "shipmate · ally"
+        ]
+      ]
+    },
+    {
+      "id": "lysandra",
+      "name": "Lysandra Vermont",
+      "player": "Sarah",
+      "role": "House Vermont heir · framed for Grand Larceny · crystal-cutter",
+      "class": "Warlock / artisan — resonance-based crystal work",
+      "status": "active",
+      "portrait": "L",
+      "facts": [
+        [
+          "House",
+          "{vermont} — occupied by {aurelian}; siblings are prisoners in their own home"
+        ],
+        [
+          "Father",
+          "Made a bargain in a dark place with \"a king who wore no crown\" — \"invited the light to sit where his heart used to be\""
+        ],
+        [
+          "Shard",
+          "{silentscream} — yellow, arm. Proficiency: Insight + Perception"
+        ],
+        [
+          "Ring",
+          "{ringofechoes} — identified by Caspian"
+        ],
+        [
+          "Voice",
+          "A baby voice: \"Mother, don't believe her.\" First heard at bonding."
+        ],
+        [
+          "Vision",
+          "Plains of fire · teenage daughter with gemstone eyes · four nails through heart"
+        ]
+      ],
+      "body": "Arrested three days before Ascension Day on forged crystal charges — the {vermontfacet} appeared on depleted boxes she never saw. Her mother smuggled her jeweler's tools into the {dampeningchamber} and revealed the Vermont inheritance: before Lysandra was born, her father met a king, and light came to sit where his heart had been. A burden.\n\nHer cutting is not craft alone. When she works, the material responds — something in her resonates with the crystal. {caspian} has started prodding at it. Inside her, a child's voice speaks; in her vision, the child calls her \"Mother.\" Four nails, through the heart.",
+      "relationships": [
+        [
+          "caspian",
+          "cell · slowly trusting"
+        ],
+        [
+          "vermontmother",
+          "mother — last visitor before exile"
+        ],
+        [
+          "mara",
+          "bonded her first"
+        ],
+        [
+          "aurelian",
+          "occupied her home"
+        ],
+        [
+          "cyr",
+          "heard her voice in the chamber"
+        ]
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "id": "mccord",
+      "name": "Julius Mccord",
+      "alt": "The Voice of the Light",
+      "role": "Auditor General",
+      "status": "hostile",
+      "portrait": "M",
+      "facts": [
+        [
+          "Office",
+          "Templar's / {holyorder}"
+        ],
+        [
+          "Uniform",
+          "White-and-gold · silver half-mask (on-duty signal)"
+        ],
+        [
+          "Phrase",
+          "\"The Empire is breathing, Marshal. Do not let it choke on your watch.\""
+        ]
+      ],
+      "body": "Handpicked {zaren} to escort the {penance}. Cornered Gerald Talus over 74% contracts to extract {alex}. Stripped {caspian} and {lysandra} of their names and sentenced them to Vastraya. Whispered to a hidden figure in the {dampeningchamber} before sentencing — identity never explained.",
+      "relationships": [
+        [
+          "zaren",
+          "commanding officer"
+        ],
+        [
+          "caspian",
+          "framed"
+        ],
+        [
+          "lysandra",
+          "framed"
+        ],
+        [
+          "alex",
+          "extracted"
+        ]
+      ]
+    },
+    {
+      "id": "vein",
+      "name": "Asmodeus Vein",
+      "role": "Brotherhood handler · builder of {dryce} sanctum",
+      "status": "ally",
+      "portrait": "V",
+      "facts": [
+        [
+          "House",
+          "{veinhouse}"
+        ],
+        [
+          "Built",
+          "Zaren's metal-lined sanctum (15 yrs ago) · the {dampeningchamber}"
+        ],
+        [
+          "Phrase",
+          "\"The flame will not drown.\" (greeting and farewell both)"
+        ]
+      ],
+      "body": "Already inside the sanctum when {zaren} returned — had never announced himself. Delivered the {flame}'s demand to sabotage the {penance}; provided a {discdevice} and two prisms. Said: \"The tide is coming in. And it's carrying salt this time.\"",
+      "relationships": [
+        [
+          "zaren",
+          "handler"
+        ],
+        [
+          "flame",
+          "agent"
+        ]
+      ]
+    },
+    {
+      "id": "vermontmother",
+      "name": "Lady Vermont",
+      "role": "Lysandra's mother",
+      "status": "ally",
+      "portrait": "LV",
+      "facts": [
+        [
+          "Status",
+          "House occupied; not allowed to speak the name Vermont aloud"
+        ],
+        [
+          "Secret",
+          "Revealed Vermont inheritance — father met a king in a dark place"
+        ]
+      ],
+      "body": "Entered the {dampeningchamber} in mourning black with a High Templar escort. Smuggled in Lysandra's jeweler's tools. Then the inheritance — the light that sits where the heart used to be, a king who wore no crown, a burden. She cannot come back.",
+      "relationships": [
+        [
+          "lysandra",
+          "mother"
+        ]
+      ]
+    },
+    {
+      "id": "mara",
+      "name": "Mara of the Iron Will",
+      "role": "Former Ebony Legions · encampment protector",
+      "status": "ally",
+      "portrait": "Mr",
+      "facts": [
+        [
+          "Path",
+          "{ironwill} — Vajran"
+        ],
+        [
+          "Body",
+          "Glass nails; growths from within"
+        ],
+        [
+          "Armament",
+          "Two daggers, shortsword, longsword, lance"
+        ],
+        [
+          "History",
+          "Survived an ambush by a Hulking Refracted 10 yrs ago by running; her platoon died"
+        ],
+        [
+          "Nails",
+          "Removed three from the {familypost}; carries two dead companions' nails"
+        ]
+      ],
+      "body": "Found the party on the shore at 5 HP and still performed {glassbonding} on all four. Corrupted the Prayer of Ignition while breaking {caspian}'s Null Sigils. Took his mint shard for herself — \"This one is for me.\"\n\nCoded exchange with {zaren}: \"the tide is coming\" / \"the seal will hold.\" Broke at the sound of the Hulking Refracted and fled weeping, repeating \"By the Four Nails.\" Tries to end the {hollow} bodies every day — mercy and killing are neighboring ideas to her.",
+      "relationships": [
+        [
+          "silver",
+          "surrogate family · 10 years"
+        ],
+        [
+          "marisha",
+          "co-caregiver"
+        ],
+        [
+          "vorn",
+          "camp elder"
+        ],
+        [
+          "zaren",
+          "suspicious recognition"
+        ],
+        [
+          "mervel",
+          "old camp-mate"
+        ]
+      ]
+    },
+    {
+      "id": "vorn",
+      "name": "Elder Vorn",
+      "alt": "Vorn of the Steel Grid",
+      "role": "Encampment elder · former Ministry archivist",
+      "status": "ally",
+      "portrait": "Vo",
+      "facts": [
+        [
+          "Path",
+          "{steelgrid} — Arcanon"
+        ],
+        [
+          "Past",
+          "Archivist, {ministrysanctity}; formerly devout of Lunaria"
+        ],
+        [
+          "Body",
+          "Purple crystal embedded in chest · names of the dead written across his skin (80+)"
+        ],
+        [
+          "Discovery",
+          "{solarcalcination} is getting less efficient on purpose — a Tier 1 now needs Tier 2 output"
+        ]
+      ],
+      "body": "Reported the discrepancy to his superior. Went drinking to celebrate. Came home to smoke, wife and children dead, himself erased from census, marriage, schools. \"They did not want to kill me. They wanted to make sure I never happened.\"\n\nSet up the encampment 30 years ago. Only permanent resident. Strikes his staff/cane to chest and casts \"Peace\" — party becomes magically frightened, cannot take hostile action for 1 minute.",
+      "relationships": [
+        [
+          "mara",
+          "kin · enforcer"
+        ],
+        [
+          "silver",
+          "ward"
+        ],
+        [
+          "marisha",
+          "kin"
+        ],
+        [
+          "charcy",
+          "trader"
+        ]
+      ]
+    },
+    {
+      "id": "marisha",
+      "name": "Marisha",
+      "role": "Former Cyriath Vanguard medic · \"an after\"",
+      "status": "ally",
+      "portrait": "Ma",
+      "facts": [
+        [
+          "Path",
+          "{ironhand} — Kaelanor"
+        ],
+        [
+          "Body",
+          "Respiratory system replaced by {vitreum}. Doesn't eat, sleep, breathe."
+        ],
+        [
+          "Knowledge",
+          "Discovered the {ghostwards}"
+        ],
+        [
+          "Gift",
+          "Healed Caspian's hand; midwifed {silver} from his dying mother"
+        ]
+      ],
+      "body": "Stripped of rank, branded a traitor, exiled for exposing the {ghostwards}. Her body has been replaced piece by piece; she is \"on her way out\" and irreversible. Uses glass as a magical material component in surgery.",
+      "relationships": [
+        [
+          "silver",
+          "midwife · co-caregiver"
+        ],
+        [
+          "mara",
+          "kin"
+        ],
+        [
+          "vorn",
+          "kin"
+        ]
+      ]
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "role": "Child of the encampment · six-shard bonded",
+      "status": "ally",
+      "portrait": "S",
+      "facts": [
+        [
+          "Apparent age",
+          "~10 · but speaks older"
+        ],
+        [
+          "Shards",
+          "Three black + three yellow — compatible pair"
+        ],
+        [
+          "Abilities",
+          "Teleport · mind-reading · constant sentry"
+        ],
+        [
+          "Status",
+          "Glass veins visible under skin; Vorn gives him ~1 year"
+        ],
+        [
+          "Heard",
+          "The party's private {flame} conversation: \"Information is power.\""
+        ],
+        [
+          "Lead",
+          "\"Sometimes I hear whispers beneath the ground. They say it's this way.\" → {valleyazar}"
+        ]
+      ],
+      "body": "Born with a yellow shard inside him — {marisha} delivered him as his dying mother arrived on the shore. He identifies as {wingedwatch} (the sentry), even though {mara} is {ironwill}. Teleports. Caught {alex} trying to enter {mara}'s room: \"I can go anywhere. I am the sentry.\"",
+      "relationships": [
+        [
+          "mara",
+          "\"mother\" (she hates it)"
+        ],
+        [
+          "marisha",
+          "\"mother\" (she's fine with it)"
+        ],
+        [
+          "vorn",
+          "keeper"
+        ]
+      ]
+    },
+    {
+      "id": "charcy",
+      "name": "Charcy",
+      "role": "Camp trader · field taxonomist of shards",
+      "status": "ally",
+      "portrait": "Ch",
+      "facts": [
+        [
+          "Her names for shards",
+          "{ignis} (orange) · {mantis} (yellow) · {gravitas} (purple-gray)"
+        ],
+        [
+          "Wants",
+          "Crystals — to tinker, ideally to build something permanent"
+        ],
+        [
+          "Theory",
+          "The statue in camp is a construct (has joints)"
+        ],
+        [
+          "Offer",
+          "1 large Hulk crystal = 4 pairs gloves; 1 crystal = 1 {hydropurifier} canteen"
+        ]
+      ],
+      "body": "Lively, sharp, treats every exchange like a market. The only person who tracks shard behavior as a practical taxonomy. Pointed the party at the {construct} and the {rod}.",
+      "relationships": [
+        [
+          "vorn",
+          "trades through him"
+        ]
+      ]
+    },
+    {
+      "id": "cyr",
+      "name": "Sovereign Cyr",
+      "role": "Ancient voice in the hidden shore chamber",
+      "status": "dead",
+      "portrait": "⌖",
+      "facts": [
+        [
+          "Location",
+          "Sunken stone door, obsidian shore"
+        ],
+        [
+          "Last words",
+          "\"Nail pulled from the door.\""
+        ],
+        [
+          "Reveal",
+          "The Sovereigns were \"chains, not hands\""
+        ]
+      ],
+      "body": "Voice in the chamber opened by {caspian}'s golden tattoo: \"We were not their hands. We were their chains. They gave us steel to kill a king so they could wear his crown. She made sure the weaver's hands went still.\"\n\n\"The heavens are empty not by chance but by design. Vajran burst his skin. Arcanon stopped the world from drifting. Kaelanor poured his blood into the soil. And I stood between you and the sun of a dying heart.\" Fragments: jailer · infinite · every · burned. Then silence.",
+      "relationships": [
+        [
+          "lysandra",
+          "spoke to her"
+        ],
+        [
+          "caspian",
+          "unlocked the chamber"
+        ]
+      ]
+    },
+    {
+      "id": "mervel",
+      "name": "Mervel Haloval",
+      "alt": "The Crystallized Siren",
+      "role": "Presides over the drowning rite at the {cavernsorrow}",
+      "status": "hostile",
+      "portrait": "Me",
+      "facts": [
+        [
+          "Classification",
+          "{crystallizedsiren} · one step above Refracted"
+        ],
+        [
+          "Past",
+          "Tortured at {sarn} — raw glass hammered into hips, spine, throat"
+        ],
+        [
+          "Marks",
+          "Two purple markings, arms — matching the cave walls"
+        ],
+        [
+          "Last line",
+          "\"Just another actor on a stage made of corpses.\""
+        ]
+      ],
+      "body": "Hold Mount-born noble. Presides over the ritual drowning in the {cavernsorrow}. Her resonance leaks; Silver says \"she isn't doing it on purpose.\" Challenged {zaren}: \"How about you enlighten us in the water with the tide?\" His answer: \"the water, the suffocation is only one thing. It is by the ashes that everything reveals.\"",
+      "relationships": [
+        [
+          "flame",
+          "adherent"
+        ],
+        [
+          "zaren",
+          "combat · doctrinal rivals"
+        ],
+        [
+          "silver",
+          "knew her before"
+        ]
+      ]
+    },
+    {
+      "id": "castrell",
+      "name": "Captain Castrell",
+      "role": "Captain of the {penance}",
+      "status": "dead",
+      "portrait": "Ct",
+      "facts": [
+        [
+          "House",
+          "{castrellhouse} — but looked nothing like one"
+        ],
+        [
+          "Surface thought",
+          "\"The land of the law is three days behind us.\""
+        ]
+      ],
+      "body": "Drunk, unkempt, civilian-sailor look. Papers proved him captain. Operating on secret orders against his crew. Said to Caspian: \"They give you the special treatment. Never seen one with two.\"",
+      "relationships": [
+        [
+          "zaren",
+          "under his command on ship"
+        ]
+      ]
+    },
+    {
+      "id": "dominus",
+      "name": "Auditor Dominus",
+      "alt": "Auditor Prime",
+      "role": "Auditor Prime — according to {zaren}, secretly {flame}",
+      "status": "unknown",
+      "portrait": "D",
+      "facts": [
+        [
+          "Status",
+          "A figurehead politician; Zaren claims he is {flame}"
+        ]
+      ],
+      "body": "{caspian} believes Dominus betrayed him. {zaren} claims Dominus is also {flame}. Both cannot be fully true without a deeper layer.",
+      "relationships": [
+        [
+          "caspian",
+          "betrayed him (Caspian's belief)"
+        ],
+        [
+          "flame",
+          "secretly aligned (Zaren's claim)"
+        ]
+      ]
+    },
+    {
+      "id": "mosh",
+      "name": "General Mosh",
+      "role": "General of the {ebonylegions}",
+      "status": "unknown",
+      "portrait": "G",
+      "facts": [
+        [
+          "Claim",
+          "Also {flame}, per {zaren}"
+        ]
+      ],
+      "body": "Per Zaren: General Mosh is also a {flame}. No further confirmation.",
+      "relationships": [
+        [
+          "flame",
+          "secretly aligned (Zaren's claim)"
+        ]
+      ]
+    },
+    {
+      "id": "gerald",
+      "name": "Gerald Talus",
+      "role": "Alex's father · head of {talus}",
+      "status": "neutral",
+      "portrait": "GT",
+      "facts": [
+        [
+          "Leverage",
+          "74% of House Talus holdings are on Ministry contracts"
+        ]
+      ],
+      "body": "Broke under {mccord}'s pressure and forced {alex} aboard the {penance} as \"a blood sacrifice to prove the family is still in line.\"",
+      "relationships": [
+        [
+          "alex",
+          "father"
+        ],
+        [
+          "caspian",
+          "nephew's branch"
+        ]
+      ]
+    },
+    {
+      "id": "aria",
+      "name": "Aria Talus",
+      "role": "Alex's cousin",
+      "status": "neutral",
+      "portrait": "Ar",
+      "body": "Broke the news of {caspian}'s arrest and erasure at the start of {alex}'s arc.",
+      "relationships": [
+        [
+          "alex",
+          "cousin"
+        ]
+      ]
+    },
+    {
+      "id": "halia",
+      "name": "Halia",
+      "role": "Alex's cousin",
+      "status": "neutral",
+      "portrait": "Hl",
+      "body": "Tried to minimize {caspian}'s fate. \"Caspian isn't really part of the family anyway.\"",
+      "relationships": [
+        [
+          "alex",
+          "cousin"
+        ]
+      ]
+    },
+    {
+      "id": "azazel",
+      "name": "Azazel",
+      "role": "One of Zaren's guards in the Unbroken-raid memory",
+      "status": "neutral",
+      "portrait": "Az",
+      "body": "Named in Zaren's memory of raiding an {unbroken} family home.",
+      "relationships": [
+        [
+          "zaren",
+          "subordinate"
+        ]
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "solaris",
+      "name": "Solaris",
+      "region": "Home continent",
+      "facts": [
+        [
+          "Scene",
+          "{dryce} estate"
+        ],
+        [
+          "Sound",
+          "\"Screams with the high-frequency hum of aether crystals\""
+        ]
+      ],
+      "body": "The party's city of origin for {zaren} and the {dryce}. At Ascension, the city's crystals hum the processions up to noon. Behind three feet of metal-lined stone, Zaren's sanctum holds an artificial silence.",
+      "rel": [
+        [
+          "dryce",
+          "houses {dryce}"
+        ],
+        [
+          "cyritium",
+          "sister city"
+        ]
+      ]
+    },
+    {
+      "id": "cyritium",
+      "name": "Cyritium",
+      "region": "Home continent",
+      "facts": [
+        [
+          "Seat of",
+          "The Ministry, Gala of the First Crown"
+        ]
+      ],
+      "body": "The seat of the Ministry. The {dampeningchamber} lies below the {highspire}. The {penance} departs from its docks.",
+      "rel": [
+        [
+          "ministrysanctity",
+          "contains"
+        ],
+        [
+          "highspire",
+          "contains"
+        ]
+      ]
+    },
+    {
+      "id": "cyriath",
+      "name": "Cyriath",
+      "region": "Home continent",
+      "facts": [
+        [
+          "Notable",
+          "Construct workshop is north of here, in {argenta}"
+        ]
+      ],
+      "body": "The city whose construct workshop built the closed-patent constructs Caspian has disassembled before. Their mechanism is similar to the encampment's statue — but that one is older, cruder, and has no visible power core.",
+      "rel": [
+        [
+          "argenta",
+          "north neighbor"
+        ]
+      ]
+    },
+    {
+      "id": "argenta",
+      "name": "Argenta",
+      "region": "North of {cyritium}",
+      "body": "Home of the construct workshop.",
+      "rel": []
+    },
+    {
+      "id": "vastraya",
+      "name": "Vastraya",
+      "region": "The continent of exile",
+      "facts": [
+        [
+          "Sand",
+          "Obsidian — actually fine quartz dust"
+        ],
+        [
+          "Life",
+          "None — no vegetation, fauna, birds, animals, fish"
+        ],
+        [
+          "Effect",
+          "Tinnitus = \"the scream of the land\"; bone-deep ache; converts bodies to {hollow}"
+        ]
+      ],
+      "body": "A dead land hungry to bond with mortal blood. Prolonged exposure turns the body brittle, the mind to static. Without {glassbonding} you become {hollow} or {refracted}. The land is not primitive — it is betrayed.",
+      "rel": [
+        [
+          "holdmount",
+          "contains"
+        ],
+        [
+          "cavernsorrow",
+          "contains"
+        ],
+        [
+          "sarn",
+          "contains"
+        ],
+        [
+          "exvaldsridge",
+          "work camp within"
+        ]
+      ]
+    },
+    {
+      "id": "holdmount",
+      "name": "Hold Mount",
+      "region": "{vastraya} coast",
+      "facts": [
+        [
+          "Population",
+          "~15 · plus ~10 {hollow} around the central statue"
+        ],
+        [
+          "Founded",
+          "By {vorn}, 30 years ago"
+        ]
+      ],
+      "body": "The encampment. A wall, a central post, the nameless construct at its heart. The lifeline of everyone Vorn has taken in.",
+      "rel": [
+        [
+          "vorn",
+          "founder"
+        ],
+        [
+          "mara",
+          "protector"
+        ],
+        [
+          "construct",
+          "houses"
+        ]
+      ]
+    },
+    {
+      "id": "cavernsorrow",
+      "name": "Cavern of Sorrow",
+      "region": "{vastraya}",
+      "facts": [
+        [
+          "Entrance",
+          "Narrow jagged crack; waterline at chest height"
+        ],
+        [
+          "Meaning",
+          "Tide-drowned ritual space · purple finger-drawn markings · marks brighten to touch"
+        ]
+      ],
+      "body": "Where {mervel} presides. Followers mark their furthest point inward in purple pigment. The tide fills the cavern and the drowning is part of the rite — not punishment, but threshold. Revelation is \"by the ashes.\"",
+      "rel": [
+        [
+          "mervel",
+          "presides"
+        ]
+      ]
+    },
+    {
+      "id": "sarn",
+      "name": "Sarn",
+      "region": "{vastraya}",
+      "body": "Where exiles are processed and held. Where Mervel was strapped to an obsidian rack and had glass hammered into her body.",
+      "rel": [
+        [
+          "ministrysanctity",
+          "operates"
+        ]
+      ]
+    },
+    {
+      "id": "dampeningchamber",
+      "name": "The Dampening Chamber",
+      "region": "Below {ministrysanctity}",
+      "facts": [
+        [
+          "Built by",
+          "{veinhouse}"
+        ],
+        [
+          "Smell",
+          "Sharply of chlorine"
+        ]
+      ],
+      "body": "The cell where {lysandra} and {caspian} met. Built by House Vein. Air reeks of chlorine; the {highspire}'s hum carries even here.",
+      "rel": [
+        [
+          "veinhouse",
+          "built"
+        ]
+      ]
+    },
+    {
+      "id": "highspire",
+      "name": "The High Spire",
+      "region": "{cyritium}",
+      "body": "Its aether crystals are enormous; their hum carries underground to the {dampeningchamber}.",
+      "rel": []
+    },
+    {
+      "id": "exvaldsridge",
+      "name": "Exvald's Ridge",
+      "alt": "Exevald's Ridge",
+      "region": "{vastraya}",
+      "body": "A work camp — effectively where exiles were supposed to be taken. Built in part by {mara}'s old Cyriath Vanguard platoon.",
+      "rel": [
+        [
+          "ebonylegions",
+          "built"
+        ]
+      ]
+    },
+    {
+      "id": "brokenteeth",
+      "name": "Broken Teeth Peaks",
+      "region": "{vastraya}",
+      "body": "Where an Auditor is rumored to be hiding — unknown whether from the {ebonylegions}, or brokering safe passage.",
+      "rel": []
+    },
+    {
+      "id": "valleyazar",
+      "name": "Valley of Azar",
+      "alt": "Valley of Azaraks",
+      "region": "{vastraya}",
+      "body": "{silver} hears whispers from beneath the ground pointing toward it — likely tied to {azar} the primordial.",
+      "rel": []
+    },
+    {
+      "id": "elevand",
+      "name": "Elevand Crossing",
+      "region": "{vastraya}",
+      "body": "The bridge north of {holdmount}. Route to the {cavernsorrow}.",
+      "rel": []
+    },
+    {
+      "id": "ghostwards",
+      "name": "Ghost Wards",
+      "region": "Distributed · secret",
+      "body": "Secret military hospitals where the terminally ill, critically wounded, and \"inconvenient\" are quietly processed and shipped to {vastraya}. Discovered by {marisha}.",
+      "rel": [
+        [
+          "marisha",
+          "exposed"
+        ]
+      ]
+    },
+    {
+      "id": "dryceestate",
+      "name": "Dryce Estate",
+      "region": "{solaris}",
+      "body": "Zaren's innermost sanctum — three feet of metal-lined stone, built by {vein}, silent amid the city's crystal hum.",
+      "rel": [
+        [
+          "dryce",
+          "seat"
+        ]
+      ]
+    },
+    {
+      "id": "talusestate",
+      "name": "Talus Estate",
+      "region": "{cyritium}",
+      "body": "Where Gerald Talus broke and forced {alex} aboard {penance}.",
+      "rel": []
+    },
+    {
+      "id": "vermontestate",
+      "name": "Vermont Estate",
+      "region": "{cyritium}",
+      "body": "Occupied. Lysandra's siblings are prisoners in their own home; the name cannot be spoken aloud.",
+      "rel": []
+    },
+    {
+      "id": "brokenanchor",
+      "name": "The Broken Anchor",
+      "region": "Tavern · {cyritium}",
+      "body": "A tavern referenced in session play.",
+      "rel": []
+    }
+  ],
+  "factions": [
+    {
+      "id": "ministrysanctity",
+      "name": "Ministry of Sanctity / Sanctification",
+      "deity": "Radiant Law",
+      "body": "The imperial arm that brands heretics, operates {sarn} and the {ghostwards}, and maintains the High Spires. Holds 74% of {talus}'s contracts.",
+      "rel": [
+        [
+          "holyorder",
+          "office"
+        ],
+        [
+          "celestialalignment",
+          "office"
+        ],
+        [
+          "templarsoffice",
+          "office"
+        ]
+      ]
+    },
+    {
+      "id": "holyorder",
+      "name": "Office of Holy Order",
+      "deity": "Radiant Law",
+      "body": "Where Zaren was ordered to report at first light.",
+      "rel": []
+    },
+    {
+      "id": "celestialalignment",
+      "name": "Office of Celestial Alignment",
+      "deity": "Radiant Law",
+      "body": "",
+      "rel": []
+    },
+    {
+      "id": "templarsoffice",
+      "name": "Templar's Office",
+      "deity": "Radiant Law",
+      "body": "Does not care about calendar convenience even on Ascension Day.",
+      "rel": []
+    },
+    {
+      "id": "guildedguard",
+      "name": "Guilded Guard",
+      "deity": "Radiant Law",
+      "body": "{zaren}'s service. Tasked him with hunting {flame}.",
+      "rel": [
+        [
+          "zaren",
+          "marshal"
+        ]
+      ]
+    },
+    {
+      "id": "radiantorder",
+      "name": "Radiant Order",
+      "deity": "Radiant Law",
+      "body": "",
+      "rel": []
+    },
+    {
+      "id": "ebonylegions",
+      "name": "Ebony Legions",
+      "deity": "Imperial",
+      "body": "Imperial army. {mara} served in its {cyriathvanguard}. {mosh} leads them.",
+      "rel": [
+        [
+          "mosh",
+          "general"
+        ],
+        [
+          "cyriathvanguard",
+          "elite unit"
+        ]
+      ]
+    },
+    {
+      "id": "cyriathvanguard",
+      "name": "Cyriath Vanguard",
+      "deity": "Elite unit · {ebonylegions}",
+      "body": "Elite unit within the Ebony Legions. {marisha} served here as a medic. {mara} deployed to {vastraya} with the Ebony Legions 10 years ago — whether specifically with the Vanguard is unconfirmed.",
+      "rel": [
+        [
+          "mara",
+          "veteran"
+        ],
+        [
+          "marisha",
+          "veteran"
+        ]
+      ]
+    },
+    {
+      "id": "syriathguard",
+      "name": "Syriath Guard",
+      "deity": "Imperial",
+      "body": "",
+      "rel": []
+    },
+    {
+      "id": "flame",
+      "name": "Children of the Flame",
+      "deity": "The Father",
+      "body": "A faith declared terrorist by the empire. Believes the world has a true Father, unjustly struck down, who will return. {zaren} is deep cover. {caspian} joined out of curiosity. {mervel} follows a variant. {dominus} and {mosh}, per Zaren, are also aligned.",
+      "rel": [
+        [
+          "zaren",
+          "deep cover"
+        ],
+        [
+          "caspian",
+          "member"
+        ],
+        [
+          "vein",
+          "agent"
+        ],
+        [
+          "dominus",
+          "secret member"
+        ],
+        [
+          "mosh",
+          "secret member"
+        ]
+      ]
+    },
+    {
+      "id": "sovereignscars",
+      "name": "Church of the Sovereign Scars",
+      "deity": "The four Sovereigns",
+      "body": "Venerates {seraphex}, {arcanon}, {kaelanor}, {vajran} — each tied to a Quadrant path. The {cyr} reveal recasts the Sovereigns as chains, not hands.",
+      "rel": [
+        [
+          "wingedwatch",
+          "path"
+        ],
+        [
+          "steelgrid",
+          "path"
+        ],
+        [
+          "ironhand",
+          "path"
+        ],
+        [
+          "ironwill",
+          "path"
+        ]
+      ]
+    },
+    {
+      "id": "wingedwatch",
+      "name": "Winged Watch",
+      "deity": "{seraphex}",
+      "body": "Sentries and scholars. {zaren}'s visible path. {silver} identifies as one.",
+      "rel": []
+    },
+    {
+      "id": "steelgrid",
+      "name": "Order of the Steel Grip",
+      "deity": "{arcanon}",
+      "body": "Builders, masons, archivists. Believes the world must be physically held together. {vorn}'s path.",
+      "rel": []
+    },
+    {
+      "id": "ironhand",
+      "name": "Iron Hand",
+      "deity": "{kaelanor}",
+      "body": "Healers and farmers. {marisha}'s path.",
+      "rel": []
+    },
+    {
+      "id": "ironwill",
+      "name": "Iron Will",
+      "deity": "{vajran}",
+      "body": "Scouts, hunters, survivalists. {mara}'s path.",
+      "rel": []
+    },
+    {
+      "id": "brotherhood",
+      "name": "The Brotherhood",
+      "deity": "Political",
+      "body": "The cell structure around {flame}. {vein} operates within it.",
+      "rel": []
+    },
+    {
+      "id": "unbroken",
+      "name": "The Unbroken",
+      "deity": "The Quadrant Sovereigns",
+      "body": "Radical faction venerating the Sovereigns. Litany: \"Four to lock. One to break. Four were given. The fifth we take.\" Holds that the Sovereigns wanted the world free of both primordials and celestials, and \"pain is the proof of life.\"",
+      "rel": []
+    },
+    {
+      "id": "talus",
+      "name": "House Talus",
+      "deity": "Noble",
+      "body": "74% of holdings on Ministry contracts. Precision reagents, alchemy, maintenance of the {highspire}'s glow. Sacrificed {alex} to stay in favor.",
+      "rel": [
+        [
+          "alex",
+          "daughter"
+        ],
+        [
+          "caspian",
+          "branch"
+        ],
+        [
+          "gerald",
+          "head"
+        ]
+      ]
+    },
+    {
+      "id": "dryce",
+      "name": "House Dryce",
+      "deity": "Noble",
+      "body": "Zaren's family — fractured across {solaris}.",
+      "rel": [
+        [
+          "zaren",
+          "scion"
+        ]
+      ]
+    },
+    {
+      "id": "vermont",
+      "name": "House Vermont",
+      "deity": "Noble",
+      "body": "Known for efficient crystal use and the {vermontfacet}. Occupied by {aurelian}; the name cannot be spoken aloud.",
+      "rel": [
+        [
+          "lysandra",
+          "heir"
+        ]
+      ]
+    },
+    {
+      "id": "veinhouse",
+      "name": "House Vein",
+      "deity": "Builder noble",
+      "body": "Built the {dampeningchamber}, Zaren's sanctum, and more.",
+      "rel": [
+        [
+          "vein",
+          "member"
+        ]
+      ]
+    },
+    {
+      "id": "aurelian",
+      "name": "House Aurelian",
+      "deity": "Minor ambitious noble",
+      "body": "Seized {caspian}'s patents. Occupied the {vermontestate} and siphoned its legacy. A minor house, but an ambitious one.",
+      "rel": []
+    },
+    {
+      "id": "krixos",
+      "name": "House Krixos",
+      "deity": "Noble",
+      "body": "",
+      "rel": []
+    },
+    {
+      "id": "castrellhouse",
+      "name": "House Castrell",
+      "deity": "Noble (naval)",
+      "body": "Supplied five navigators for the {penance}. {castrell} was their captain.",
+      "rel": []
+    }
+  ],
+  "items": [
+    {
+      "id": "silentscream",
+      "name": "The Silent Scream",
+      "type": "Yellow shard",
+      "holder": "{lysandra}",
+      "body": "Embedded in her arm. Proficiency: Insight, Perception. Max HP −5, disadvantage on Con saves vs. poison & disease.",
+      "rel": [
+        [
+          "lysandra",
+          "bonded"
+        ]
+      ]
+    },
+    {
+      "id": "graysmoke",
+      "name": "Gray-smoke shard",
+      "type": "Gray shard",
+      "holder": "{caspian}",
+      "body": "Between his fingers. Stops reflecting light. Defer damage 1/day. Max HP −5.",
+      "rel": [
+        [
+          "caspian",
+          "bonded"
+        ]
+      ]
+    },
+    {
+      "id": "purplecoin",
+      "name": "Purple coin shard",
+      "type": "Gravitas / Anchor",
+      "holder": "{zaren}",
+      "body": "Round like a coin, purple smoke inside. In his shin. +10kg weight feel; forced-movement disadvantage; auto-fail Acrobatics. Max HP −5.",
+      "rel": [
+        [
+          "zaren",
+          "bonded"
+        ]
+      ]
+    },
+    {
+      "id": "blackneedle",
+      "name": "Black needle shard",
+      "type": "Black shard",
+      "holder": "{alex}",
+      "body": "Threaded through her right ear into a ring. Hide more effectively in dim light / darkness. Max HP −5.",
+      "rel": [
+        [
+          "alex",
+          "bonded"
+        ]
+      ]
+    },
+    {
+      "id": "ringofechoes",
+      "name": "Ring of Echoes",
+      "type": "Magic ring",
+      "holder": "{lysandra}",
+      "body": "+1 spell attack · +1 spell save DC · Cast {command} twice per day.",
+      "rel": [
+        [
+          "lysandra",
+          "wears"
+        ]
+      ]
+    },
+    {
+      "id": "shieldquadrant",
+      "name": "Shield of the Quadrant",
+      "type": "Shield",
+      "body": "Grants the cantrip Spare the Dying. Caspian's; channels preserving energy through his familiar.",
+      "rel": [
+        [
+          "caspian",
+          "wields"
+        ]
+      ]
+    },
+    {
+      "id": "penance",
+      "name": "The Penance",
+      "type": "Exile transport ship",
+      "body": "No sails — aether crystals installed directly into the mast, above and below deck. Three massive wooden crates in the hold, delivered by three individuals and an auditor in a silver mask — never explained. Exploded en route to {vastraya}.",
+      "rel": [
+        [
+          "castrell",
+          "captain"
+        ]
+      ]
+    },
+    {
+      "id": "discdevice",
+      "name": "Disc + Two Prisms",
+      "type": "Sabotage tool",
+      "body": "{vein} gave these to Zaren — drain any aether crystal's charge in minutes. Zaren kept the prisms \"just in case.\"",
+      "rel": []
+    },
+    {
+      "id": "construct",
+      "name": "The Construct (Hold Mount statue)",
+      "type": "Ancient automaton",
+      "body": "An ancient automaton, older and cruder than Cyriath-patent workshop constructs. Once dormant at Hold Mount, it was successfully awakened and now travels with the party as an ally. It still carries the old signatures of gears, pistons, and plated housing rather than a neat visible core, it suppresses the {static}, and it responds specifically to the {rod}.",
+      "rel": [
+        [
+          "rod",
+          "grips"
+        ]
+      ],
+      "status": "ally",
+      "facts": [
+        [
+          "State",
+          "Awakened. Travels with the party as an ally."
+        ],
+        [
+          "Function",
+          "Ancient automaton that can suppress the {static} and answer to the {rod}."
+        ]
+      ]
+    },
+    {
+      "id": "rod",
+      "name": "The Strange Metal Rod",
+      "type": "Twisted zinc-iron, ~45cm",
+      "body": "Liquid inside. Feels anti-magical — like something that interferes with or drains magical effects. The {construct} grips it when placed in its hand and is more responsive afterward.",
+      "rel": [
+        [
+          "construct",
+          "key to"
+        ]
+      ]
+    },
+    {
+      "id": "nullsigilcuffs",
+      "name": "Null Sigil Cuffs",
+      "type": "Anti-magic restraint",
+      "body": "Brand magic off the hands. Caspian wore two — exceptional threat flag. Mara broke them by driving a 30cm iron spike through his palms, reciting a corrupted Prayer of Ignition.",
+      "rel": [
+        [
+          "caspian",
+          "freed from"
+        ]
+      ]
+    },
+    {
+      "id": "hydropurifier",
+      "name": "Hydro Purifier Canteen",
+      "type": "Trade good",
+      "body": "Uses a shard in its base to purify water. 1 Hulk crystal per canteen at {charcy}'s rates.",
+      "rel": [
+        [
+          "charcy",
+          "trades"
+        ]
+      ]
+    },
+    {
+      "id": "healerkit",
+      "name": "Healer Kit",
+      "type": "Trade good",
+      "body": "2 crystals for 2 kits at {charcy}'s rates.",
+      "rel": []
+    },
+    {
+      "id": "glassgloves",
+      "name": "Glass gloves",
+      "type": "Trade good",
+      "body": "Essential for handling shards; touching bare-handed = bonding whether you want it or not. 1 Hulk crystal = 4 pairs.",
+      "rel": []
+    },
+    {
+      "id": "capturelance",
+      "name": "Capture Lance",
+      "type": "Weapon",
+      "body": "Used in {zaren}'s Unbroken-raid memory to seize a child.",
+      "rel": []
+    },
+    {
+      "id": "tattoolockpicks",
+      "name": "Bronze tattoo lockpicks",
+      "type": "Hidden tool",
+      "holder": "{caspian}",
+      "body": "Thieves' tools tattooed into his skin in bronze ink — the pieces interlock into functional tools when scraped and assembled. Disguised as a golden tattoo.",
+      "rel": [
+        [
+          "caspian",
+          "hidden in skin"
+        ]
+      ]
+    },
+    {
+      "id": "jewelerstools",
+      "name": "Jeweler's tools",
+      "type": "Personal",
+      "holder": "{lysandra}",
+      "body": "{vermontmother} smuggled them into the {dampeningchamber}.",
+      "rel": []
+    },
+    {
+      "id": "goldenTattoo",
+      "name": "Caspian's Golden Tattoo",
+      "type": "Channeling mark",
+      "holder": "{caspian}",
+      "body": "Opened the {cyr} chamber when pressed to the eye rune. Channels light.",
+      "rel": []
+    },
+    {
+      "id": "brokenrevolver",
+      "name": "Broken revolver",
+      "type": "Weapon",
+      "body": "Salvaged on the shore.",
+      "rel": []
+    },
+    {
+      "id": "climberkit",
+      "name": "Climber's kit",
+      "type": "Trade good",
+      "body": "Charcy recommends before inland travel.",
+      "rel": []
+    },
+    {
+      "id": "scraparmor",
+      "name": "Scrap armor",
+      "type": "Trade good",
+      "body": "Steep prices at camp.",
+      "rel": []
+    }
+  ],
+  "terms": [
+    {
+      "id": "aethercrystal",
+      "name": "Aether crystal",
+      "body": "The energy economy of the empire. Powers ships, the High Spires, the festivals of the capital. {vorn} discovered its output efficiency is being throttled on purpose."
+    },
+    {
+      "id": "aether",
+      "name": "Aether",
+      "body": "Divine energy; stored ritually in crystals using the {prayerignition}."
+    },
+    {
+      "id": "solarcalcination",
+      "name": "Solar calcination",
+      "body": "The process that prepares aether crystals. It is becoming less efficient on purpose — a Tier 1 now requires Tier 2 output. By design, not accident."
+    },
+    {
+      "id": "glassbonding",
+      "name": "Glass bonding",
+      "body": "The only protection against {vastraya}'s pull. A shard is driven into flesh; blood grips it, the shard settles, the body pays with −5 max HP and vulnerability to poison & disease."
+    },
+    {
+      "id": "refracted",
+      "name": "Refracted",
+      "body": "Exiles overtaken by glass — shards protruding from dead-looking bodies. Still \"people, in a sense.\" {mara} hates them; she is terrified of the Hulking variant."
+    },
+    {
+      "id": "hollow",
+      "name": "Hollow",
+      "body": "Exiles overtaken by the smog. Blue-skinned, breathing, but no longer awake. Kept around the {construct}; they crawl back toward it if moved."
+    },
+    {
+      "id": "crystallizedsiren",
+      "name": "Crystallized Siren",
+      "body": "A Refracted one step above. {mervel} is one. Said to \"leak\" resonance without meaning to."
+    },
+    {
+      "id": "hulkingrefracted",
+      "name": "Hulking Refracted",
+      "body": "Massive glass creature. Crystals are the weak point. Radiant damage hits harder than blunt. Rare — only the third in Vorn's 30 years."
+    },
+    {
+      "id": "vermontfacet",
+      "name": "Vermont Facet",
+      "body": "The distinctive cut that never flickers — supposedly because Lysandra's father made a bargain in a dark place, with \"a king who wore no crown.\""
+    },
+    {
+      "id": "silverthread",
+      "name": "Silver thread",
+      "body": "\"Four lands were bound with a silver thread. Four crowns were taken to this island bed.\" The binding-phrase of the Sovereigns."
+    },
+    {
+      "id": "fourcrowns",
+      "name": "The Four Crowns / Four Lands",
+      "body": "Referenced on the stone door opened by Caspian."
+    },
+    {
+      "id": "feastofnails",
+      "name": "Feast of the Nails",
+      "body": "Annual Quadrant holy day of communal labor. Initiation rite: children drive an iron nail into the family post. Nails mark belonging, shame, death. Mara removed three from the {holdmount} post and carries two dead companions' nails."
+    },
+    {
+      "id": "familypost",
+      "name": "Family post",
+      "body": "Each household has one. {holdmount} uses the central post like a family post. Nails can be added — and removed."
+    },
+    {
+      "id": "fifthnail",
+      "name": "The Litany of the Fifth Nail",
+      "body": "\"Four to lock. One to break. Four were given. The fifth we take.\" — Unbroken doctrine."
+    },
+    {
+      "id": "ascension",
+      "name": "Ascension Day / Festival",
+      "body": "Imperial holy day; processions at high noon. The board was already moving three days before."
+    },
+    {
+      "id": "prayerignition",
+      "name": "Prayer of Ignition",
+      "body": "Part of the {songresonance}. Releases aether from a crystal into a target. Mara recited a corrupted version while breaking Caspian's sigils."
+    },
+    {
+      "id": "songresonance",
+      "name": "Song of Resonance",
+      "body": "Caspian's faith tradition — the larger hymn framework that contains the {prayerignition}."
+    },
+    {
+      "id": "vitreum",
+      "name": "Vitreum",
+      "body": "The shard type {marisha} embedded in her chest to replace her respiratory system."
+    },
+    {
+      "id": "ignis",
+      "name": "Ignis shard (orange)",
+      "body": "Charcy's name for the orange shard type. Gives warmth."
+    },
+    {
+      "id": "mantis",
+      "name": "Mantis / Whisper shard (yellow)",
+      "body": "Charcy's name. Vibrates inside the head."
+    },
+    {
+      "id": "gravitas",
+      "name": "Gravitas / Anchor shard (purple-gray)",
+      "body": "Charcy's name. Heavy, grounding, anchoring. {zaren}'s shard type."
+    },
+    {
+      "id": "static",
+      "name": "The static",
+      "body": "The land's mental interference — tinnitus, bone-deep ache. Glass bonding slows it; the {construct} suppresses it entirely nearby."
+    },
+    {
+      "id": "null",
+      "name": "Null Sigil",
+      "body": "Brand that nullifies magic. One is already severe. Two = exceptional threat flag."
+    },
+    {
+      "id": "azar",
+      "name": "Azar",
+      "body": "The primordial threat the Sovereigns allegedly defeated. The {valleyazar} may connect to it."
+    },
+    {
+      "id": "seraphex",
+      "name": "Seraphex",
+      "body": "Sovereign of the {wingedwatch}."
+    },
+    {
+      "id": "arcanon",
+      "name": "Arcanon",
+      "body": "Sovereign of the {steelgrid}. Per {cyr}: \"Arcanon stopped the world from drifting.\""
+    },
+    {
+      "id": "kaelanor",
+      "name": "Kaelanor",
+      "body": "Sovereign of the {ironhand}. Per {cyr}: \"Kaelanor poured his blood into the soil.\""
+    },
+    {
+      "id": "vajran",
+      "name": "Vajran",
+      "body": "Sovereign of the {ironwill}. Per {cyr}: \"Vajran burst his skin.\""
+    },
+    {
+      "id": "command",
+      "name": "Command",
+      "body": "The {ringofechoes} grants two castings per day."
+    },
+    {
+      "id": "radiantlaw",
+      "name": "Radiant Law",
+      "body": "The state religion following three celestials: Lunaria, Solaria, Elidria."
+    }
+  ],
+  "hooks": [
+    {
+      "id": "h-mervel",
+      "lane": "active",
+      "urgency": "high",
+      "title": "Drop Mervel — or convert her",
+      "body": "Combat in the {cavernsorrow} has begun. She has two marks and \"maybe waits for a third.\" Her followers have bowed to {zaren}. If she dies the camp pressure on {holdmount} drops; if she yields, the cave's rite may be redirected.",
+      "tags": [
+        "mervel",
+        "cavernsorrow",
+        "flame",
+        "zaren"
+      ]
+    },
+    {
+      "id": "h-siphon",
+      "lane": "active",
+      "urgency": "high",
+      "title": "Who is strangling the crystal economy?",
+      "body": "{vorn}'s evidence: {solarcalcination} is being throttled on purpose. {aurelian} took {caspian}'s efficiency patents. {vermont} were famous for making crystal use more efficient. These threads intersect.",
+      "tags": [
+        "vorn",
+        "aurelian",
+        "vermont",
+        "caspian",
+        "aethercrystal"
+      ]
+    },
+    {
+      "id": "h-nail",
+      "lane": "active",
+      "urgency": "high",
+      "title": "\"Nail pulled from the door.\"",
+      "body": "{cyr}'s last words before silence. The system of divine imprisonment — the Sovereigns as chains — may already be failing. The {fifthnail} litany may be operational doctrine now.",
+      "tags": [
+        "cyr",
+        "sovereignscars",
+        "unbroken",
+        "fifthnail"
+      ]
+    },
+    {
+      "id": "h-trust",
+      "lane": "active",
+      "urgency": "medium",
+      "title": "Can the party trust Zaren?",
+      "body": "{alex} does not. {caspian} has chosen to. Zaren's \"rescue\" plan was in motion before the ship exploded — he claims. Why was {caspian} worth rescuing specifically?",
+      "tags": [
+        "zaren",
+        "caspian",
+        "alex",
+        "flame"
+      ]
+    },
+    {
+      "id": "h-rod",
+      "lane": "completed",
+      "urgency": "—",
+      "title": "Awaken the {construct}",
+      "body": "Resolved. The construct was successfully awakened, ceased being a dormant Hold Mount mystery, and joined the party as an allied automaton.",
+      "tags": [
+        "construct",
+        "rod",
+        "charcy"
+      ]
+    },
+    {
+      "id": "h-auditor",
+      "lane": "active",
+      "urgency": "medium",
+      "title": "The hiding Auditor in the Broken Teeth Peaks",
+      "body": "{vorn}'s rumor. Hiding from the {ebonylegions}? Brokering safe passage? Being traded for it? No one knows which.",
+      "tags": [
+        "brokenteeth",
+        "dominus"
+      ]
+    },
+    {
+      "id": "h-silver",
+      "lane": "active",
+      "urgency": "medium",
+      "title": "Silver's whispers beneath the {valleyazar}",
+      "body": "{silver}: \"Sometimes I hear whispers from beneath the ground. They say it's this way. I'll take you there.\" The voices are tied directly to the {valleyazar} lead, not just to Silver as a curiosity.",
+      "tags": [
+        "silver",
+        "valleyazar",
+        "azar"
+      ]
+    },
+    {
+      "id": "h-sarn",
+      "lane": "active",
+      "urgency": "medium",
+      "title": "What is really happening in {sarn}?",
+      "body": "The party explicitly names investigating {sarn} as part of the broader goal of understanding what is happening in {vastraya}. {mervel}'s torture there, the processing of exiles, and the Ministry's experiments make it a major unresolved lead.",
+      "tags": [
+        "sarn",
+        "mervel",
+        "ministrysanctity",
+        "vastraya"
+      ]
+    },
+    {
+      "id": "h-exvald",
+      "lane": "active",
+      "urgency": "medium",
+      "title": "What is {exvaldsridge} really for?",
+      "body": "{mara} says exiles like the party were most likely supposed to be taken to {exvaldsridge}, a work camp her old platoon helped build. {mervel} implied there is more to it, and even Hold Mount scavengers avoid the area because of patrols.",
+      "tags": [
+        "exvaldsridge",
+        "mara",
+        "ebonylegions",
+        "vastraya"
+      ]
+    },
+    {
+      "id": "h-azar",
+      "lane": "active",
+      "urgency": "medium",
+      "title": "Follow the lead toward the {valleyazar}",
+      "body": "The {valleyazar} is repeatedly surfaced as a major future lead. {silver}'s underground whispers point there, and the name itself suggests a connection to {azar} that may sit underneath the land's deeper truth.",
+      "tags": [
+        "valleyazar",
+        "azar",
+        "silver",
+        "vastraya"
+      ]
+    },
+    {
+      "id": "h-return",
+      "lane": "active",
+      "urgency": "low",
+      "title": "Find a way back to {cyriath}",
+      "body": "{vorn} says there is one, though he has never heard of anyone doing it. He may provide directions in exchange for something.",
+      "tags": [
+        "vorn",
+        "cyriath"
+      ]
+    },
+    {
+      "id": "w-crates",
+      "lane": "whispered",
+      "urgency": "medium",
+      "title": "The three crates on the Penance",
+      "body": "Delivered by three individuals and a silver-masked auditor — all gone before departure. The Brotherhood believed one held something \"foundational\" that could crack the high houses. Never found.",
+      "tags": [
+        "penance",
+        "flame"
+      ]
+    },
+    {
+      "id": "w-vermont",
+      "lane": "whispered",
+      "urgency": "medium",
+      "title": "Lysandra's father and the king without a crown",
+      "body": "\"He invited the light to sit where his heart used to be.\" {zaren} suspects he didn't die the way Lysandra was told.",
+      "tags": [
+        "lysandra",
+        "vermont",
+        "flame"
+      ]
+    },
+    {
+      "id": "w-voice",
+      "lane": "whispered",
+      "urgency": "medium",
+      "title": "The child voice inside Lysandra",
+      "body": "\"Mother, don't believe her.\" First heard at bonding. In her vision, a teenage girl with gemstone eyes calls her Mother. Four nails through the heart.",
+      "tags": [
+        "lysandra"
+      ]
+    },
+    {
+      "id": "w-alex",
+      "lane": "whispered",
+      "urgency": "low",
+      "title": "The childlike voice in Alex",
+      "body": "\"I like this one.\" Heard when {silver} spoke about family being more than blood. Not her spider familiar. Something else.",
+      "tags": [
+        "alex",
+        "silver"
+      ]
+    },
+    {
+      "id": "w-hidden",
+      "lane": "whispered",
+      "urgency": "medium",
+      "title": "The hidden figure at sentencing",
+      "body": "{mccord} whispered to a hidden figure in one of the {dampeningchamber} cages before sentencing. The guards wore that figure's uniform. Never explained.",
+      "tags": [
+        "mccord",
+        "dampeningchamber"
+      ]
+    },
+    {
+      "id": "w-cats",
+      "lane": "whispered",
+      "urgency": "low",
+      "title": "The black cat with silver eyes",
+      "body": "Came back from the shore with {lysandra} in a land that has no animal life. Morphed briefly into a yellow-skinned toddler. {mara} was confused but unafraid.",
+      "tags": [
+        "lysandra",
+        "mara"
+      ]
+    },
+    {
+      "id": "w-blood",
+      "lane": "whispered",
+      "urgency": "low",
+      "title": "Why did Lysandra return bloody and Caspian clean?",
+      "body": "Off-screen on the shore scavenging run. Never explained. {caspian} has not said what happened.",
+      "tags": [
+        "alex",
+        "caspian"
+      ]
+    },
+    {
+      "id": "c-bond",
+      "lane": "completed",
+      "urgency": "—",
+      "title": "Survive the shore (via {glassbonding})",
+      "body": "All four bonded under {mara}. The cost: −5 max HP each, disadvantage on Con saves vs poison/disease.",
+      "tags": [
+        "mara",
+        "glassbonding"
+      ]
+    },
+    {
+      "id": "c-hulk",
+      "lane": "completed",
+      "urgency": "—",
+      "title": "Drop the Refracted Hulk at Hold Mount",
+      "body": "Party won. Reached level 6. Earned access to the camp and {vorn}.",
+      "tags": [
+        "holdmount",
+        "vorn",
+        "hulkingrefracted"
+      ]
+    },
+    {
+      "id": "c-chamber",
+      "lane": "completed",
+      "urgency": "—",
+      "title": "Open the Chamber of Cyr",
+      "body": "{goldenTattoo} unlocked the door; Sovereign Cyr's reveal; stone guardians defeated.",
+      "tags": [
+        "cyr",
+        "caspian"
+      ]
+    },
+    {
+      "id": "c-ring",
+      "lane": "completed",
+      "urgency": "—",
+      "title": "Identify Lysandra's ring",
+      "body": "{caspian} identified the {ringofechoes}.",
+      "tags": [
+        "lysandra",
+        "ringofechoes"
+      ]
+    },
+    {
+      "id": "c-sigils",
+      "lane": "completed",
+      "urgency": "—",
+      "title": "Break Caspian's Null Sigils",
+      "body": "{mara} drove a 30cm iron spike through both hands. Caspian's magic returned.",
+      "tags": [
+        "caspian",
+        "mara",
+        "null"
+      ]
+    }
+  ]
+}

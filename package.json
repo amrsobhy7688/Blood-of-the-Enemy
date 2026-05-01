@@ -1,5 +1,11 @@
 {
   "name": "blood-of-the-enemy-campaign",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "validate": "node tools/validate-data.js",
+    "build": "node tools/build-dashboard.js",
+    "vercel-build": "node tools/build-dashboard.js"
+  }
 }

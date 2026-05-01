@@ -1,0 +1,212 @@
+{
+  "id": "s0",
+  "num": "Session 0",
+  "title": "The Board Moves Before the Pieces Know",
+  "arc": "Pre-Campaign · Solaris & Cyritium",
+  "when": "Three days before {ascension} → Ascension Day morning",
+  "hookQuote": "\"The Empire is breathing, Marshal. Do not let it choke on your watch.\"",
+  "hookCredit": "— {mccord} to {zaren}",
+  "recap": "The board is set before the transport ever leaves port. {lysandra} is framed through a depleted crystal shipment. {caspian} is maneuvered into sounding heretical so his inventions can be seized. {zaren} is personally selected by {mccord} for a sensitive escort and then quietly pressured by {vein} to sabotage it for the Brotherhood. {alex} is offered up by her own family as the Talus \"proof of loyalty.\" By session end, all roads point toward the {penance}.",
+  "beats": [
+    {
+      "title": "Political prelude — Lysandra and Caspian are marked",
+      "loc": "Three days before {ascension}",
+      "body": "{lysandra} is arrested over a depleted crystal shipment and charged with Grand Larceny and Possession of Unsanctified Material. At the same time, {caspian} is maneuvered into sounding heretical in public so his ideas can be framed as contagion."
+    },
+    {
+      "title": "Zaren's sanctum before Ascension",
+      "loc": "{dryceestate}, {solaris} · 9 AM Ascension Day",
+      "body": "The sanctum is sealed behind metal-lined stone, all clocks and candle-crackle while the city screams with aether hum outside. {zaren}'s parents make it clear they remember an older sky and do not emotionally stand with the official celebration."
+    },
+    {
+      "title": "Mccord arrives alone",
+      "loc": "{dryceestate} door",
+      "body": "{mccord}, white-and-gold and masked in silver, personally orders {zaren} to assemble his most trusted men and escort a high-importance asset. Report to the {holyorder} by first light. The order is not optional."
+    },
+    {
+      "title": "Vein reveals the Brotherhood's plan",
+      "loc": "{dryceestate} sanctum",
+      "body": "{vein} has already been waiting inside. He warns that the transport is a trap and says the Brotherhood believes one of the assets is carrying something foundational. He provides a sabotaging disc and two prisms. {zaren} refuses a simple wreck-and-fail plan and pushes for control, deniability, and a hostage substitute."
+    },
+    {
+      "title": "House Talus in panic",
+      "loc": "{talusestate}",
+      "body": "Aria and Halia reveal the family is imploding under the weight of {caspian}'s erasure. Contracts, shops, and reputation are already under pressure. The family needs a sacrifice to prove it is still loyal."
+    },
+    {
+      "title": "Mccord corners Gerald — 74%",
+      "loc": "{talusestate} foyer",
+      "body": "Mccord reminds Gerald Talus that the Ministry controls most of the house's contracts. Gerald corrects him: 74 percent. Mccord demands a Talus technical monitor for the transport and turns Gerald's own mention of Alex into her conscription."
+    },
+    {
+      "title": "Gerald forces Alex to go",
+      "loc": "{talusestate} upstairs",
+      "body": "Gerald frames the assignment as survival for the house itself: if the hum stops, Talus ceases to exist. Alex is ordered to stabilize the transport crystals, report to {zaren}, and become the reason the Talus name stays in the light."
+    },
+    {
+      "title": "End-of-session board state",
+      "loc": "Cyritium orbit",
+      "body": "By the end of Session 0, punishment, sabotage, cover-up, loyalty test, and survival are all converging on the same ship. The four protagonists are being maneuvered toward the {penance} for different reasons, none of them yet aware of how violently those motives will collide."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s0-prelude",
+      "title": "The political prelude",
+      "loc": "Three days before {ascension}",
+      "atmosphere": [
+        "The formal campaign has not begun yet, but the machinery of erasure is already moving.",
+        "Two separate noble lines are being prepared for public ruin under different pretexts."
+      ],
+      "prose": [
+        "Three days before Ascension Day, {lysandra} is arrested at the Vermont estate because a shipment of crystals supposedly cut by her family reaches the Ministry depleted. The charges are not ordinary embarrassment. They are Grand Larceny and Possession of Unsanctified Material, the second charge meaning possession of divine material one should not have.",
+        "At roughly the same political moment, {caspian} is maneuvered into sounding heretical in public. He does not openly reject the Divine, but he is pushed into seeming to argue that divine force can still be manipulated through earthly means such as dirt and iron. That is enough to make him legible as contamination."
+      ],
+      "reveals": [
+        "Lysandra's arrest is framed through crystal crime, not open political dissent.",
+        "Caspian is not merely arrested. He is narratively repositioned into a public theological threat."
+      ]
+    },
+    {
+      "id": "s0-zaren-sanctum",
+      "title": "Zaren's sanctum before Ascension",
+      "loc": "{dryceestate}, {solaris} · 9 AM Ascension Day",
+      "atmosphere": [
+        "Outside, Solaris hums with aether-crystal intensity as the Ascension processions approach high noon.",
+        "Inside the innermost sanctum there is only ticking clocks, candle crackle, old parchment, and polishing oil."
+      ],
+      "prose": [
+        "{zaren} sits in a room built like an act of resistance to the city itself, behind three feet of metal-lined stone. He is fifty-five, scarred, gray-haired, physically capable, and carries the bearing of an old veteran policeman. His two tattoos mark different stages of his life: one carried since youth on his cheek and another acquired later on his forehead as he rose.",
+        "His parents, both around eighty, make it immediately clear that the household does not emotionally move with the official celebration. His father calls the city's sound not progress but a funeral march. His mother asks what burden he carries tonight and whether he is working the lines. They understand his obligation, but their sympathy is directed toward something older than the Empire's public faith."
+      ],
+      "reveals": [
+        "The Dryce household remembers a different sky and is not spiritually aligned with the official mood of Ascension.",
+        "Zaren's inner sanctum is an anomaly in Solaris, suggesting cultivated privacy and ideological distance."
+      ]
+    },
+    {
+      "id": "s0-daughter",
+      "title": "Zaren's daughter and the family ritual",
+      "loc": "{dryceestate} sanctum doorway",
+      "atmosphere": [
+        "The tension of the sanctum is broken by a child entering without knocking.",
+        "Her excitement reveals how deeply ritual and public celebration reach into ordinary family life."
+      ],
+      "prose": [
+        "Zaren's daughter, a little girl of roughly ten or eleven with short orange hair, bursts into the room, hugs her grandparents, and climbs into his lap. She announces that she is getting her spike today and says it will make her part of the great song. She wants a new violet dress to match the light outside.",
+        "She asks why Zaren's room is so dark when the lamps outside are beautiful. He answers that it is a peaceful room, meant for inward peace rather than festival display. The exchange quietly contrasts public radiance with private withdrawal. Before leaving, she remembers that someone from work is waiting for him."
+      ],
+      "reveals": [
+        "The spike ritual is normalized enough that a child speaks of it with excitement.",
+        "The phrase 'part of the great song' matters and should be preserved exactly in the notes."
+      ]
+    },
+    {
+      "id": "s0-mccord",
+      "title": "Julius Mccord enters the sanctum orbit",
+      "loc": "{dryceestate}",
+      "atmosphere": [
+        "Mccord's mere presence feels like a temperature drop.",
+        "He arrives alone, which signals that the matter is serious enough not to require visible force."
+      ],
+      "prose": [
+        "{mccord}, the Voice of the Light, arrives in a white-and-gold uniform with a silver half-mask marking him as officially on duty. He wastes no time on courtesy. The Templar's Office, he says, does not care about calendar convenience, even on Ascension Day.",
+        "He tells {zaren} that a high-importance asset is scheduled for transfer tomorrow and asks about the readiness of Zaren's personal platoon. Zaren explains his available commanders and personnel, including one commander who has been sick and another team already committed to undercover work. Mccord's response is simple: bring a squad of the most trusted men, including yourself, and make sure they are men who understand the Radiant Law is the only thing that matters.",
+        "The operational terms are explicit. Depart for Cyritium at last light and report by first light to the {holyorder}. Then Mccord leaves immediately after delivering the line that frames the whole moment: the Empire is breathing, and Zaren must not let it choke on his watch."
+      ],
+      "reveals": [
+        "Mccord's direct personal involvement means the transport is extraordinary.",
+        "The mission is presented as duty, but everything about its delivery suggests deeper political stakes."
+      ]
+    },
+    {
+      "id": "s0-vein",
+      "title": "Asmodeus Vein and the sabotage demand",
+      "loc": "{dryceestate} sanctum",
+      "atmosphere": [
+        "After Mccord leaves, the room becomes more dangerous rather than less.",
+        "The true threat is not the official order but the shadow order waiting behind it."
+      ],
+      "prose": [
+        "When Zaren reenters the sanctum, he discovers that {vein} has effectively been there all along. The revelation is quiet but destabilizing. Vein reminds him of the house he built and opens with the line: the tide is coming in, and it's carrying salt this time, and the flame will not drown.",
+        "Vein explains that the Brotherhood believes one of the transport's assets is carrying something foundational, something capable of cracking the façades of the high houses. For that reason, the transport cannot be allowed to reach its destination. He offers sabotage tools: a small disc and two prisms that can be used on the aether crystals of the vehicle to drain their charge in minutes, leaving the Brotherhood ready to intercept in the dark.",
+        "Zaren refuses to accept a plan that merely wrecks the transport and leaves him ruined. He immediately starts thinking operationally: can better intelligence be obtained tonight, can a replica be prepared, can something be delivered rather than nothing, can an undetectable tracking method be used, can one of the Brotherhood's closest brothers be set up as a hostage instead. Vein pushes back, but by the end Zaren has not surrendered judgment. He keeps the tools while insisting that whatever happens, he will not simply fail in public."
+      ],
+      "reveals": [
+        "The Brotherhood suspects the transport is carrying something more important than prisoners.",
+        "Zaren is already balancing Ministry duty, Brotherhood pressure, and self-preservation all at once."
+      ],
+      "consequences": [
+        "{discdevice} and the prisms enter the plot as sabotage tools.",
+        "Zaren is formally trapped between oath, family, Mccord, and the Brotherhood."
+      ]
+    },
+    {
+      "id": "s0-alex-house",
+      "title": "House Talus in panic",
+      "loc": "{talusestate}",
+      "atmosphere": [
+        "The Talus household is clinically perfect on the surface and spiritually collapsing underneath.",
+        "What begins as family distress is really political triage."
+      ],
+      "prose": [
+        "The scene shifts to Alex's private room in the Talus estate. It appears impossibly clean, but the perfection is false. Aria is trembling and crying over a paper while Halia tries to calm her. They reveal what has happened to {caspian}: he was taken during the Beacon Ignition, not merely arrested but erased. The Ministry is already at the cutting shops, siphoning vaults, and staining the Talus name with the shadow of sedition.",
+        "Halia tries to create emotional distance by saying Caspian is not really part of their family anyway, but Aria snaps that it does not matter. The Auditor General is downstairs. Their father is on his knees. The family needs a sacrifice to prove it is not part of Caspian's logic, and someone expendable is being sought."
+      ],
+      "reveals": [
+        "The Talus family understands the situation as immediate political extortion.",
+        "Alex is being emotionally framed before she is formally summoned."
+      ]
+    },
+    {
+      "id": "s0-mccord-gerald",
+      "title": "Julius Mccord corners Gerald Talus",
+      "loc": "{talusestate} foyer",
+      "atmosphere": [
+        "Mccord does not need to shout. The power imbalance does all the work.",
+        "The Ministry's language is bureaucratic, but the scene functions like coercion at knifepoint."
+      ],
+      "prose": [
+        "In the grand foyer, Mccord addresses Gerald Talus and reminds him that the Ministry holds most of House Talus's contracts. Gerald corrects him with almost pathetic pride: seventy-four percent. He describes Talus precision in reagents, alchemy, and maintaining the High Spires' flawless glow, but Mccord answers that a flaw has now been detected. Caspian has stained their ledgers, and his ideas are contagion.",
+        "Mccord announces that the Ministry now requires a Talus monitor on the transport to ensure the shipment crystals do not suffer harmonic overload. He dresses it as a field internship, but it is plainly a loyalty test. Gerald tries to defend Alex by invoking her scholarly merit, and that very defense seals her fate. Since Gerald named her, Mccord decides she is exactly who they need."
+      ],
+      "reveals": [
+        "Alex is chosen not because she volunteered, but because Gerald tries to save her.",
+        "The transport is explicitly tied to crystal stability and harmonic overload risk."
+      ]
+    },
+    {
+      "id": "s0-gerald-alex",
+      "title": "Gerald turns Alex into the house sacrifice",
+      "loc": "{talusestate} upstairs",
+      "atmosphere": [
+        "This is one of the cruelest domestic scenes in the material because it is both intimate and transactional.",
+        "Gerald is frightened enough to become useful to the machine crushing his family."
+      ],
+      "prose": [
+        "Gerald rushes upstairs, throws the others out, and grabs Alex by the shoulders. He explains that the vibration in the walls, the hum of the aether crystals, and the life of the house all depend on remaining in favor. If even one contract is pulled, the hum stops. If the hum stops, they cease to exist.",
+        "He points to House Vermont as the example of what happens when a noble line falls from grace. Alex is the only one with the right credentials who is not already heavily watched. She knows the crystal work better than anyone, studied under Caspian, and can satisfy the Ministry while stabilizing the transport. Gerald orders her to report to Marshal {zaren}, act as the technical liaison, keep his crystals stable, and do whatever it takes to ensure the shipment reaches its destination. Then he gives the final practical command: stick close to Zaren, because he will protect her."
+      ],
+      "reveals": [
+        "Gerald himself calls the role what it is: a blood sacrifice to prove the family is still in line.",
+        "Alex enters the transport not as a neutral observer but as a coerced instrument of family survival."
+      ]
+    },
+    {
+      "id": "s0-board",
+      "title": "Where Session 0 leaves the board",
+      "loc": "Toward {penance}",
+      "atmosphere": [
+        "The session ends not with action completed but with vectors aligned."
+      ],
+      "prose": [
+        "By the end of the session, the crucial lines of tension are fixed. {lysandra} has been set up and erased through forged crystal crime. {caspian} has been politically reclassified as sedition wrapped in magical contamination. {zaren} has been chosen by the Ministry for a sensitive escort while simultaneously pressured by the Brotherhood to sabotage it. {alex} has been forced into the role of technical monitor to preserve House Talus's standing.",
+        "The transport is now fully established as a convergence point. Punishment, cover-up, loyalty test, sabotage, and survival are all moving toward the same ship. None of the future exiles yet understands how completely those motives are about to collide."
+      ],
+      "reveals": [
+        "Session 0 should end before the cells and before the departure scenes.",
+        "Its function is to set the board, not to start the voyage."
+      ]
+    }
+  ]
+}

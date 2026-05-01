@@ -6,3 +6,4 @@
 .preview-server.err.log
 .preview-server.out.log
 blood-of-the-enemy-campaign/.vercel/
+public/

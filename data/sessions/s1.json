@@ -1,0 +1,217 @@
+{
+  "id": "s1",
+  "num": "Session 1",
+  "title": "The Sanctification Cells & The Penance Departs",
+  "arc": "Cyritium → Sea",
+  "when": "Ascension Day → Day After",
+  "hookQuote": "\"The land of the law is three days behind us.\"",
+  "hookCredit": "— {castrell}, surface thought read by Caspian",
+  "recap": "The campaign's pre-exile pressure becomes concrete. {lysandra} waits in the cells while {vermontmother} secretly reveals the Vermont inheritance and smuggles in her tools. {caspian} is dragged into the neighboring cell branded with two {null} Sigils and rebuilds lockpicks from the tattoo in his own skin. {mccord} strips the prisoners of their names, whispers to a hidden figure, and sends them to permanent exile aboard the {penance}. In the hold, {zaren} and {caspian} silently recognize each other and begin coordinating. The ship leaves port for Vastraya.",
+  "beats": [
+    {
+      "title": "Lysandra alone in the cells",
+      "loc": "Sanctification Cells · {dampeningchamber}",
+      "body": "The Dampening Chamber beneath the Ministry smells sharply of chlorine while the hum of the {highspire} bleeds down from above. {lysandra} sits alone, trying to understand who forged the signature, who wants the Vermonts erased, and what has happened to her family."
+    },
+    {
+      "title": "Lady Vermont's secret visit",
+      "loc": "Sanctification Cells · {dampeningchamber}",
+      "body": "{vermontmother} arrives in mourning black, brings {jewelerstools}, and reveals the family secret: before Lysandra was born, her father entered a dark place, met a king, and invited the light to sit where his heart used to be. The king wore no crown."
+    },
+    {
+      "title": "Caspian is dragged into the neighboring cell",
+      "loc": "{dampeningchamber}",
+      "body": "Two guards throw {caspian} into the next cage in torn Researcher Prime robes, both hands branded with glowing {null} Sigils. When he wakes, he immediately checks the golden tattoo and starts rebuilding {tattoolockpicks} from his own skin."
+    },
+    {
+      "title": "Mccord sentences the prisoners",
+      "loc": "{dampeningchamber}",
+      "body": "Before speaking publicly, {mccord} whispers to a hidden figure in one of the cages. Then he formally strips the prisoners of their names and condemns them to permanent exile to the continent of {vastraya} aboard the {penance}."
+    },
+    {
+      "title": "The hold of the Penance",
+      "loc": "{penance} hold",
+      "body": "In the hold, {castrell}'s surface thought tells Caspian that the land of the law is already three days behind them. {zaren} and {caspian} recognize each other and begin silent coordination. Three massive crates, delivered by three individuals and a silver-masked auditor, remain unexplained."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1-lysandra-alone",
+      "title": "Lysandra alone in the Sanctification Cells",
+      "loc": "Sanctification Cells · {dampeningchamber}",
+      "atmosphere": [
+        "The holding facility is temporary, but its violence is institutional rather than improvised.",
+        "The Dampening Chamber smells of chlorine, and even underground the hum of the {highspire} above can still be felt."
+      ],
+      "prose": [
+        "Inside the only occupied cage sits {lysandra}, brown-haired, dirty-handed, and abruptly unmade by events that only just happened to her. Her mind cycles through betrayal, helplessness, and fear for her siblings. She is certain someone forged the signature. She is certain someone wants the Vermonts erased. She also knows that the gems they found empty bore the Vermont facet, even though she never personally saw the box itself.",
+        "This opening matters because it establishes her state with precision: she is not merely grieving. She is already thinking like someone trying to reconstruct the mechanism of a frame-up."
+      ],
+      "reveals": [
+        "Lysandra's first instincts are investigative as much as emotional.",
+        "The Vermont facet detail must be retained because it ties family craft to the falsified evidence."
+      ]
+    },
+    {
+      "id": "s1-lady-vermont",
+      "title": "Lady Vermont comes in secret",
+      "loc": "Sanctification Cells · {dampeningchamber}",
+      "atmosphere": [
+        "The cell door opening at the wrong time feels like either disaster or miracle.",
+        "Lady Vermont enters already dressed in grief."
+      ],
+      "prose": [
+        "{vermontmother} enters in mourning black, her face weighted by shock and sorrow. She asks Lysandra what she has done, not because she truly believes her guilty, but because the scale of the catastrophe is already beyond ordinary language. Lysandra insists she has done nothing and immediately asks for practical action: go back, search for papers, find anything connected to her father, and look for whatever explains what is happening.",
+        "Lady Vermont answers with the worst immediate truth first: Lysandra will not be coming back. The Ministry is moving her, and Lady Vermont does not know where. Then, once she confirms privacy, she smuggles in {jewelerstools}, telling Lysandra that perhaps she can at least find some solace in them."
+      ],
+      "reveals": [
+        "Lysandra's first requests are evidence-driven, not sentimental.",
+        "The tools matter both emotionally and practically."
+      ]
+    },
+    {
+      "id": "s1-inheritance",
+      "title": "The Vermont inheritance is revealed",
+      "loc": "Sanctification Cells · {dampeningchamber}",
+      "atmosphere": [
+        "The conversation pivots from family disaster to buried lineage mythology.",
+        "This is one of the campaign's earliest major bloodline revelations."
+      ],
+      "prose": [
+        "Lady Vermont explains that there is a reason the Vermont facet never flickers and that it was not merely the technical brilliance of Lysandra's father. Before Lysandra was born, he went into a dark place, met a king, and made a bargain. He invited the light to sit where his heart used to be. Lady Vermont calls this a burden of inheritance and adds one crucial correction: that king wore no crown.",
+        "She also says plainly that she does not believe Lysandra's father signed the ledgers. Before leaving, she promises to try to get her daughter out even though the odds are terrible."
+      ],
+      "reveals": [
+        "The Vermont line is tied to an inherited burden involving light, kingship, and the replacement of the heart.",
+        "The line about the uncrowned king is major and should stay highly visible in the notes and hooks."
+      ],
+      "hooksSurfaced": [
+        "w-vermont"
+      ]
+    },
+    {
+      "id": "s1-caspian-arrival",
+      "title": "Caspian is thrown into the neighboring cell",
+      "loc": "{dampeningchamber}",
+      "atmosphere": [
+        "The state introduces Caspian not as a prisoner with dignity but as damaged cargo dragged across stone.",
+        "His body arrives before his agency, but his agency returns immediately on waking."
+      ],
+      "prose": [
+        "As Lady Vermont leaves, two Guilded Guards drag an unconscious man across the floor by his feet and throw him into the neighboring cage. It is {caspian}, still in torn Researcher Prime robes, with two glowing {null} Sigils branded onto the backs of his hands.",
+        "When he wakes, his first act is diagnostic rather than emotional. He checks the golden tattoo and begins scraping bronze from it into functioning {tattoolockpicks}. Even in a cell, under branding, he is still building."
+      ],
+      "reveals": [
+        "The tattoo-lockpick capability is not flavor. It is one of Caspian's core identity expressions and should be preserved in the notes in full.",
+        "The state has marked both of his hands, which matters for later injury, healing, and dependency."
+      ],
+      "consequences": [
+        "The lockpick tattoo must remain a searchable note element and compendium-linked item/ability."
+      ]
+    },
+    {
+      "id": "s1-cell-dialogue",
+      "title": "Caspian and Lysandra speak through the cells",
+      "loc": "{dampeningchamber}",
+      "atmosphere": [
+        "The first meaningful party alignment happens in confinement, before anyone is formally a party."
+      ],
+      "prose": [
+        "Lysandra and Caspian begin exchanging information across the neighboring cells. The conversation frames the scale of what has happened to both houses and makes it clear that the current crisis is too coordinated to be random. Caspian's questions are practical and targeted, beginning with the political replacement question: which house has taken over.",
+        "The scene matters because it is one of the earliest moments where individual ruin begins to become shared pattern-recognition."
+      ],
+      "reveals": [
+        "The relationship begins with information alignment, not trust.",
+        "The house-replacement logic should remain visible because it becomes a motif of elite predation."
+      ]
+    },
+    {
+      "id": "s1-hidden-figure",
+      "title": "Mccord whispers to a hidden figure",
+      "loc": "{dampeningchamber}",
+      "atmosphere": [
+        "Before the public declaration, the scene briefly opens onto an unexplained private exchange."
+      ],
+      "prose": [
+        "Before speaking to the condemned prisoners at large, {mccord} moves close enough to one of the other cages to whisper to a hidden figure. The guards around that figure are heavier and more deliberate. The identity is not explained. The significance is not explained. But the moment is too deliberate to be ignored.",
+        "This is exactly the kind of small transcript detail that cannot be lost in a summary-based dashboard, because it carries future-hook potential even while remaining unresolved."
+      ],
+      "reveals": [
+        "There was another protected or important prisoner present during sentencing.",
+        "The scene must remain visible as unresolved, not flattened into generic atmosphere."
+      ],
+      "hooksSurfaced": [
+        "w-hidden"
+      ]
+    },
+    {
+      "id": "s1-sentencing",
+      "title": "Mccord strips them of their names",
+      "loc": "{dampeningchamber}",
+      "atmosphere": [
+        "This is legal language used as ritual dismemberment.",
+        "The violence is clerical, public, and irreversible in tone."
+      ],
+      "prose": [
+        "{mccord} formally declares the prisoners stripped of their names and condemned to permanent exile to the continent of {vastraya}. They are to be transported aboard the {penance}. The scene is not just sentencing. It is a state performance of erasure, reducing noble, scholarly, and personal identity into transportable contamination.",
+        "For the dashboard, this scene needs to remain clear as a pivot from social destruction into geographic removal."
+      ],
+      "reveals": [
+        "Exile is not treated as relocation but as administrative annihilation.",
+        "The naming-stripping language matters enough to keep close to the source."
+      ]
+    },
+    {
+      "id": "s1-penance-transfer",
+      "title": "Transfer to the Penance",
+      "loc": "{cyritium} docks · {penance}",
+      "atmosphere": [
+        "The transport space is already wrong before the ship ever leaves.",
+        "The ship is a container of layered secrets, not merely condemned bodies."
+      ],
+      "prose": [
+        "The prisoners are moved to the {penance}, commanded by {castrell}, whose presentation is shabby enough to feel almost civilian rather than officer-like. Caspian reads a surface thought from him that becomes the session's signature line: the land of the law is already three days behind them.",
+        "In the hold, {zaren} and {caspian} recognize each other. Their first coordination is restrained, cautious, and partly telepathic. It is the beginning of a strategic relationship born in captivity rather than trust."
+      ],
+      "reveals": [
+        "Castrell is operating under more than ordinary transport duty.",
+        "Zaren and Caspian begin coordinating before the shipwreck, which matters for later trust disputes."
+      ]
+    },
+    {
+      "id": "s1-crates",
+      "title": "The three crates and the silver-masked auditor",
+      "loc": "{penance} hold",
+      "atmosphere": [
+        "The hold contains a second layer of mystery that neither the condemned nor their escort fully understands."
+      ],
+      "prose": [
+        "Three massive crates are present, delivered by three individuals and overseen by an auditor in a silver mask. By the time the ship is actually underway, those delivery figures are gone. The crates remain as a silent unresolved presence inside the same transport that is carrying the exiles.",
+        "This needs to stay prominent in the notes because it ties back both to the Brotherhood's suspicion that one of the transported assets is foundational and to later whispered hooks about what the ship was truly carrying."
+      ],
+      "reveals": [
+        "The Penance is transporting more than condemned exiles.",
+        "The silver-masked auditor and the crates must remain explicitly searchable and hook-linked."
+      ],
+      "hooksSurfaced": [
+        "w-crates"
+      ]
+    },
+    {
+      "id": "s1-departure",
+      "title": "Departure",
+      "loc": "At sea",
+      "atmosphere": [
+        "The campaign leaves the world of law and enters the machinery of exile.",
+        "What was theoretical in Session 0 becomes physically irreversible here."
+      ],
+      "prose": [
+        "By the time the ship departs, all the central tensions of the opening arc are physically trapped together: political erasure, noble-line predation, covert sabotage, coerced technical loyalty, and hidden cargo. The characters do not yet know that the voyage itself will collapse before reaching its intended destination, but Session 1 ends with the full sense that the world they knew is already behind them."
+      ],
+      "reveals": [
+        "Session 1 must carry the cells, sentencing, hold recognition, and departure in one coherent chain.",
+        "This is the true end of the Cyritium pre-exile arc."
+      ]
+    }
+  ]
+}

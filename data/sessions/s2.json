@@ -1,0 +1,228 @@
+{
+  "id": "s2",
+  "num": "Session 2",
+  "title": "Hold Mount · The Tribe · The Refracted Hulk at the Gate",
+  "arc": "Shore → Hold Mount",
+  "when": "Day 1 continued",
+  "hookQuote": "\"You are my friend until you are my enemy.\"",
+  "hookCredit": "— {mara} to {zaren}",
+  "recap": "The day stays cruel. The party regroups on the shore under worsening static, meets the first deeper oddities of {vastraya}, and marches with {mara} toward {holdmount}. Mara's fear of the hulking {refracted} becomes visible and personal during the assault on the encampment. Inside, the party meets {vorn}, {marisha}, {silver}, and {charcy}, and learns enough to understand that the island is not just a prison. It is a machine of slow conversion, erased histories, failing bodies, and deliberate sabotage.",
+  "scenes": [
+    {
+      "id": "s2-regroup",
+      "title": "The regroup after the chamber, and the things that do not fit",
+      "loc": "Shore outside the hidden chamber",
+      "atmosphere": [
+        "The party has survived the first buried mystery, but the coast keeps producing wrongness faster than answers."
+      ],
+      "prose": [
+        "As the group regroups, {zaren} stays near {mara} and studies her more carefully. He notices that the glass protrusions are growing from her own body, not attached to armor, and that her weapon loadout is excessive and unusual: two daggers, a shortsword, a longsword on her back, and a lance.",
+        "When {lysandra} and {caspian} return, Lysandra looks badly shaken. Her hair is disheveled, there is blood on her face, and a small black cat with silver eyes is now following her. Caspian, by contrast, looks normal. The notes never fully explain the blood. The cat arrives as an unresolved fact.",
+        "Mara reiterates that the land is hungry and wrong. She explains again that if the static and the bondings go unchecked, they will become {hollow}, creatures of glass and resentment. Her disgust when describing them is palpable."
+      ],
+      "reveals": [
+        "Mara's body itself is already deeply altered by glass.",
+        "The black cat with silver eyes enters the campaign as an unexplained survivor-companion in a land without ordinary animals.",
+        "Lysandra returns visibly shaken and bloodied from an off-screen event that remains unresolved."
+      ],
+      "consequences": [
+        "The party's sense of safety on the shore collapses further.",
+        "Mara's expertise becomes harder to dismiss because her own body proves she has paid the island's price."
+      ]
+    },
+    {
+      "id": "s2-static-and-shards",
+      "title": "Static deepens, shards are gathered, and Zaren is recognized",
+      "loc": "Shoreline and scavenging route",
+      "atmosphere": [
+        "The environmental pressure is no longer abstract. The static is inside their heads now."
+      ],
+      "prose": [
+        "The ringing grows more distinct. Zaren notices it as a constant pressure in the ears and skull, not merely a mood. Mara sends {zaren} and {alex} to gather more usable shards and warns them again that touching them bare-handed is dangerous in a literal sense.",
+        "During the search, they recover two more viable pieces: a purple coin-like shard and a long black sliver. As they return, Mara and Zaren exchange coded phrases that identify shared language beneath the surface: the tide is coming, but the seal will hold. That recognition is not yet explained to the rest of the group, but it matters.",
+        "The second round of bonding logic settles into the party's bodies. The cost remains the same, but the adaptations become real enough to plan around rather than merely fear."
+      ],
+      "reveals": [
+        "The static is a constant environmental assault rather than a one-time effect.",
+        "Mara recognizes something coded in Zaren and chooses not to expose it yet.",
+        "The party's bondings begin to define future combat roles and movement constraints."
+      ],
+      "consequences": [
+        "Zaren and Alex are confirmed as bonded in ways that materially affect how they move and fight.",
+        "The Mara-Zaren coded exchange becomes an important trust thread for later sessions."
+      ]
+    },
+    {
+      "id": "s2-march-holdmount",
+      "title": "The march to Hold Mount and Mara's violent reflexes",
+      "loc": "Coastline toward {holdmount}",
+      "atmosphere": [
+        "The route to the encampment is a walk through dead geography, failed salvage, and increasingly specific dread."
+      ],
+      "prose": [
+        "As the party marches, {caspian} sends out a familiar to scout. Mara reacts with terrifying speed and throws a dagger almost instantly, killing it. The violence is not measured. It is reflexive.",
+        "{zaren} reads the emotion beneath her reaction and realizes it is not simple anger. It is fear first, then grief, as though she has relived something rather than responded to a tactical inconvenience.",
+        "Mara continues teaching as they travel. Life on the island is difficult not only because of the land, but because almost everything they meet may once have been human: {refracted}, scavengers, survivors, and others like themselves. She is not romantic about any of it.",
+        "Along the route, {lysandra}'s black cat starts to shift toward a humanoid form. Zaren can tell it looks human-shaped but not truly human. The change happens without Lysandra casting anything. Mara seems confused by it, but not threatened, which is itself an important clue.",
+        "The shore remains wrong in ways that stack rather than repeat. Black sand crunches like obsidian and quartz. The land is burnt. The tide recedes and returns far too fast. Ahead, what first looks like a built structure turns out to be the wreck of a ship smashed across rock and metal."
+      ],
+      "reveals": [
+        "Mara's panic around certain threats is rooted in prior trauma, not mere caution.",
+        "Lysandra's cat is not a normal animal and may not be an animal at all.",
+        "The route to {holdmount} is littered with proof that wreckage and habitation have collapsed into each other."
+      ],
+      "consequences": [
+        "Caspian loses a familiar to Mara's trauma response.",
+        "The party reaches the outskirts of {holdmount} already primed for disaster."
+      ]
+    },
+    {
+      "id": "s2-mara-breaks",
+      "title": "Mara hears the thudding and breaks open",
+      "loc": "Approach to {holdmount}",
+      "atmosphere": [
+        "The encampment comes into view through a sound before it comes into view through walls. That sound nearly unmakes Mara."
+      ],
+      "prose": [
+        "A rhythmic pounding begins to carry across the approach. At first it sounds mechanical. Then it resolves into something worse: repeated impacts against a barrier from the far side of an encampment.",
+        "The instant Mara hears it clearly, everything about her changes. She reaches for a dagger, remembers the one she already threw, and starts moving in a loop rather than a straight line. Her hand shakes around the blade. Her face is pale. She is crying.",
+        "When pressed, she gives the tactical minimum. There is a weakness. Hit the crystals. But her body is already telling the rest of the story: this is not a first encounter for her."
+      ],
+      "reveals": [
+        "The hulking {refracted} is tied to one of Mara's deepest traumas.",
+        "Mara can still function under panic, but only barely."
+      ],
+      "consequences": [
+        "The party enters the battle already understanding that crystal-targeting is essential.",
+        "Mara's authority changes shape here: she is no longer only the hard guide, but a survivor cracking at a seam."
+      ]
+    },
+    {
+      "id": "s2-hulk-battle",
+      "title": "The Hulking Refracted at the gate",
+      "loc": "Gate of {holdmount}",
+      "atmosphere": [
+        "The fight is brutal, kinetic, and full of tactical discovery. Crystals are anatomy. Color is information. Radiance matters."
+      ],
+      "prose": [
+        "At the gate the party sees a large glass creature battering the defenses, a child-sized figure moving nearby, and a defender inside trying to hold the line. The small figure teleports and attacks with metallic strikes, confirming that the battle is already stranger than a simple siege.",
+        "{lysandra} opens the counterattack with careful area control, placing her effect so as not to catch the child. {caspian} studies the creature and identifies the torso crystal as the likely primary target: a large white crystal with purple around it, while the head crystal is entirely purple. He locks on and fires, dealing devastating damage to the torso crystal.",
+        "The creature survives and closes. {zaren} moves into melee, learning quickly that blunt force is not especially effective while radiant power lands much harder in the darkness. That vulnerability becomes one of the key mechanical lessons of the encounter.",
+        "A glass woman arrives and retrieves the fallen child, revealing that the defenders are acting out of relationship, not random survival instinct. {lysandra} then uses forced movement repeatedly to push the creature toward the cliff. Her spider familiar contributes poison that visibly matters.",
+        "The battle's geometry becomes crucial. The creature is shoved, destabilized, and eventually sent off the high ground. {silver} joins the struggle, falls with it, and drops unconscious, but {caspian} stabilizes him. Before the creature dies, the group sees a meaningful color change as something that had been white shifts toward purple while it tears off part of itself to use as a weapon.",
+        "By the end, the party wins through coordinated pressure: Lysandra's forced movement, Caspian's precision damage, Zaren's frontline pressure, and Silver's disruption."
+      ],
+      "reveals": [
+        "Crystals are the meaningful targets on large Refracted bodies.",
+        "Radiant damage is notably more effective than blunt force against the hulking creature.",
+        "Color change in the crystals appears to track functional or state changes in the monster."
+      ],
+      "consequences": [
+        "The party reaches level 6 after the fight.",
+        "{silver} is introduced as an extraordinary child combatant with teleportation and strange resilience.",
+        "The party earns entry into {holdmount}."
+      ]
+    },
+    {
+      "id": "s2-encampment-intake",
+      "title": "Inside Hold Mount: names, blue bodies, and the central post",
+      "loc": "Inside {holdmount}",
+      "atmosphere": [
+        "The encampment is not a refuge in the comforting sense. It is a holding pattern built against extinction."
+      ],
+      "prose": [
+        "Inside, the party meets an encampment of roughly fifteen people organized around a central statue-like object and a cluster of blue-bodied survivors who are not fully awake, but not dead either. {silver} appears to be a child of around ten, yet often speaks with an older cadence. His body is unlike the party's own bondings: yellow glass on one side, black on the other, and growths that seem to have emerged from within rather than been inserted.",
+        "{mara} enters without a word, crosses to the center, removes three nails from the camp's post, and disappears again into her tent. The act lands like a ritual or wound, but no explanation comes immediately.",
+        "{vorn} receives the party. He asks their names, opens his shirt to reveal a purple crystal embedded in his chest and many names written across his skin, then writes each of the party's names onto himself. It is one of the strangest welcomes in the campaign: memorialization as hospitality."
+      ],
+      "reveals": [
+        "The blue bodies are living people in a failed or failing state, not decorations or corpses.",
+        "Silver's glass is birth-grown and much heavier than the party's initial bondings.",
+        "Vorn keeps names on his own skin as a resistance to erasure."
+      ],
+      "consequences": [
+        "The party is symbolically entered into the camp's memory structure.",
+        "Mara's three removed nails become a major unanswered question."
+      ]
+    },
+    {
+      "id": "s2-vorn-truths",
+      "title": "Vorn explains the camp, the land, and the sabotage behind the Empire",
+      "loc": "Encampment seating circle at {holdmount}",
+      "atmosphere": [
+        "Conversation in Hold Mount is never just exposition. Every answer is built out of loss, doctrine, or survival math."
+      ],
+      "prose": [
+        "{vorn} explains that the camp is not healing. It is extending survival. Some residents may have a year. Some maybe five. Some, like him, wake expecting to die and simply have not yet. The blue-bodied people are slowly dying. If found too late, exiles become {refracted} or {hollow}. The land itself is trying to bond with them; the glass is only a defensive compromise.",
+        "He identifies himself as Vorn of the {steelgrid}. In the old world he was an archivist in the Ministry of Sanctity and once a devout follower of Lunaria. He lost that faith after exile and after what was done to his family and name.",
+        "The conversation with {caspian} brings out the shape of the larger crime. Vorn once tracked aether production, storage, consumption, and distribution. In those records he found an impossible discrepancy: vastly more aether was being burned to achieve the same effect. A Tier 1 output was now effectively demanding Tier 2 burn. When he reported it, his life was erased. His family died, his records disappeared, and he chose exile because the alternative was death.",
+        "This revelation snaps together with other threads already on the board: {vermont} were known for efficiency, {aurelian} stole Caspian's invention work, and someone within the system benefits from throttling the crystal economy on purpose.",
+        "When {mara} later whispers a single word into Vorn's ear, \"Children,\" his disgust is immediate. The encampment's relationship to the {flame} is already poisoned before the party begins trying to explain itself."
+      ],
+      "reveals": [
+        "The camp is surviving, not recovering.",
+        "The Empire's aether economy is being strangled deliberately rather than failing accidentally.",
+        "Vorn is an erased archivist whose story mirrors Caspian's in frightening ways.",
+        "The camp has deep suspicion toward the {flame} and what it represents."
+      ],
+      "consequences": [
+        "The party gains a major meta-plot lead: sabotage of {solarcalcination} and the wider aether system.",
+        "Caspian gains an ally whose institutional erasure parallels his own fate.",
+        "The Children of the Flame become a trust liability inside {holdmount}."
+      ]
+    },
+    {
+      "id": "s2-silver-mervel",
+      "title": "Silver, family, Mervel, and the map of danger",
+      "loc": "Encampment and outer wall of {holdmount}",
+      "atmosphere": [
+        "Where Vorn speaks in records and losses, {silver} speaks in family language, memory fragments, and sudden unnerving clarity."
+      ],
+      "prose": [
+        "In quieter conversation, {alex} and the others learn that Silver never knew his father and that his mother died giving birth to him. {marisha} delivered him. He has never seen Cyriath, but he has heard stories and wants desperately to go there someday. When told that family is not only blood, something childlike inside Alex reacts to the idea. It is not her spider familiar. It is something else.",
+        "Silver explains that everyone in the camp helps him because they are family. He also speaks about a girl he once knew who is now called the siren, {mervel}. She used to be one of them, and then changed after Mervel Haloval helped her.",
+        "The camp's own understanding of Mervel is layered. She is called a Crystallized Siren, one step above a Refracted. She used to belong to their community. She now lives in the {cavernsorrow}. Some of the camp believe that if she is removed, pressure on {holdmount} will decrease.",
+        "Mara finally explains why the hulking {refracted} shattered her so badly: she has seen one before. Her whole platoon died to it. She survived because she ran. That survival still feels like betrayal to her.",
+        "The conversation broadens into geography. The party receives a first rough map of future leads: north to the bridge at Elevand Crossing, east toward the {cavernsorrow}, farther inland toward {valleyazar}, out toward the Broken Teeth Peaks and the rumor of a hidden Auditor, and in another direction the distant coastal {ebonylegions} settlement. {exvaldsridge} is also named for what it really is: essentially a work camp."
+      ],
+      "reveals": [
+        "Silver's idea of family is emotional reality, not metaphor.",
+        "Mervel was once part of the same survivor world as Hold Mount.",
+        "Mara's fear of the hulking Refracted is survivor's guilt made immediate.",
+        "{exvaldsridge} is effectively a work camp rather than a benign outpost."
+      ],
+      "consequences": [
+        "The siren becomes the nearest practical lead.",
+        "The party's strategic map expands beyond mere survival into multiple future investigations."
+      ]
+    },
+    {
+      "id": "s2-feast-marisha-charcy",
+      "title": "The Feast of the Nails, Marisha's history, and Charcy's barter-world",
+      "loc": "{holdmount}",
+      "atmosphere": [
+        "By the end of the session, Hold Mount has stopped being just a camp. It becomes a compressed society with rituals, medicine, rumor, and economy."
+      ],
+      "prose": [
+        "When the party presses about the three nails Mara removed, they are led into the logic of the {feastofnails}. In the old structure, children who came of age drove an iron nail into the family post as a sign of obligation, labor, and belonging. The camp has repurposed the same idea. Mara's three missing nails are therefore devastatingly legible: one for herself, two carried for dead companions. She removes them because those bonds have been severed by death, but she still keeps the nails.",
+        "{vorn} also quietly shares a rumor with {caspian}: somewhere in Vastraya, perhaps in the Broken Teeth Peaks, an Auditor is supposedly hiding. No one knows whether that means hiding from the {ebonylegions}, brokering safe passage, or being traded for it. But the rumor matters enough to become one of the party's major future leads.",
+        "{marisha} heals Caspian's injured hand with glass-laced magic and tells him her story. She was once a medic in the Cyriath Vanguard, not officially a mage but a physician driven by curiosity. That curiosity led her to discover the {ghostwards}: secret military hospitals that were not healing people, but processing them for transfer to Vastraya. She tried to expose it, was branded a traitor, and exiled.",
+        "Marisha explains her own body with unnerving calm. When she arrived, no one taught her how to bond correctly. Her lungs began to liquefy, so she embedded {vitreum} in her chest to replace her respiratory system. Now she does not need to eat, sleep, or breathe. It is irreversible. She describes herself as an after, someone already on the way out, trying only to save as many others as possible first.",
+        "She also helps clarify the old quadrant paths: {steelgrid} under {arcanon}, {ironhand} under {kaelanor}, {ironwill} under {vajran}, and {wingedwatch} under Seraphex. These associations are not trivia. They shape labor, vocation, and identity.",
+        "Finally, the party speaks with {charcy}, who treats survival like a market. She provides her own shard taxonomy, names barter prices for gloves, purifier canteens, lanterns, healer kits, and climbing gear, and points out that the central statue cannot be a true statue because it has joints. She is also the one who says most clearly that the Hollow bodies always crawl back toward it if moved."
+      ],
+      "reveals": [
+        "The family-post and nail system turns Mara's private grief into visible ritual.",
+        "The hidden Auditor rumor becomes a formal lead.",
+        "Marisha discovered the {ghostwards} and paid for it with exile and bodily transformation.",
+        "Silver was born already carrying a yellow shard and later received more, which explains part of his unnatural condition.",
+        "Charcy functions as the camp's practical guide to barter, shards, and material survival."
+      ],
+      "consequences": [
+        "Caspian's hand injury is healed by {marisha}.",
+        "The party leaves the session with concrete next-step options: the {cavernsorrow}, the hidden Auditor rumor, {valleyazar}, the distant {ebonylegions} settlement, and the strange central {construct}.",
+        "The notes now firmly establish that Hold Mount is held together by ritual obligation, improvised care, and scavenged exchange."
+      ]
+    }
+  ]
+}

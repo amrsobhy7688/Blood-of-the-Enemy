@@ -1,0 +1,235 @@
+{
+  "id": "s3",
+  "num": "Session 3",
+  "title": "Lysandra's Vision · The Construct · The Drowning Rite",
+  "arc": "Hold Mount → Cavern of Sorrow",
+  "when": "Day 2",
+  "hookQuote": "\"The water, the suffocation, is only one thing. But it is by the ashes, and with the ashes, that everything reveals.\"",
+  "hookCredit": "— {zaren} answering {mervel}",
+  "recap": "Day 2 turns the campaign inward and downward. {lysandra} wakes from a vision of fire, a daughter, and four nails through the heart. Before dawn, {zaren} reveals that he is part of the {flame} and that his presence on the exile ship was tied to a rescue plan already in motion. By morning the party has aligned around shared goals, pulled more secrets from {silver}, and begun testing the central {construct}, which proves to be real, old, and functionally tied to the static. They then march to the {cavernsorrow}, where grief, doctrine, tide, and ritual converge in Mervel Haloval's drowning-liturgy.",
+  "scenes": [
+    {
+      "id": "s3-vision",
+      "title": "Lysandra's vision of fire and nails",
+      "loc": "Before dawn, {holdmount}",
+      "atmosphere": [
+        "The session opens in pure symbolic space before it re-enters the camp. The vision feels intimate, prophetic, and bodily at once."
+      ],
+      "prose": [
+        "{lysandra} first stands in a white void with nothing around her but light and absence. Then an enormous aether crystal appears, huge enough to define the space, with smaller thick crystal growths jutting from it.",
+        "The vision shifts. She is suddenly looking over the plains of fire. People move there like embers lifted from a forge: alive, red, fleeting, and surrounded by suffocating heat. Yet inside the vision she feels safe, as though breath is irrelevant.",
+        "A teenage girl appears beside her with gemstone eyes and addresses her with unbearable intimacy: \"Peace, mother. Can you feel it?\"",
+        "Then four nails are driven through Lysandra's heart. The vision ends by force, not by fading, and she wakes with that image lodged inside her."
+      ],
+      "reveals": [
+        "Lysandra's child-voice has advanced into a full visionary figure with age, presence, and direct address.",
+        "The four nails are now linked not only to doctrine but to Lysandra's body and fate."
+      ],
+      "consequences": [
+        "The vision sets the emotional and theological key for the entire session.",
+        "Lysandra's private mystery becomes harder to separate from the campaign's central nail imagery."
+      ]
+    },
+    {
+      "id": "s3-before-dawn-trust",
+      "title": "Before dawn, Zaren tells the truth he can no longer delay",
+      "loc": "Outside the sleeping camp",
+      "atmosphere": [
+        "The party steps away from the others to speak in private, but privacy on this island is always provisional."
+      ],
+      "prose": [
+        "{zaren} tells {caspian} and the others that he is part of the {flame}. His public life as a Marshal of the Guilded Guard and a man of the {wingedwatch} is, in his telling, a deep-cover role maintained so he can move inside the system, hunt his own, and save martyrs when possible.",
+        "He explains that when Caspian was marked for exile and death, he received orders to make sure that did not happen. The rescue plan was already in motion before the ship imploded. A Brotherhood interception was expected, though he does not claim to know the whole structure behind it. The others believe he is telling the truth, but {caspian} can feel that Zaren is still choosing his words carefully.",
+        "When asked about internal factions inside the {flame}, Zaren does not fully answer. Trust is offered, but not yet made effortless. Caspian states the relationship plainly: either he trusts Zaren enough to move forward, or he does not move an inch. He chooses provisional trust and asks for the same in return.",
+        "At the edge of the scene, {silver} appears from the dark long enough to say, \"Information is power,\" before vanishing again. The group realizes they were overheard."
+      ],
+      "reveals": [
+        "Zaren is actively embedded within the {flame}, not merely adjacent to it.",
+        "Caspian's rescue was part of a Brotherhood plan already in motion before the ship's destruction.",
+        "Silver can move through the dark and overhear far more than the party keeps accounting for."
+      ],
+      "consequences": [
+        "The party's trust structure changes permanently. Zaren is no longer simply suspicious. He is declared.",
+        "Silver becomes a living reminder that secrecy in Hold Mount is porous."
+      ]
+    },
+    {
+      "id": "s3-dominus-father-alex",
+      "title": "Dominus, Mosh, Lysandra's father, and Alex's unwilling induction into the theology",
+      "loc": "Same predawn conversation",
+      "atmosphere": [
+        "Once truth starts surfacing, it comes out in clusters rather than clean lines."
+      ],
+      "prose": [
+        "The conversation broadens into political structure. {caspian} asks about what he sees as a coup-like situation and names Auditor Dominus Prime. Zaren replies that Dominus is part of the {flame}, and adds an even more destabilizing claim: General Mosh of the {ebonylegions} seems to be one as well. He admits he does not understand how broad this structure is or what parts of it are known to the larger hierarchy.",
+        "The group also compares the prison devices Zaren received from the Brotherhood to Caspian's own work. Caspian identifies them not as true arcane siphons but as crude knockoffs or prototypes imitating his invention badly. In his hands, that becomes further evidence that someone has copied, stolen, or replicated fragments of his research.",
+        "The discussion then turns to {lysandra}'s father. Zaren asks whether the Light truly replaced his heart or whether he remained one of the {flame} until the end. Lysandra insists that the Light did not replace his heart and that he remained one of the Children, though she does not actually know how he died. Zaren admits he suspects the father began as one of the Children but may not have died that way.",
+        "{alex} joins the group mid-conversation and immediately questions why anyone here is trusting the Children of the Flame at all. She is given the public and semi-private outline: the Children believe they are children of the Father, the world's true progenitor, and that what was done to him was wrong. Alex remains unconvinced."
+      ],
+      "reveals": [
+        "Dominus Prime and General Mosh are named as possible Children of the Flame.",
+        "The Brotherhood possesses a poor imitation of Caspian's siphon work.",
+        "Lysandra's father's death remains uncertain and possibly misrepresented.",
+        "Alex does not accept the Children of the Flame simply because the others are prepared to entertain them."
+      ],
+      "consequences": [
+        "The session deepens the sense of hidden structure inside both the Empire and the Brotherhood.",
+        "Alex's distrust becomes one of the party's most important internal tensions rather than a side note."
+      ]
+    },
+    {
+      "id": "s3-silver-objectives",
+      "title": "Morning messages, Silver's knowledge, and the party's first real strategic alignment",
+      "loc": "Morning in {holdmount}",
+      "atmosphere": [
+        "Daylight in Hold Mount does not dispel uncertainty. It only makes the next decisions harder to avoid."
+      ],
+      "prose": [
+        "In the morning, {silver} delivers a message from {vorn}: try to fix the furnace because it is very cold. He also says that if Vorn finds anything from the party's ship, he will return it.",
+        "{caspian} keeps Silver talking. Silver says his favorite people are {marisha} and {mara}, jokes uneasily about calling them mother, and explains that everyone here helps him because they are family. He demonstrates his abilities by reaching into Caspian's thoughts and correctly identifying his worry about the siren.",
+        "Silver describes {mervel} not as a monster-label first, but as a girl he once knew. She used to live here. She changed after Mervel Haloval helped her. He also reveals that glass is visibly advancing through his own body and that he expects to die within about a year.",
+        "Most importantly, Silver says he hears whispers from beneath the ground pointing toward {valleyazar}. He also promises not to reveal what he overheard from the party's private conversation.",
+        "The party then openly compares combat roles and objectives. Caspian outlines his mix of firearm pressure, cannon control, and durability. Lysandra confirms that she has emergency healing. Zaren frames himself as the front line and tells them to prioritize healing others over him. Alex clarifies that although she began by wanting only to go home, she now wants to understand what is happening in {vastraya} because it is tied to what happened back in Cyriath.",
+        "By the end of the discussion, a rough shared objective emerges: understand the island, investigate {sarn} and the siren, gather enough information before deciding how or when to return home, and keep one another alive long enough to do it."
+      ],
+      "reveals": [
+        "Silver can read thoughts directly enough to weaponize or help with them.",
+        "Silver sees Mervel as a changed person, not merely a monster.",
+        "The party finally states overlapping goals out loud instead of improvising them scene by scene."
+      ],
+      "consequences": [
+        "The siren becomes the next practical destination.",
+        "The Valley of Azar whispers become a secondary directional lead.",
+        "The party's combat and healing expectations are now explicit."
+      ]
+    },
+    {
+      "id": "s3-camp-split-construct-begins",
+      "title": "The camp splits its labor: snooping, repairs, and first construct recognition",
+      "loc": "{holdmount}",
+      "atmosphere": [
+        "The party stops theorizing in the abstract and starts pulling on different threads at once."
+      ],
+      "prose": [
+        "As the camp divides into work, {alex} wants to search for useful supplies and quickly drifts toward Mara's belongings, while {caspian} heads to the furnace to prove he can be useful. {silver} appears beside him at the restored heat and continues giving away more of the camp's inner logic.",
+        "Silver explains why he identifies with the {wingedwatch}: he sees himself as the sentry, the one who keeps the camp safe. He also helps Caspian notice that the central 'statue' is not a true statue at all.",
+        "Meanwhile Alex tries to enter Mara's room. Silver catches her and makes it clear that his surveillance of the camp is more than ordinary vigilance. Mara's room is effectively under his protection, and he can go where he wants in ways that ignore normal lines of access.",
+        "When Caspian turns his attention fully to the central object, he recognizes it as a {construct}, but not the kind used in Cyriath. It has visible joints, layered stone plates, and internal mechanisms exposed through damage, yet still no visible aether crystal, engine, or core."
+      ],
+      "reveals": [
+        "Silver's identity as sentry is tied to real camp-defense behavior, not child fantasy.",
+        "Alex's distrust drives her toward theft-adjacent snooping almost immediately.",
+        "The central statue is a mechanical construct with unfamiliar design logic."
+      ],
+      "consequences": [
+        "The party gains access to the construct thread as a full investigation rather than a rumor.",
+        "Alex learns that Silver is a far more effective camp watcher than he first appears."
+      ]
+    },
+    {
+      "id": "s3-construct-tests",
+      "title": "The construct is tested: aether, static, Hollow pull, and the rod",
+      "loc": "Central {construct}, {holdmount}",
+      "atmosphere": [
+        "This is one of the campaign's most important investigative sequences. Every test answers one question and creates two more."
+      ],
+      "prose": [
+        "{caspian} begins with fundamentals. Mending repairs internal physical damage, but not the outer stone shell. The inside behaves like mechanism. The outside behaves like something else.",
+        "He then introduces an {aethercrystal} to the broken opening in the body. At first nothing happens. Only after activating the crystal with the {prayerignition} does the usual red-orange aether emerge and begin suffusing the body. Even then, it does not route into any visible core or socket. It simply spreads through the construct.",
+        "More dismantling reveals gears, pistons, and locked joints, but still no obvious power source. The thing is undeniably real and mechanical, but its operating logic is incomplete from a Cyriath perspective.",
+        "Around the same time, {lysandra} works a quartz-like shard from the earlier fight and discovers that it can take her facet cuts like a receptive crystal, even if she still does not know whether it can actually store aether. Her crystal-working is increasingly revealed as resonance rather than mere craft.",
+        "Then the major functional clue emerges: the closer the party stands to the construct, the more the static fades. Eventually, while near it, the static and headache-pressure disappear altogether. The Hollow bodies around it also keep crawling toward it if dragged away, as though the construct and the half-dead are in an ongoing exchange.",
+        "{lysandra} tries to wake the construct directly through focus and intention, urging life and flexibility into it, but without the right key the attempt stalls. The construct is active, but not under their control.",
+        "At that point the strange {rod} found earlier becomes decisive. It does not do much on its own, and it does not answer aether crystals directly. But when placed in the construct's hand, the hand closes around it. The response is specific and real. The construct does not react the same way to a shield or to ordinary contact elsewhere.",
+        "As the party continues testing, a working theory emerges: the construct is some kind of dampening or regulating device. It accepts aether, weakens the static, draws the Hollow, and pairs meaningfully with an object that feels anti-magical or siphoning in nature."
+      ],
+      "reveals": [
+        "The construct is old, mechanical, and real, but built on principles the party does not fully understand.",
+        "It can absorb aether without revealing a visible core.",
+        "It suppresses the static rather than merely coexisting with it.",
+        "The Hollow bodies are actively drawn back toward it.",
+        "The {rod} belongs to its logic in a way other items do not."
+      ],
+      "consequences": [
+        "The construct becomes one of the party's biggest unresolved assets rather than background scenery.",
+        "The rod is confirmed as a key item rather than miscellaneous salvage.",
+        "The camp now has an identifiable anti-static zone centered on the construct."
+      ]
+    },
+    {
+      "id": "s3-memory-ring-departure",
+      "title": "Zaren's Unbroken memory, Lysandra's ring, and the road inland",
+      "loc": "{holdmount} → inland path",
+      "atmosphere": [
+        "As if the construct testing has shaken loose old circuitry in the world, memory and doctrine surface together."
+      ],
+      "prose": [
+        "While the others work, {zaren} is struck by a vivid memory from his time as an Imperial enforcer. He remembers a raid on a family associated with the {unbroken}. The father repeatedly makes the hold-the-seal gesture and declares that the Unbroken remember what the Quadrants really did.",
+        "The memory hardens into liturgy when a child, seized with a capture lance, recites: \"Four nails of blood to pin the shadow. And the fifth nail of bone to shatter the light.\" The family answers together: \"Four to lock. One to break. Four were given. The fifth we take.\" The Fifth Nail is no longer a rumor or sidebar. It is spoken doctrine.",
+        "Before leaving camp, {caspian} also properly identifies {lysandra}'s {ringofechoes}. It grants +1 to spell attacks, +1 to spell save DC, and allows the wearer to cast Command twice per day. This is a meaningful magical tool, not decoration.",
+        "The party then leaves {holdmount} and heads inland toward the {cavernsorrow}, carrying their new theories, unresolved tensions, and the construct mystery behind them."
+      ],
+      "reveals": [
+        "The Unbroken and the Fifth Nail doctrine are explicitly connected through remembered liturgy.",
+        "Zaren's old brutality was part armor, part hiding place for his own danger.",
+        "Lysandra's ring is formally identified as the {ringofechoes}."
+      ],
+      "consequences": [
+        "The Fifth Nail becomes a major interpretive key for future revelations.",
+        "Lysandra's spellcasting toolkit improves materially before the next confrontation."
+      ]
+    },
+    {
+      "id": "s3-cavern-approach",
+      "title": "The approach to the Cavern of Sorrow",
+      "loc": "Inland path → {cavernsorrow}",
+      "atmosphere": [
+        "The landscape stops behaving like neutral geography and starts behaving like a ritual approach."
+      ],
+      "prose": [
+        "As the party moves inland, the old static changes character. It no longer feels like a meaningless hum. It has shape. {silver} notices that too and says something crucial: he does not think she is doing it on purpose. In his view, whatever they are hearing leaks from {mervel} rather than being aimed like an attack.",
+        "For {lysandra}, the resonance arrives as grief that does not belong to her. It is not simple fear, anger, or psychic pain. It feels like entering a room filled with mourning that belongs to strangers but presses on the body anyway.",
+        "The closer they get, the more markings appear everywhere: on trees, in sand, on rock, and spread across the cliff face. Some are old. Some are fresh. Some seem placed at stopping points, as though others marked the furthest place they reached before they could not go farther.",
+        "The entrance to the {cavernsorrow} is not grand. It is a narrow jagged crack in the cliff, already half a ritual. Salt marks the walls at chest height, proving that the tide fills the chamber deeply enough to force swimming or drowning.",
+        "The markings at the entrance are finger-drawn in purple pigment, smudged by the tide, and responsive when touched. The place is not just decorated. It is charged.",
+        "The party makes final positioning decisions. {alex} remains hidden and invisible. {silver} is kept outside as sentry. The {construct} remains outside with him. Everyone understands that retreat from inside the cave will be difficult if the audience turns violent."
+      ],
+      "reveals": [
+        "The siren-resonance may be involuntary rather than intentional.",
+        "The cave markings track endurance, progression, and ritual approach rather than ornament.",
+        "The tide is part of the cave's meaning, not just part of its weather."
+      ],
+      "consequences": [
+        "The approach frames the cave as a theological machine before Mervel even speaks.",
+        "Alex's hidden role and Silver's sentry role are locked in before contact."
+      ]
+    },
+    {
+      "id": "s3-mervel-rite",
+      "title": "Mervel Haloval, the drowning rite, and Zaren's declaration",
+      "loc": "Inside the {cavernsorrow}",
+      "atmosphere": [
+        "The cave is not a lair. It is an active ritual space built around grief, suffocation, and revelation."
+      ],
+      "prose": [
+        "Inside, it becomes clear that drowning is not just an environmental hazard. It is the missing center of the rite. The cave fills with the tide. To remain inside is to submit to submersion, suffocation, and terror. In this theology, drowning is a threshold rather than an ending.",
+        "{mervel} grants {zaren} a limited courtesy from one noble to another and quickly begins testing him through doctrine. She rejects the idea that mortal seals can bury a god forever and speaks of the Father's return as inevitable. Zaren answers her in the same register.",
+        "Mervel also speaks about trying to help others by revealing the Flame to them. When they screamed, she framed that as refusal of fire and revelation, not proof that her method was monstrous. This lines up with Silver's memory of a girl who changed after Mervel helped her.",
+        "She talks about {sarn} with fury and about the Ministry of Sanctity with contempt. Her own past explains why. She was strapped to an obsidian rack and had raw glass hammered into her hips, spine, and throat while officials treated her like an experiment. She begged for water and was denied it. In the cave, water has become transformed from denied mercy into ritual ordeal.",
+        "When she challenges Zaren, she does so in the cave's own terms. If he claims revelation and authority, he should prove it in the water with the tide. Zaren answers with the line that unlocks the rite's deeper structure: \"The water, the suffocation, is only one thing. But it is by the ashes, and with the ashes, that everything reveals.\"",
+        "He then reveals his mark near the heart, presses ash or dark sand to it, and speaks liturgy over those marked by birth, silence, ink, ash, and choice. The cave answers. Mervel's followers bow. The recognition is ritual, not accidental.",
+        "Mervel still refuses to yield. If he wants her followers, words are not enough. He must show them more than speech and prove that his blood can burn without being consumed. She dismisses him as just another actor on a stage made of corpses. The standoff collapses into combat."
+      ],
+      "reveals": [
+        "The drowning rite is about revelation through suffocation and ordeal, not merely about surviving underwater.",
+        "Mervel is a ritual leader with real authority over followers, not a lone madwoman in a cave.",
+        "Zaren knows liturgy deep enough to activate the cave and command ritual recognition.",
+        "Mervel's theology, her torture in {sarn}, and the cave's ordeal all mirror and distort each other."
+      ],
+      "consequences": [
+        "Combat begins under conditions of theological and political legitimacy rather than simple hostility.",
+        "The party enters open conflict with Mervel after proving she and Zaren belong to the same symbolic universe."
+      ]
+    }
+  ]
+}

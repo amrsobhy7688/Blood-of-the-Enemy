@@ -1,0 +1,178 @@
+{
+  "id": "s15",
+  "num": "Session 1.5",
+  "title": "Shipwreck · Glass Bonding · The Chamber of Sovereign Cyr",
+  "arc": "Vastraya Shore",
+  "when": "Day 1, Obsidian Shore",
+  "hookQuote": "\"We were not their hands. We were their chains. They gave us steel to kill a king so they could wear his crown.\"",
+  "hookCredit": "— {cyr}",
+  "recap": "The {penance} is gone. The party wakes on a dead black coast under the supervision of {mara}, who treats survival as triage rather than hospitality. Trust begins to form between {caspian} and {lysandra}; the nature of Vastraya becomes clearer; all four are bound to hostile glass at real cost; and the shore itself opens into a buried chamber where {cyr} speaks from a broken cosmology. The session ends with revelation, combat, and the phrase that keeps echoing: “Nail pulled from the door.”",
+  "scenes": [
+    {
+      "id": "s15-shipwreck-regroup",
+      "title": "Shipwreck on the dead shore",
+      "loc": "Obsidian shore, {vastraya}",
+      "atmosphere": [
+        "The survivors come to on a black shore after the destruction of the {penance}. The coast is silent in the wrong way, stripped of animal life and ordinary color.",
+        "{mara} is alive but nearly spent. Her first concern is not comfort but containment."
+      ],
+      "prose": [
+        "{mara} orders the survivors to hold the seal, stay close, and scavenge for gear and weapons because they will need them immediately. Zaren notices that {alex} is badly wounded, close to death, and needs help even to stand.",
+        "While Mara catches her breath, {caspian} and {lysandra} move down the shore to scavenge. Even at the beginning, the social pattern of the party is changing: Zaren handles survival triage, while Caspian and Lysandra begin drifting into investigative partnership."
+      ],
+      "reveals": [
+        "The party is stranded on {vastraya} with no meaningful support structure.",
+        "Mara behaves like someone used to making life-or-death decisions in minutes, not hours."
+      ],
+      "consequences": [
+        "The party's first objective becomes immediate survival rather than escape.",
+        "The phrase “hold the seal” enters play as early shore doctrine."
+      ]
+    },
+    {
+      "id": "s15-caspian-lysandra-trust",
+      "title": "Caspian tests Lysandra, and Lysandra tests him back",
+      "loc": "Shoreline scavenging path",
+      "atmosphere": [
+        "Away from the others, the tone shifts from emergency to appraisal. This is one of the first scenes where trust is negotiated instead of assumed."
+      ],
+      "prose": [
+        "{caspian} presses {lysandra} about her strange crystal-working. He explains that he has apprenticed under many magical traditions and prides himself on understanding what magic is doing under the surface. What Lysandra can do does not resemble anything he already knows.",
+        "Lysandra refuses to explain herself. Caspian responds by emphasizing that he values knowledge over judgment and that secrets are safe with him if she chooses not to speak yet.",
+        "Lysandra pivots and asks about a phrase he used earlier, probing whether he knows the group behind it and whether he belongs to it. Caspian answers honestly: he tried to infiltrate that group, not out of devotion but curiosity. In matters of faith he counts himself among the faithless. He wants to understand what happened before and after the calamity and says he has been knocking on every door he can find.",
+        "Lysandra does not reward the confession with full trust. She tells him that words are not enough and that he will have to prove himself over time. The conversation ends unresolved, but it is the first real bridge between them."
+      ],
+      "reveals": [
+        "Caspian frames himself as curious before he frames himself as loyal.",
+        "Lysandra is cautious enough to withhold her own truth even when someone offers apparent safety.",
+        "Their future alliance begins here, as reciprocal suspicion rather than immediate friendship."
+      ],
+      "consequences": [
+        "A durable Caspian-Lysandra information channel begins to form.",
+        "The Children of the Flame enter the session's trust structure before being fully explained."
+      ]
+    },
+    {
+      "id": "s15-dead-shore",
+      "title": "The shore proves it is not merely hostile, but wrong",
+      "loc": "Obsidian shore",
+      "atmosphere": [
+        "Everything about the coast is dead, dragged, or vitrified. Even the tide feels like it is serving a larger mechanism."
+      ],
+      "prose": [
+        "As they scavenge, Mara shouts for them not to wander too far. {lysandra}, still in her dress, trips several times and falls face-first into the black sand.",
+        "{caspian} studies the environment carefully and notices that the ocean current is unnaturally fast, that the wreckage seems to come from many different ships rather than one, and that the current appears to be dragging debris toward this shore. The sand is black obsidian, the rocks are black, and under close inspection the ground shimmers with fine grains of glass.",
+        "Most importantly, there is no natural life. No vegetation, no fauna, no birds, no animals, no fish. This is not a harsh coastline. It is a dead one.",
+        "Caspian finds a small piece of quartz-like glass giving off a faint bright light unlike any ordinary {aethercrystal}. Lysandra finds a clear shard, but before she touches it, Mara shouts at her not to use bare skin because it will bite.",
+        "Caspian tests the strange material with tools and then with magic. The crystal is extremely resistant, and his magic feels as though he is casting underwater. The {null} sigils on his hands flare brighter and interfere with his reach into the aether, though he still manages to cast. The sigils are not gone. They are still actively suppressing him."
+      ],
+      "reveals": [
+        "The coast is a ship-trap as much as it is a shoreline.",
+        "The glass found here is alien to normal aether-crystal logic.",
+        "Caspian's Null Sigils still function strongly enough to disrupt spellcasting."
+      ],
+      "consequences": [
+        "The party learns not to touch shore-glass bare-handed.",
+        "The dead coast becomes the first environmental mystery, not just the first battlefield."
+      ]
+    },
+    {
+      "id": "s15-crash-course",
+      "title": "Mara's crash course on Vastraya",
+      "loc": "Cliff base on the shore",
+      "atmosphere": [
+        "{mara} cleans her weapons while lecturing the party on the terms of their own survival. She sounds less like a guide and more like someone issuing battlefield doctrine."
+      ],
+      "prose": [
+        "When Caspian greets her with a Church of the Sovereign Scars phrase, \"Mara of the Iron Will. Let your iron be true,\" she is visibly surprised that he knows it. She reads both him and Lysandra quickly by dress, hands, and bearing.",
+        "Then she gives what she explicitly calls the crash course. The earth is hungry. The air and land will turn their skin brittle and their minds to static. If left untreated, they will become {hollow}: beings of glass and resentment wandering the shores.",
+        "As she speaks, the party becomes aware of the low-frequency ringing in their ears. Mara names it directly: the static, the scream of the land, and proof that the land is already feeding on them.",
+        "She tells them plainly that machines, perfume, and prayer will not save them tonight. They need the glass. They must scour the area for usable shards and avoid touching them bare-handed.",
+        "She also makes a promise that defines her moral framework. If any of them turn, she will put them down herself. In her view, that is mercy."
+      ],
+      "reveals": [
+        "The static is a named environmental phenomenon rather than a vague feeling.",
+        "Hollows are not monsters from elsewhere. They are a possible future for the party.",
+        "Mara's mercy and violence are adjacent, not opposed."
+      ],
+      "consequences": [
+        "Glass bonding becomes non-optional survival technology.",
+        "The party now understands that Vastraya kills by attrition, conversion, and environmental pressure at once."
+      ]
+    },
+    {
+      "id": "s15-bonding",
+      "title": "The four bondings and the cost of survival",
+      "loc": "Shore camp, under Mara's supervision",
+      "atmosphere": [
+        "The bonding sequence is intimate, invasive, and ugly. The land forces the party into adaptation before it offers explanation."
+      ],
+      "prose": [
+        "{mara} bonds {lysandra} first by piercing her arm with one of her own glass nails and embedding the clear shard into the wound. Lysandra's blood drags the shard inward and the glass turns yellow. Mara names it the {silentscream}. At that same moment, a baby's voice speaks inside Lysandra's head: \"Mother, don't believe her.\"",
+        "Then Mara turns to {caspian}. She recites a corrupted, bitter version of the {prayerignition}, full of mockery rather than reverence, and drives a thirty-centimeter spike through his hands to break the {null} sigils. The pain is brutal, but the return of his magic hits him with equal force. He also feels resentment at himself for only understanding the value of that magic when it was taken from him. Mara keeps the mint shard he found for herself and instead bonds him to a smoky gray shard set between his fingers. It turns gray and stops reflecting light. During the bonding, Caspian catches Mara's surface thought with Detect Thoughts: \"One down, one to go.\"",
+        "In the same survival rhythm, {zaren} is bonded to a purple, coin-like shard driven into his shin. The shard makes him feel heavier and more anchored. {alex} chooses to have her black shard placed in her ear, where it becomes a needle-ring of dark glass wrapped around the right ear.",
+        "All four bondings exact the same baseline cost: maximum hit points are reduced by 5, and the body becomes more vulnerable to poison and disease. But each shard also grants a distinct adaptation.",
+        "For Lysandra, the yellow glass sharpens perception and insight. For Caspian, the gray shard allows him to defer harm once per day. For Zaren, forced movement against him becomes harder, but his altered weight ruins acrobatic flexibility. For Alex, darkness becomes cover in a new way, allowing her to hide more effectively in dim light or shadow."
+      ],
+      "reveals": [
+        "Lysandra's internal child-voice begins here, during bonding, not later.",
+        "Caspian's magic truly returns only after Mara breaks the Null Sigils by force.",
+        "Mara's line \"One down, one to go\" implies an agenda not yet explained.",
+        "Glass bonding is survival, augmentation, and slow doom at the same time."
+      ],
+      "consequences": [
+        "{lysandra}: gains sharper reading of people and environments through the {silentscream}.",
+        "{caspian}: regains real access to magic, suffers hand injury until later healing, and gains a damage-deferral effect.",
+        "{zaren}: becomes harder to move by force but automatically fails Acrobatics checks while the shard remains embedded.",
+        "{alex}: gains stronger hiding capability in dim light or darkness."
+      ]
+    },
+    {
+      "id": "s15-stone-door",
+      "title": "The black stone door opens to a buried history",
+      "loc": "Sunken shore chamber",
+      "atmosphere": [
+        "As the tide recedes unnaturally fast, the shore reveals architecture instead of wreckage. The world feels less abandoned and more buried."
+      ],
+      "prose": [
+        "After resting, Caspian and Lysandra move farther down the shore and discover a sunken black stone door marked with four ancient runes and a single eye symbol at the top. The inscription reads: \"Four lands were bound with a silver thread. Four crowns were taken to this island bed. To see the past that the Sovereigns chose, give the light that the shadow knows.\"",
+        "{caspian} places his hand on the eye rune and channels magic into it. His golden tattoo glows, transfers light into the carved eye, and the eye blinks in answer. The door grinds open.",
+        "A voice enters their minds and says the Four corners were never meant to be a cage, but the foundation. Inside lies a slanted antechamber lit by ambient magical light, lined with pillars and old Vastrayan statuary. At the center sits a fragile glass dome over a model of a temple on a grassy cliff beside water, mounted above a spiral golden rod.",
+        "When Caspian lifts the dome away, the voice names itself: {cyr}, the echo of a song sung in a different key."
+      ],
+      "reveals": [
+        "Caspian's golden tattoo is keyed to pre-Imperial or non-Imperial mechanisms.",
+        "The Four corners were 'the foundation,' which directly challenges cage-based cosmology.",
+        "Sovereign Cyr is not silent dead history, but an active surviving voice."
+      ],
+      "consequences": [
+        "The party discovers the chamber, the temple model, and the strange spiral rod that will remain important later.",
+        "The shore is confirmed to contain intentional ancient sites rather than random debris."
+      ]
+    },
+    {
+      "id": "s15-cyr-chamber",
+      "title": "Cyr speaks as the chamber turns violent",
+      "loc": "Hidden chamber beneath the shore",
+      "atmosphere": [
+        "The chamber responds like a sealed mechanism tied to memory, doctrine, and defense. Revelation and combat arrive together."
+      ],
+      "prose": [
+        "{caspian} and {lysandra} work together to unscrew the spiral rod. After the third turn, the room answers with grinding stone. Three stone guardians emerge from the pillars with weapons drawn.",
+        "As the fight begins, Cyr continues speaking in fragments that are more accusation than history: the Sovereigns were not hands, but chains; they were given steel to kill a king so others could wear his crown; and one of them made sure the weaver's hands went still.",
+        "During the battle, Lysandra hears the baby's voice again: \"Mother, don't believe her.\" She also gains 5 temporary hit points in the moment, as if that voice can intervene rather than merely observe.",
+        "Cyr's history fragments continue. Vajran burst his skin. Arcanon stopped the world from drifting. Kaelanor poured blood into the soil. Cyr claims to have stood between them and the sun of a dying heart.",
+        "{caspian} hears only broken fragments at first, catching words like jailer, infinite, every, and burned. Then one phrase cuts through cleanly: \"Nail pulled from the door.\" After that, Cyr falls completely silent."
+      ],
+      "reveals": [
+        "The Sovereigns were 'chains' in Cyr's telling, not simple saviors.",
+        "Lysandra's internal voice can confer aid, not just commentary.",
+        "The phrase 'Nail pulled from the door' becomes one of the campaign's key theological alarms."
+      ],
+      "consequences": [
+        "The party survives first contact with an ancient chamber that responds to them as intruders and inheritors at once.",
+        "The chamber leaves behind both an artifact thread and a cosmology crisis."
+      ]
+    }
+  ]
+}
