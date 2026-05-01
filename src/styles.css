@@ -3610,21 +3610,19 @@ button.mini-row .ref {
 }
 
 /* v16 header micro-tuning */
-.brand {
-  --brand-wordmark-w: 12.75rem;
-}
 .brand-wordmark,
 .brand-title,
 .brand-sub {
-  width: var(--brand-wordmark-w);
-  max-width: var(--brand-wordmark-w);
-  min-width: var(--brand-wordmark-w);
+  width: max-content;
+  max-width: none;
+  min-width: 0;
 }
 .brand-sub {
   white-space: nowrap;
   overflow: visible;
 }
 .brand-title {
+  width: 100%;
   justify-content: space-between;
 }
 .tab-btn[aria-selected="true"]::before {
@@ -3640,27 +3638,23 @@ button.mini-row .ref {
 }
 
 @media (min-width: 921px) {
-  .brand {
-    --brand-wordmark-w: clamp(11.75rem, 12vw, 12.75rem);
-  }
   .brand-wordmark,
   .brand-title,
   .brand-sub {
-    width: var(--brand-wordmark-w);
+    width: max-content;
   }
+  .brand-title { width: 100%; }
 }
 
 @media (max-width: 640px) {
-  .brand {
-    --brand-wordmark-w: 8.35rem;
-  }
   .brand-wordmark,
   .brand-title,
   .brand-sub {
-    width: var(--brand-wordmark-w);
-    max-width: var(--brand-wordmark-w);
-    min-width: var(--brand-wordmark-w);
+    width: max-content;
+    max-width: none;
+    min-width: 0;
   }
+  .brand-title { width: 100%; }
   .tab-btn[aria-selected="true"]::before {
     border-left-width: 6px;
     border-right-width: 6px;

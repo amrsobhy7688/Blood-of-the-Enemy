@@ -24,7 +24,7 @@ function renderArchiveBundle(archive) {
 }
 
 function renderIndex() {
-  const assetVersion = "wordmark-nowrap";
+  const assetVersion = "wordmark-fit-content";
   return `<!DOCTYPE html>
 <html lang="en" data-theme="bloodglass" data-fonts="bloodglass" data-density="codex">
 <head>
