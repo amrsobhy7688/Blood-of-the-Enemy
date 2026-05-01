@@ -24,6 +24,7 @@ function renderArchiveBundle(archive) {
 }
 
 function renderIndex() {
+  const assetVersion = "brand-sigil-gold-screen";
   return `<!DOCTYPE html>
 <html lang="en" data-theme="bloodglass" data-fonts="bloodglass" data-density="codex">
 <head>
@@ -34,11 +35,11 @@ function renderIndex() {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="src/styles.css">
+<link rel="stylesheet" href="src/styles.css?v=${assetVersion}">
 
 <script src="assets/vendor/react.production.min.js" crossorigin="anonymous"></script>
 <script src="assets/vendor/react-dom.production.min.js" crossorigin="anonymous"></script>
-<script src="src/runtime-check.js"></script>
+<script src="src/runtime-check.js?v=${assetVersion}"></script>
 </head>
 <body>
 
@@ -46,10 +47,10 @@ function renderIndex() {
 <noscript><div style="position:fixed;left:16px;right:16px;bottom:16px;background:#1b1212;color:#ffd7d7;border:1px solid #7a2d2d;border-radius:12px;padding:14px 16px;font:13px/1.5 system-ui, sans-serif;z-index:99999">This dashboard needs JavaScript enabled.</div></noscript>
 
 <script src="data/archive.js"></script>
-<script src="src/data-loader.js"></script>
-<script src="src/browser-validate.js"></script>
-<script src="src/error-overlay.js"></script>
-<script src="src/app.js"></script>
+<script src="src/data-loader.js?v=${assetVersion}"></script>
+<script src="src/browser-validate.js?v=${assetVersion}"></script>
+<script src="src/error-overlay.js?v=${assetVersion}"></script>
+<script src="src/app.js?v=${assetVersion}"></script>
 </body>
 </html>
 `;

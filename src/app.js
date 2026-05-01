@@ -1972,52 +1972,12 @@ function Hero({
   }));
 }
 function BrandSigil() {
-  return /*#__PURE__*/React.createElement("svg", {
+  return /*#__PURE__*/React.createElement("img", {
     className: "brand-sigil",
-    viewBox: "0 0 64 64",
+    src: "assets/brand-sigil.gif?v=gold-screen",
+    alt: "",
     "aria-hidden": "true"
-  }, /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("radialGradient", {
-    id: "bloodglassBrand",
-    cx: "50%",
-    cy: "50%",
-    r: "50%"
-  }, /*#__PURE__*/React.createElement("stop", {
-    offset: "0%",
-    stopColor: "var(--ink-0)",
-    stopOpacity: ".95"
-  }), /*#__PURE__*/React.createElement("stop", {
-    offset: "42%",
-    stopColor: "var(--aether)",
-    stopOpacity: ".55"
-  }), /*#__PURE__*/React.createElement("stop", {
-    offset: "100%",
-    stopColor: "var(--aether)",
-    stopOpacity: "0"
-  }))), /*#__PURE__*/React.createElement("circle", {
-    cx: "32",
-    cy: "32",
-    r: "30",
-    fill: "url(#bloodglassBrand)",
-    opacity: ".35"
-  }), /*#__PURE__*/React.createElement("g", {
-    fill: "none",
-    stroke: "var(--gold)",
-    strokeWidth: "1.2",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
-  }, /*#__PURE__*/React.createElement("path", {
-    d: "M32 3 L39 24 L61 32 L39 40 L32 61 L25 40 L3 32 L25 24 Z"
-  }), /*#__PURE__*/React.createElement("path", {
-    d: "M32 13 L36 28 L51 32 L36 36 L32 51 L28 36 L13 32 L28 28 Z",
-    stroke: "var(--aether)"
-  }), /*#__PURE__*/React.createElement("circle", {
-    cx: "32",
-    cy: "32",
-    r: "7"
-  }), /*#__PURE__*/React.createElement("path", {
-    d: "M9 16 L22 21 M55 15 L43 22 M12 51 L24 42 M51 52 L42 42",
-    opacity: ".6"
-  })));
+  });
 }
 function applyTweaks() {
   const root = document.documentElement;
@@ -2070,6 +2030,47 @@ function App() {
     document.addEventListener("keydown", onKey);
     return () => document.removeEventListener("keydown", onKey);
   }, []);
+  useEffect(() => {
+    const selector = ".side-panel > .entity-list, .side-panel > .filter-list, .side-panel > .mini-list, .side-panel > .quote-list";
+    const cleanups = [];
+    let frame = requestAnimationFrame(() => {
+      document.querySelectorAll(selector).forEach(el => {
+        if (el.scrollHeight <= el.clientHeight + 2 || el.querySelector(":scope > .gold-scroll-rail")) return;
+        const rail = document.createElement("div");
+        const thumb = document.createElement("div");
+        rail.className = "gold-scroll-rail";
+        thumb.className = "gold-scroll-thumb";
+        thumb.textContent = "✦";
+        rail.appendChild(thumb);
+        el.classList.add("custom-gold-scrollbar");
+        el.appendChild(rail);
+        const update = () => {
+          const maxScroll = Math.max(1, el.scrollHeight - el.clientHeight);
+          const travel = Math.max(0, el.clientHeight - 16);
+          const ratio = el.scrollTop / maxScroll;
+          rail.style.height = `${el.clientHeight}px`;
+          rail.style.transform = `translateY(${el.scrollTop}px)`;
+          thumb.style.transform = `translate(-50%, ${ratio * travel}px)`;
+        };
+        const resize = window.ResizeObserver ? new ResizeObserver(update) : null;
+        update();
+        el.addEventListener("scroll", update, {
+          passive: true
+        });
+        resize?.observe(el);
+        cleanups.push(() => {
+          el.removeEventListener("scroll", update);
+          resize?.disconnect();
+          rail.remove();
+          el.classList.remove("custom-gold-scrollbar");
+        });
+      });
+    });
+    return () => {
+      cancelAnimationFrame(frame);
+      cleanups.forEach(cleanup => cleanup());
+    };
+  }, [tab, cmpSection, focusDossier, focusSession]);
   const openPopover = useCallback((id, anchor) => {
     if (!id || !INDEX[id]) return;
     const rect = anchor?.getBoundingClientRect ? anchor.getBoundingClientRect() : anchor || {
