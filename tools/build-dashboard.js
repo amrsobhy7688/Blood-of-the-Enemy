@@ -24,7 +24,7 @@ function renderArchiveBundle(archive) {
 }
 
 function renderIndex() {
-  const assetVersion = "brand-sigil-gold-screen";
+  const assetVersion = "wordmark-nowrap";
   return `<!DOCTYPE html>
 <html lang="en" data-theme="bloodglass" data-fonts="bloodglass" data-density="codex">
 <head>

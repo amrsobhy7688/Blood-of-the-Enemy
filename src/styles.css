@@ -3610,10 +3610,19 @@ button.mini-row .ref {
 }
 
 /* v16 header micro-tuning */
+.brand {
+  --brand-wordmark-w: 12.75rem;
+}
 .brand-wordmark,
 .brand-title,
 .brand-sub {
-  width: 9.85rem;
+  width: var(--brand-wordmark-w);
+  max-width: var(--brand-wordmark-w);
+  min-width: var(--brand-wordmark-w);
+}
+.brand-sub {
+  white-space: nowrap;
+  overflow: visible;
 }
 .brand-title {
   justify-content: space-between;
@@ -3631,18 +3640,26 @@ button.mini-row .ref {
 }
 
 @media (min-width: 921px) {
+  .brand {
+    --brand-wordmark-w: clamp(11.75rem, 12vw, 12.75rem);
+  }
   .brand-wordmark,
   .brand-title,
   .brand-sub {
-    width: clamp(8.85rem, 10.2vw, 9.85rem);
+    width: var(--brand-wordmark-w);
   }
 }
 
 @media (max-width: 640px) {
+  .brand {
+    --brand-wordmark-w: 8.35rem;
+  }
   .brand-wordmark,
   .brand-title,
   .brand-sub {
-    width: 8.35rem;
+    width: var(--brand-wordmark-w);
+    max-width: var(--brand-wordmark-w);
+    min-width: var(--brand-wordmark-w);
   }
   .tab-btn[aria-selected="true"]::before {
     border-left-width: 6px;
