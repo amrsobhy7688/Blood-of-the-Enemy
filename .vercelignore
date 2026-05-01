@@ -1,0 +1,7 @@
+.agents
+.codex
+.edge-check
+.git
+.npm-cache
+.preview-server.err.log
+.preview-server.out.log

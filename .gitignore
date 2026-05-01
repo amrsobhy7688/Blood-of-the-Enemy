@@ -1,0 +1,8 @@
+.agents/
+.codex/
+.edge-check/
+.npm-cache/
+.vercel/
+.preview-server.err.log
+.preview-server.out.log
+blood-of-the-enemy-campaign/.vercel/
