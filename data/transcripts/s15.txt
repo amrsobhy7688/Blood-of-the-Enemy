@@ -1,273 +1,173 @@
+Session 1.5
 After the shipwreck
-
 After the shipwreck, Mara tells the survivors:
-
-Mara: “Give me a few minutes to catch my breath. Hold the seal. Don’t wander far, and look for gear and weapons. You will need them.”
-
+Mara:
+ “Give me a few minutes to catch my breath. Hold the seal. Don’t wander far, and look for gear and weapons. You will need them.”
 Zaren checks on Alex and notices that she is badly wounded, close to death, and needs help even to stand.
-
 Meanwhile, Caspian and Lysandra walk along the shore to scavenge.
+________________
+
 
 Caspian tries to understand Lysandra
-
 Away from the others, Caspian starts questioning Lysandra about her strange abilities.
-
 He explains that he has apprenticed under many magical traditions and prides himself on knowing the nature of magic.
-
 What Lysandra can do does not resemble anything he has seen before.
-
 He tells her he has a theory, but wants to know whether she is willing to talk about it.
-
 Lysandra refuses.
-
 Caspian insists that he is not narrow-minded and that he values knowledge above judgment. He tells her that if she wants to keep secrets, they are safe with him.
-
 Lysandra shifts the subject and asks him about a phrase he used earlier, specifically whether he knows about the group behind it and whether he is part of it.
-
 Caspian answers honestly:
-
-he tried to infiltrate that group
-
-he wanted to understand what kind of knowledge they had
-
-in terms of faith, he counts himself among the faithless
-
-he is not devoted, only curious
-
-he wants to understand what happened before and after the calamity
-
-he has been knocking on every door he can find, and that group is one of them
-
+* he tried to infiltrate that group
+* he wanted to understand what kind of knowledge they had
+* in terms of faith, he counts himself among the faithless
+* he is not devoted, only curious
+* he wants to understand what happened before and after the calamity
+* he has been knocking on every door he can find, and that group is one of them
 Lysandra says that words alone are not enough. He will need to prove himself over time.
-
 This is one of the first true trust-building conversations between them, and it ends unresolved.
+________________
+
 
 The shore is dead and strange
-
 As they scavenge, Mara shouts at them not to wander too far.
-
 Lysandra trips several times over her dress and falls face-first into the sand.
-
 Caspian studies the shore carefully and notices several important things:
-
-the ocean current is extremely fast
-
-wreckage does not seem to come from a single ship
-
-the current appears to be dragging everything toward this shore
-
-the sand is black obsidian
-
-the rocks are black
-
-when studied closely, the ground shimmers with fine grains of glass
-
-there is no natural vegetation, fauna, birds, animals, or fish
-
+* the ocean current is extremely fast
+* wreckage does not seem to come from a single ship
+* the current appears to be dragging everything toward this shore
+* the sand is black obsidian
+* the rocks are black
+* when studied closely, the ground shimmers with fine grains of glass
+* there is no natural vegetation, fauna, birds, animals, or fish
 This is a dead coast.
-
 Caspian discovers a small piece of glass that looks like quartz and gives off a very faint bright light. It is completely alien to him and has no kinship to ordinary aether crystals.
-
 Lysandra finds a clear piece of glass.
-
 Before she can touch it, Mara shouts:
-
-Mara: “Stop! Don’t touch it with your hands. It will bite you.”
-
+Mara:
+ “Stop! Don’t touch it with your hands. It will bite you.”
 Lysandra uses her sock to pick it up safely.
-
 Caspian tries to chip his strange crystal with a chisel, but it is extremely resistant.
-
 Then he tests his magic.
-
 He feels as though he is underwater, and the Null Sigils on his hands flare brighter, stopping him from properly reaching the aether, though he does manage to cast Mold Earth.
-
 That is a critical clue:
-
 the sigils are still active enough to interfere, even after everything that has happened.
+________________
+
 
 Mara gives the crash course on Vastraya
-
 When they return, they find Mara resting against the cliff and cleaning her weapons.
-
 She asks if they found any sharp weapons.
-
 Caspian responds politely and uses a phrase from the Church of the Sovereign Scars:
-
-Caspian: “Mara of the Iron Will. Let your iron be true.”
-
+Caspian:
+ “Mara of the Iron Will. Let your iron be true.”
 Mara is surprised that he knows it.
-
 She studies both of them and rapidly reads their backgrounds by dress, hands, and bearing.
-
 Then she begins what she calls the crash course on Vastraya.
-
 She explains:
-
-the earth is hungry
-
-the air and land will turn their skin brittle and their minds to static
-
-they will eventually become Hollow
-
-a Hollow is a being of glass and resentment wandering the shores
-
+* the earth is hungry
+* the air and land will turn their skin brittle and their minds to static
+* they will eventually become Hollow
+* a Hollow is a being of glass and resentment wandering the shores
 As she speaks, the group begins to notice the constant low-frequency ringing in their ears that makes them grit their teeth.
-
 Mara continues:
-
-Mara: “You can already feel it, can’t you? That bone-deep ache. That’s the static. It’s the scream of the land. And it’s hungry for you.”
-
+Mara:
+ “You can already feel it, can’t you That bone-deep ache. That’s the static. It’s the scream of the land. And it’s hungry for you.”
 Then she tells them what they need:
-
-Mara: “If you want to survive tonight, I suggest that you listen to me. You won’t do it with machines, perfume or prayer. You need the glass.”
-
+Mara:
+ “If you want to survive tonight, I suggest that you listen to me. You won’t do it with machines, perfume or prayer. You need the glass.”
 She orders them to scour the area for shards that have not been bleached and warns them again not to touch them bare-handed.
-
 Then she makes a promise:
-
 if they turn, she will put them to rest herself.
-
 That, she says, is the only mercy anyone will give them in this land.
+________________
+
 
 Mara bonds Lysandra first
-
 Mara takes Lysandra first.
-
 She pierces Lysandra’s arm with her own glass-infused fingernail and embeds the clear shard into her skin.
-
 Lysandra’s blood grips the shard and pulls it inward.
-
 The clear glass turns yellow.
-
 Mara names this shard:
-
 the Silent Scream
-
 Lysandra gains:
-
-proficiency in Insight
-
-proficiency in Perception
-
+* proficiency in Insight
+* proficiency in Perception
 But the cost is immediate:
-
-maximum hit points reduced by 5
-
-disadvantage on saving throws against poison and disease
-
+* maximum hit points reduced by 5
+* disadvantage on saving throws against poison and disease
 At that same moment, Lysandra hears a baby’s voice in her head say:
-
-Voice: “Mother, don’t believe her.”
-
+Voice:
+ “Mother, don’t believe her.”
 This is the first known instance of that internal voice.
+________________
+
 
 Mara breaks Caspian’s Null Sigils
-
 Next, Mara turns to Caspian.
-
 She takes his hands and begins reciting a corrupted, bitter version of the Prayer of Ignition.
-
 Instead of reverence for Solaria, it is full of mockery, resentment, and curses.
-
 Then she suddenly pulls out a thirty-centimeter metal spike and drives it through his hands, painfully breaking the Null Sigils.
-
 As the aether floods back into Caspian’s soul, he feels the pain in his palms contrasted by overwhelming joy at the return of his magic.
-
 At the same time, he feels resentment toward himself for only fully valuing his magic once he had lost it.
-
 He suffers disadvantage on checks requiring his hands until they heal.
-
 Mara then takes the crystal he found and claims it for herself.
-
 Instead, she embeds a smoky gray shard between his fingers.
-
 As it bonds, it turns gray and stops reflecting light.
-
 Caspian uses Detect Thoughts on Mara and catches her surface thought:
-
 “One down, one to go.”
-
 Caspian gains the ability to defer damage once per day, but at the cost of:
+* maximum hit points reduced by 5
+* disadvantage on Constitution saves against poison and disease
+________________
 
-maximum hit points reduced by 5
-
-disadvantage on Constitution saves against poison and disease
 
 The black stone door and the hidden chamber
-
 After resting, Caspian and Lysandra explore farther down the shore as the tide recedes unnaturally fast.
-
 They discover a sunken black stone door marked with four ancient rune symbols, with an eye symbol at the top.
-
 The inscription reads:
-
-“Four lands were bound with a silver thread. Four crowns were taken to this island bed. To see the past that the Sovereigns chose, give the light that the shadow knows.”
-
+“Four lands were bound with a silver thread.
+Four crowns were taken to this island bed.
+To see the past that the Sovereigns chose,
+give the light that the shadow knows.”
 Caspian places his hand on the eye rune and channels his magic into it.
-
 The golden tattoo on his arm glows, transferring light into the eye.
-
 The eye blinks.
-
 The door grinds open.
-
 A voice echoes in their minds:
-
-Voice: “The Four corners were never meant to be a cage. They were the foundation.”
-
+Voice:
+ “The Four corners were never meant to be a cage. They were the foundation.”
 Inside they find a small slanted antechamber illuminated by shifting magical light from an ambient enchantment.
-
 Pillars line the room, each decorated with ancient statues of Vastrayan people.
-
 At the center, atop a spiral golden rod, sits a fragile glass dome containing a small model of a temple on a grassy cliff by water.
-
 The temple bears the same bottom rune symbol from the door.
-
 Caspian carefully lifts the fragile glass dome away.
-
 The voice speaks again:
+Voice:
+ “They forgot the name whispered before the world turned violet. I am the echo of a song sung in a different key. I am the Sovereign Cyr.”
+________________
 
-Voice: “They forgot the name whispered before the world turned violet. I am the echo of a song sung in a different key. I am the Sovereign Cyr.”
 
 The chamber awakens
-
 Caspian and Lysandra team up to unscrew the spiral rod from the floor.
-
 After turning it three times, the room answers.
-
 Grinding stone fills the chamber.
-
 Three stone figures emerge from the pillars with weapons drawn.
-
 A battle begins.
-
 As it starts, the mysterious voice continues revealing fragments of hidden history:
-
-Voice: “We were not their hands. We were their chains. They gave us steel to kill a king so they could wear his crown. She made sure the weaver’s hands went still.”
-
+Voice:
+ “We were not their hands. We were their chains. They gave us steel to kill a king so they could wear his crown. She made sure the weaver’s hands went still.”
 Lysandra hears the baby’s voice in her mind again:
-
-Voice: “Mother, don’t believe her.”
-
+Voice:
+ “Mother, don’t believe her.”
 She gains 5 temporary hit points.
-
 Then the woman’s voice continues:
-
-Voice: “The heavens are empty not by chance but by design. Vajran burst his skin. Arcanon stopped the world from drifting. Kaelanor poured his blood into the soil. And I stood between you and the sun of a dying heart.”
-
+Voice:
+ “The heavens are empty not by chance but by design. Vajran burst his skin. Arcanon stopped the world from drifting. Kaelanor poured his blood into the soil. And I stood between you and the sun of a dying heart.”
 Caspian hears jumbled words in his mind, but catches a few clearly:
-
-jailer
-
-infinite
-
-every
-
-burned
-
+* jailer
+* infinite
+* every
+* burned
 Then he hears the final phrase clearly:
-
 “Nail pulled from the door.”
-
 And then the voice goes completely silent.

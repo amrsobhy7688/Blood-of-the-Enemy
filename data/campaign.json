@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Blood of the Enemy",
-    "sessions": 5,
+    "sessions": 6,
     "currentLevel": 6,
-    "currentArc": "The Shore & Hold Mount",
+    "currentArc": "Cavern of Sorrow - The Father's Witnesses",
     "currentLocation": "Cavern of Sorrow",
-    "status": "Combat — vs. Mervel (unresolved)"
+    "status": "Returned from pre-Shattering memory - water receding"
   },
   "pcs": [
     {
@@ -44,9 +44,13 @@
         [
           "Current",
           "In Cavern of Sorrow vs {mervel}"
+        ],
+        [
+          "Witness role",
+          "Recognized as one of the {fatherwitnesses} in {churchfather}"
         ]
       ],
-      "body": "A Researcher Prime of the Ministry who was maneuvered into sounding heretical at the Beacon Ignition so his patents could be seized by {aurelian}. He joined {flame} five years ago out of curiosity, not devotion — \"I've been knocking on every door.\" Branded with two Null Sigils, exiled on {penance}, now free to cast again.\n\nHe thinks in systems. Even bound on the bench of a prison ship he read {castrell}'s surface thoughts while finishing lockpicks from tattoo-ink tools. He has revealed himself to {zaren} as {flame}. His shield channels preserving energy through his familiar — a mechanism he doesn't yet understand.",
+      "body": "A Researcher Prime of the Ministry who was maneuvered into sounding heretical at the Beacon Ignition so his patents could be seized by {aurelian}. He joined {flame} five years ago out of curiosity, not devotion — \"I've been knocking on every door.\" Branded with two Null Sigils, exiled on {penance}, now free to cast again.\n\nHe thinks in systems. Even bound on the bench of a prison ship he read {castrell}'s surface thoughts while finishing lockpicks from tattoo-ink tools. He has revealed himself to {zaren} as {flame}. His shield channels preserving energy through his familiar — a mechanism he doesn't yet understand.\n\nIn Session 3.5 he is recognized as one of the {fatherwitnesses}. Inside the {preservedpause}, his shard heats when the Father notices the moment, and the ground-frequencies find both him and {lysandra} with the word \"Witnessed.\"",
       "relationships": [
         [
           "zaren",
@@ -116,7 +120,7 @@
           "In Cavern of Sorrow; revealed his mark to {mervel}"
         ]
       ],
-      "body": "Fifty-five. Veteran enforcer. His inner sanctum at the {dryce} estate is three feet of metal-lined stone built by {vein}. For years he has hunted his own brotherhood while feeding intel back to it — \"They are martyrs. They understand.\"\n\nHe was handed the {penance} escort by {mccord} and ordered by {vein} to sabotage it. He refused the sabotage but kept the prisms. On the shore, in a coded exchange, {mara} placed him: \"the tide is coming\" / \"but the seal will hold.\" His Unbroken-raid memory returned: {unbroken} children reciting the Fifth Nail. In the Cavern he pressed ash to his mark and the cave answered.",
+      "body": "Fifty-five. Veteran enforcer. His inner sanctum at the {dryce} estate is three feet of metal-lined stone built by {vein}. For years he has hunted his own brotherhood while feeding intel back to it — \"They are martyrs. They understand.\"\n\nHe was handed the {penance} escort by {mccord} and ordered by {vein} to sabotage it. He refused the sabotage but kept the prisms. On the shore, in a coded exchange, {mara} placed him: \"the tide is coming\" / \"but the seal will hold.\" His Unbroken-raid memory returned: {unbroken} children reciting the Fifth Nail. In the Cavern he pressed ash to his mark and the cave answered.\n\nAt the start of Session 3.5, he remains in the interrupted {cavernsorrow} combat with {mervel}, but the tide-memory pulls focus away before the present-day fight resolves.",
       "relationships": [
         [
           "caspian",
@@ -182,7 +186,7 @@
           "A childlike voice inside her mind since {silver} spoke about family"
         ]
       ],
-      "body": "Conscripted at the foyer as {mccord} cornered her father: a flaw was detected, the Ministry needed a Talus monitor, the choice was not a choice. Her father called it privately \"a blood sacrifice to prove the family is still in line\" and told her: \"Stick close to {zaren}. He will protect you.\"\n\nShe returned from the shore with blood on her face; {caspian} returned clean. She hasn't explained. She doesn't trust {zaren} yet and was caught by {silver} trying to search {mara}'s tent. Her stated goal widened from \"go home\" to \"understand Vastraya — what happens here is tied to what happened there.\"",
+      "body": "Conscripted at the foyer as {mccord} cornered her father: a flaw was detected, the Ministry needed a Talus monitor, the choice was not a choice. Her father called it privately \"a blood sacrifice to prove the family is still in line\" and told her: \"Stick close to {zaren}. He will protect you.\"\n\nShe returned from the shore with blood on her face; {caspian} returned clean. She hasn't explained. She doesn't trust {zaren} yet and was caught by {silver} trying to search {mara}'s tent. Her stated goal widened from \"go home\" to \"understand Vastraya — what happens here is tied to what happened there.\"\n\nSession 3.5 largely follows {caspian} and {lysandra} inside the preserved Father-memory; Alex remains part of the unresolved present-day cavern aftermath.",
       "relationships": [
         [
           "caspian",
@@ -238,9 +242,13 @@
         [
           "Vision",
           "Plains of fire · teenage daughter with gemstone eyes · four nails through heart"
+        ],
+        [
+          "Voice change",
+          "The inner voice calls her \"Lysandra\" after the worldbreak vision"
         ]
       ],
-      "body": "Arrested three days before Ascension Day on forged crystal charges — the {vermontfacet} appeared on depleted boxes she never saw. Her mother smuggled her jeweler's tools into the {dampeningchamber} and revealed the Vermont inheritance: before Lysandra was born, her father met a king, and light came to sit where his heart had been. A burden.\n\nHer cutting is not craft alone. When she works, the material responds — something in her resonates with the crystal. {caspian} has started prodding at it. Inside her, a child's voice speaks; in her vision, the child calls her \"Mother.\" Four nails, through the heart.",
+      "body": "Arrested three days before Ascension Day on forged crystal charges — the {vermontfacet} appeared on depleted boxes she never saw. Her mother smuggled her jeweler's tools into the {dampeningchamber} and revealed the Vermont inheritance: before Lysandra was born, her father met a king, and light came to sit where his heart had been. A burden.\n\nHer cutting is not craft alone. When she works, the material responds — something in her resonates with the crystal. {caspian} has started prodding at it. Inside her, a child's voice speaks; in her vision, the child calls her \"Mother.\" Four nails, through the heart.\n\nIn Session 3.5 the voice inside her falls silent when the tide-memory begins. After the worldbreak vision, it calls her by name \"Lysandra\" for the first time.",
       "relationships": [
         [
           "caspian",
@@ -637,7 +645,7 @@
           "\"Just another actor on a stage made of corpses.\""
         ]
       ],
-      "body": "Hold Mount-born noble. Presides over the ritual drowning in the {cavernsorrow}. Her resonance leaks; Silver says \"she isn't doing it on purpose.\" Challenged {zaren}: \"How about you enlighten us in the water with the tide?\" His answer: \"the water, the suffocation is only one thing. It is by the ashes that everything reveals.\"",
+      "body": "Hold Mount-born noble. Presides over the ritual drowning in the {cavernsorrow}. Her resonance leaks; Silver says \"she isn't doing it on purpose.\" Challenged {zaren}: \"How about you enlighten us in the water with the tide?\" His answer: \"the water, the suffocation is only one thing. It is by the ashes that everything reveals.\"\n\nSession 3.5 clarifies the scream from the cavern fight as terror rather than triumph: Mervel sees or feels something coming, then the impossible tide and memory overtake the scene before her fate resolves.",
       "relationships": [
         [
           "flame",
@@ -787,6 +795,128 @@
           "subordinate"
         ]
       ]
+    },
+    {
+      "id": "haren",
+      "name": "Haren",
+      "type": "Prophet of the Father",
+      "status": "dead in preserved memory",
+      "body": "Pre-Shattering prophet at {churchfather}. He expected {fatherwitnesses}, preached that the Father acts according to primordial nature, and died when constructs pinned him and drove a spike into his heart before he could speak the third sign.",
+      "relationships": [
+        [
+          "father",
+          "prophet of"
+        ],
+        [
+          "keeper",
+          "church authority"
+        ],
+        [
+          "caspian",
+          "recognized witness"
+        ],
+        [
+          "lysandra",
+          "recognized witness"
+        ],
+        [
+          "construct",
+          "killed by"
+        ]
+      ],
+      "alt": "Prophet Haren"
+    },
+    {
+      "id": "keeper",
+      "name": "The Keeper",
+      "type": "Keeper of the Father's coastal church",
+      "status": "historical memory",
+      "body": "Older white-haired keeper of {churchfather}. She identifies {caspian} and {lysandra} as {fatherwitnesses}, explains the old greeting, and teaches that the gods are fires while the Father is what burns.",
+      "relationships": [
+        [
+          "haren",
+          "serves alongside"
+        ],
+        [
+          "father",
+          "keeper of church"
+        ],
+        [
+          "caspian",
+          "names witness"
+        ],
+        [
+          "lysandra",
+          "names witness"
+        ]
+      ],
+      "alt": "Keeper"
+    },
+    {
+      "id": "dragonbornguard",
+      "name": "The Dragonborn Guard",
+      "type": "Church defender",
+      "status": "killed in preserved memory",
+      "body": "Eight-foot violet-scaled dragonborn guarding {churchfather}. He accepts Caspian and Lysandra as promised witnesses, explains the 47 churches across {stripe}, and is killed when constructs breach the door.",
+      "relationships": [
+        [
+          "haren",
+          "defender of"
+        ],
+        [
+          "father",
+          "child of the Flame"
+        ],
+        [
+          "caspian",
+          "questioned by"
+        ]
+      ],
+      "alt": "Dragonborn guard"
+    },
+    {
+      "id": "formerlyrian",
+      "name": "Former Lyrian Priest",
+      "type": "Former priest of Lyria",
+      "status": "historical memory",
+      "body": "Young man in {churchfather} who once served {lyria}. He says the old gods were real and comforting, but the Father is present in the ground rather than distant in prayer-response.",
+      "relationships": [
+        [
+          "lyria",
+          "former priest of"
+        ],
+        [
+          "father",
+          "converted to"
+        ],
+        [
+          "caspian",
+          "explains old gods to"
+        ],
+        [
+          "lysandra",
+          "explains old gods to"
+        ]
+      ],
+      "alt": "Former Lyrian priest"
+    },
+    {
+      "id": "walllistener",
+      "name": "Woman at the Wall",
+      "type": "Father-sensitive worshipper",
+      "status": "historical memory",
+      "body": "Woman at {churchfather} who listens through stone and says the Father has grown quieter. She teaches Lysandra that the Father can be felt through wall, boots, ground, and heat.",
+      "relationships": [
+        [
+          "father",
+          "feels through stone"
+        ],
+        [
+          "lysandra",
+          "speaks with"
+        ]
+      ],
+      "alt": "Wall listener"
     }
   ],
   "places": [
@@ -1073,6 +1203,27 @@
       "region": "Tavern · {cyritium}",
       "body": "A tavern referenced in session play.",
       "rel": []
+    },
+    {
+      "id": "churchfather",
+      "name": "Church of the Father",
+      "region": "Pre-Shattering Vastraya",
+      "body": "The {cavernsorrow} before ruin: a limestone cavern transformed into a warm, candlelit church around a central pool and circle-line symbol. It housed one of the Father's coastal congregations before constructs attacked.",
+      "alt": "Father church"
+    },
+    {
+      "id": "easternreaches",
+      "name": "Eastern Reaches",
+      "region": "Pre-Shattering Vastraya",
+      "body": "Region where three churches of the Father went silent before the attack witnessed in Session 3.5.",
+      "alt": "Eastern Reaches"
+    },
+    {
+      "id": "stripe",
+      "name": "The Stripe",
+      "region": "Pre-Shattering Vastraya",
+      "body": "Region or corridor containing 47 active churches of the Father, with the Father's presence strongest inland and weakest near the coast.",
+      "alt": "Stripe"
     }
   ],
   "factions": [
@@ -1345,6 +1496,44 @@
       "deity": "Noble (naval)",
       "body": "Supplied five navigators for the {penance}. {castrell} was their captain.",
       "rel": []
+    },
+    {
+      "id": "oldgods",
+      "name": "The Old Gods / Shapers of this World",
+      "type": "Pantheon",
+      "body": "Wide pre-Radiant pantheon once believed to have shaped the world, with many domains and gods bowing to {lyria}. Father doctrine reframes them as powers inside the world rather than the ground of the world.",
+      "relationships": [
+        [
+          "lyria",
+          "queen of"
+        ],
+        [
+          "father",
+          "threatened by"
+        ],
+        [
+          "sovereigns",
+          "acted through"
+        ]
+      ],
+      "alt": "Shapers of this World"
+    },
+    {
+      "id": "sovereigns",
+      "name": "The Sovereigns",
+      "type": "Divine strike force / later holy figures",
+      "body": "Four powers who moved against the Father. Haren says they are not wrong about what they are doing now, but are wrong about what comes after.",
+      "relationships": [
+        [
+          "father",
+          "struck"
+        ],
+        [
+          "oldgods",
+          "aligned with or used by"
+        ]
+      ],
+      "alt": "Sovereigns"
     }
   ],
   "items": [
@@ -1448,7 +1637,7 @@
       "id": "construct",
       "name": "The Construct (Hold Mount statue)",
       "type": "Ancient automaton",
-      "body": "An ancient automaton, older and cruder than Cyriath-patent workshop constructs. Once dormant at Hold Mount, it was successfully awakened and now travels with the party as an ally. It still carries the old signatures of gears, pistons, and plated housing rather than a neat visible core, it suppresses the {static}, and it responds specifically to the {rod}.",
+      "body": "An ancient automaton, older and cruder than Cyriath-patent workshop constructs. Once dormant at Hold Mount, it was successfully awakened and now travels with the party as an ally. It still carries the old signatures of gears, pistons, and plated housing rather than a neat visible core, it suppresses the {static}, and it responds specifically to the {rod}.\n\nSession 3.5 reveals related constructs active in the pre-Shattering {churchfather}: command-sensitive, seal-bearing machines that respond to {haren}, halt when the Father notices the preserved moment, and may be ancestors or analogues of the present-day construct.",
       "rel": [
         [
           "rod",
@@ -1725,6 +1914,58 @@
       "id": "radiantlaw",
       "name": "Radiant Law",
       "body": "The state religion following three celestials: Lunaria, Solaria, Elidria."
+    },
+    {
+      "id": "father",
+      "name": "The Father / Azrax",
+      "body": "Primordial fire-and-depth presence worshipped by the older Children of the Flame. The Keeper says the gods are powers within the world, while the Father is the power the world exists within.",
+      "alt": "Father"
+    },
+    {
+      "id": "fatherwitnesses",
+      "name": "Witnesses of the First Land",
+      "body": "Role assigned to Caspian and Lysandra inside the preserved memory. They are expected not primarily to save the event, but to witness and carry it forward.",
+      "alt": "Witnesses"
+    },
+    {
+      "id": "lyria",
+      "name": "Lyria / The Weaver",
+      "body": "Queen of the old gods and center of the older pantheon. Some Father worshippers still have family ties to her prayers and rites.",
+      "alt": "The Weaver"
+    },
+    {
+      "id": "oldgreeting",
+      "name": "Old Flame Greeting",
+      "body": "Older Children of the Flame exchange: \"May the embers never cool.\" Response: \"And the ground holds.\" A nearby addition says, \"And we have felt it.\"",
+      "alt": "May the embers never cool"
+    },
+    {
+      "id": "threesigns",
+      "name": "Haren's Three Signs",
+      "body": "Prophecy Haren begins before his death. First: what is broken cannot be unbroken, but what is dispersed can be gathered. Second: the Sovereigns are not wrong about now, but wrong about after. The third sign is cut off.",
+      "alt": "Three Signs"
+    },
+    {
+      "id": "preservedpause",
+      "name": "Preserved Pause",
+      "body": "A held historical moment 643 years old that Caspian and Lysandra enter physically or near-physically through the flooded Cavern of Sorrow.",
+      "alt": "Tide-memory"
+    },
+    {
+      "id": "medani",
+      "name": "Medani",
+      "body": "Language spoken by the pre-Shattering congregation in the Church of the Father and still spoken on Cyriath in the party's present."
+    },
+    {
+      "id": "dragonborn",
+      "name": "Dragonborn",
+      "body": "Ancient people with draconic heads and scaled bodies, unknown as living people in the party's present. A violet dragonborn guard defends Haren's church."
+    },
+    {
+      "id": "shattering",
+      "name": "The Shattering / Worldbreak",
+      "body": "The world-scale breaking felt after the Sovereigns strike the Father. Warmth leaves the world, smog may be born, and the Cavern of Sorrow collapses around the witnesses.",
+      "alt": "Worldbreak"
     }
   ],
   "hooks": [
@@ -1733,12 +1974,14 @@
       "lane": "active",
       "urgency": "high",
       "title": "Drop Mervel — or convert her",
-      "body": "Combat in the {cavernsorrow} has begun. She has two marks and \"maybe waits for a third.\" Her followers have bowed to {zaren}. If she dies the camp pressure on {holdmount} drops; if she yields, the cave's rite may be redirected.",
+      "body": "The fight in {cavernsorrow} is interrupted by Mervel Haloval screaming in terror as the tide and preserved memory overtake the cavern. The party returns from the pre-Shattering memory underwater, with the water receding and Mervel's fate unresolved.",
       "tags": [
         "mervel",
         "cavernsorrow",
         "flame",
-        "zaren"
+        "zaren",
+        "preservedpause",
+        "father"
       ]
     },
     {
@@ -1892,11 +2135,13 @@
     {
       "id": "w-voice",
       "lane": "whispered",
-      "urgency": "medium",
+      "urgency": "high",
       "title": "The child voice inside Lysandra",
-      "body": "\"Mother, don't believe her.\" First heard at bonding. In her vision, a teenage girl with gemstone eyes calls her Mother. Four nails through the heart.",
+      "body": "The voice inside {lysandra} went silent as the Father-memory began, then called her by name - \"Lysandra\" - after the worldbreak vision ended. It now behaves less like a childlike echo and more like a direct presence.",
       "tags": [
-        "lysandra"
+        "lysandra",
+        "father",
+        "preservedpause"
       ]
     },
     {
@@ -1998,6 +2243,64 @@
         "caspian",
         "mara",
         "null"
+      ]
+    },
+    {
+      "id": "h-threesigns",
+      "lane": "active",
+      "urgency": "high",
+      "title": "What was Haren's third sign",
+      "body": "{haren} gave two signs before a construct killed him: dispersed things can be gathered, and the Sovereigns are wrong about what comes after. The third sign was cut off at the heart-spike.",
+      "tags": [
+        "haren",
+        "threesigns",
+        "sovereigns",
+        "father",
+        "caspian",
+        "lysandra"
+      ]
+    },
+    {
+      "id": "h-fatherwitnesses",
+      "lane": "active",
+      "urgency": "high",
+      "title": "Why are Caspian and Lysandra Witnesses of the First Land",
+      "body": "The {keeper}, {dragonbornguard}, {haren}, and the preserved moment all recognize {caspian} and {lysandra} as {fatherwitnesses}. The ground itself answers them with \"Witnessed.\"",
+      "tags": [
+        "fatherwitnesses",
+        "caspian",
+        "lysandra",
+        "keeper",
+        "haren",
+        "preservedpause"
+      ]
+    },
+    {
+      "id": "h-sovereignsafter",
+      "lane": "active",
+      "urgency": "high",
+      "title": "The Sovereigns may be right now and wrong after",
+      "body": "{haren} says the {sovereigns} are not wrong about what they are doing or why, but they are wrong about what comes after. That distinction now frames the divine war as more complicated than rebellion versus salvation.",
+      "tags": [
+        "sovereigns",
+        "father",
+        "haren",
+        "shattering",
+        "oldgods"
+      ]
+    },
+    {
+      "id": "h-constructorigin",
+      "lane": "active",
+      "urgency": "medium",
+      "title": "Who sent the constructs against Haren's church",
+      "body": "The constructs that resemble the party's {construct} breach {churchfather}, kill civilians, adapt tactically, restrain {haren}, and execute him with a heart-spike. Their origin and command chain matter now.",
+      "tags": [
+        "construct",
+        "haren",
+        "churchfather",
+        "sovereigns",
+        "father"
       ]
     }
   ]
