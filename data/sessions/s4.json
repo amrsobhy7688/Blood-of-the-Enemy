@@ -1,0 +1,221 @@
+{
+  "id": "s4",
+  "num": "Session 4",
+  "title": "Mervel's Ash Rite - Malakai - The Road to Sarn",
+  "arc": "Cavern of Sorrow -> Return to the Encampment",
+  "when": "Day 2-4",
+  "hookQuote": "\"Do you want to hide, or are you going in with us openly?\"",
+  "hookCredit": "- outside the encampment gate, to {zaren}",
+  "recap": "The party returns from the {preservedpause} into the drowned aftermath of {cavernsorrow}. {mervel} survives broken, names {zaren} as one of the Father's prophets, and submerges herself in an ash-marked self-preservation rite rather than surrendering. The party confronts Zaren over hidden prophecy, learns from Silver's stolen papers that {malakai} experimented on Mervel in {sarn}, and chooses to leave Mervel in the pool while returning to the encampment for supplies before heading toward Sarn and the {dirtydocks}. On the road, {lysandra} explains the {ringofechoes}, a fresh {hollow} walks toward {cyriath}, and an enormous shadow crosses the sky toward {valleyazar}.",
+  "scenes": [
+    {
+      "id": "s4-cavern-flood-aftermath",
+      "title": "The tide recedes from the Cavern of Sorrow",
+      "loc": "{cavernsorrow}",
+      "atmosphere": [
+        "Dim surviving candles, drained seawater, missing followers, and broken crystal replace the earlier ritual certainty."
+      ],
+      "prose": [
+        "The session resumes from the cavern fight and Mervel's psychic scream. The tide does not only enter from the cave mouth; it forces itself through walls and openings until the cavern is swallowed in violent black water.",
+        "When the water withdraws, the party wakes near one another. {silver} survived above the flood line, the {construct} remained unmoved by sheer weight, and the followers are gone or drowned.",
+        "{mervel} is still present, but shattered. One leg and one arm are missing, her remaining body is cracked, and the wall behind her reveals the circle-and-line mark tied to the old Father-symbol."
+      ],
+      "reveals": [
+        "The cavern flood leaves Mervel alive but physically ruined.",
+        "The circle-and-line symbol is exposed behind Mervel after the water breaks the scene open."
+      ],
+      "consequences": [
+        "The fight ends as aftermath rather than clean victory.",
+        "Mervel becomes an unstable source of prophecy, danger, and possible future information."
+      ]
+    },
+    {
+      "id": "s4-mervel-names-zaren",
+      "title": "Mervel asks to become one of Zaren's nine",
+      "loc": "{cavernsorrow}",
+      "atmosphere": [
+        "The surrender feels less like defeat than a wounded prophet trying to place herself inside a hierarchy."
+      ],
+      "prose": [
+        "{mervel} tells {zaren} she is not convinced he is the Vessel, but she is convinced he is one of the prophets who call for the Father's return.",
+        "The party learns a prophetic structure: there are nine heralds or prophets, each with nine followers or subordinate heralds. Mervel is not asking to be one of the primordial's first nine; she is asking to be one of Zaren's.",
+        "Mervel also gestures toward {lysandra}, insisting she is involved in the pattern, which makes Lysandra's trust in Zaren and the group wobble under the weight of sudden divine claims."
+      ],
+      "reveals": [
+        "Mervel interprets Zaren as prophet rather than merely infiltrator or soldier.",
+        "The nine-and-nine prophetic structure enters the campaign vocabulary."
+      ],
+      "consequences": [
+        "Zaren's hidden knowledge becomes dangerous party knowledge.",
+        "Lysandra must process whether Zaren has hidden a claim that touches her own fate."
+      ]
+    },
+    {
+      "id": "s4-ash-water-rite",
+      "title": "Mervel enters the ash-marked water rite",
+      "loc": "Central pool, {cavernsorrow}",
+      "atmosphere": [
+        "The ritual is quiet, bodily, and frightening because it looks like drowning but does not behave like ordinary death."
+      ],
+      "prose": [
+        "Zaren tries healing or mending magic on Mervel's ruined crystalline body, but nothing responds. Mervel insists on proceeding step by step and repeats the cavern's logic: water, suffocation, and ash reveal together.",
+        "She smears ash or dust across herself, lowers herself into the central pool, and produces no bubbles. Underwater, the ash does not wash away; Zaren recognizes that she is now marked thrice.",
+        "Silver touches the pool and suffers immediate psychic pain through the crystal in his skull. Caspian's attempts to move the earth or understand Mervel suggest that she is preserving herself instinctively rather than consciously performing a healthy recovery."
+      ],
+      "reveals": [
+        "Mervel's underwater state is self-preservation, transformation, or ritual stasis rather than simple suicide.",
+        "The pool remains dangerous to glass, mind, and resonance."
+      ],
+      "consequences": [
+        "Mervel is left alive, submerged, and unresolved.",
+        "The party cannot safely extract her without turning her into a mobile hazard."
+      ]
+    },
+    {
+      "id": "s4-zaren-secrets-confronted",
+      "title": "The party turns on Zaren's hidden knowledge",
+      "loc": "{cavernsorrow} -> outside the cavern",
+      "atmosphere": [
+        "Trust becomes practical rather than philosophical: everyone now holds pieces that can ruin someone else."
+      ],
+      "prose": [
+        "The party realizes that Zaren entered the cavern with more doctrinal context than he admitted. His attempt to test Mervel also exposed him and gave Mervel information.",
+        "{alex} leaves the cavern overwhelmed by prophecy, psychic voices, the construct, Silver's glass, and Mervel's submerged ritual. Zaren follows her and asks what the party thinks was done to his mind.",
+        "Zaren explains that his father carried hidden knowledge of prophets and the Father. No one has the whole map: Mervel knows one fragment, Zaren another, the party another, and the visions another."
+      ],
+      "reveals": [
+        "Zaren's family knowledge includes prophecy and hidden Father-doctrine.",
+        "Caspian now holds enough information to endanger Zaren if he repeats it in the wrong place."
+      ],
+      "consequences": [
+        "The party's trust pact deepens because secrets now create mutual leverage.",
+        "Alex's desire for ordinary stability becomes sharper."
+      ]
+    },
+    {
+      "id": "s4-ring-and-notes",
+      "title": "The Ring of Echoes and Silver's stolen papers",
+      "loc": "Outside {cavernsorrow}",
+      "atmosphere": [
+        "The scene pivots from cosmic argument into evidence: a hot ring, a vanished heir, and stolen trauma-notes."
+      ],
+      "prose": [
+        "{lysandra}'s {ringofechoes} heats and pulls her into a sealed living-room-like interior space. A note in her father Andrew Vermont's handwriting waits there, tying her firstborn inheritance, crystal cutting, and whispering voice together.",
+        "Outside, {silver} produces Mervel's stolen writings from the cavern ledge. They are fragments rather than a clean journal: trauma, overheard details, revenge, guilt, and experimental notes.",
+        "The papers identify {malakai}, Apothecary Prime, as the high-ranking figure who experimented on Mervel in {sarn}. They also name {dirtydocks} as the less-guarded supply dock through which Mervel escaped, and reveal {lirren} as someone Mervel loved who survived only about a day after escape."
+      ],
+      "reveals": [
+        "Lysandra's ring can draw her into an inherited interior space connected to her father.",
+        "Malakai becomes the major antagonist lead behind Mervel's glass experimentation.",
+        "The Dirty Docks are a concrete Sarn infiltration lead."
+      ],
+      "consequences": [
+        "The party reframes Sarn as the best source of answers about glass, extraction, and Mervel.",
+        "Mervel's grief over Lirren becomes a key emotional cause of her fracture."
+      ]
+    },
+    {
+      "id": "s4-road-back-omens",
+      "title": "The road back brings new omens",
+      "loc": "{cavernsorrow} -> road toward {holdmount}",
+      "atmosphere": [
+        "The trip back is practical on the surface, but the land keeps producing signs that the larger pattern is moving."
+      ],
+      "prose": [
+        "The party chooses to return to the encampment first for food, rest, and supplies, then head toward {sarn}. They decide not to drag Mervel out of the pool by force.",
+        "On the road, Lysandra explains what happened inside the ring: a family-room pocket space, a note from Andrew Vermont, firstborn crystal inheritance, and a voice she still does not fully understand.",
+        "During a rest, the party encounters a fresh {hollow}: recently dead, glass-grown, civilian-clothed, pain-indifferent, and moving with fixed purpose. Lysandra's inner voice gives the direction southeast, and the party determines the Hollow is heading toward {cyriath}.",
+        "Before reaching the encampment, an enormous unidentified shadow crosses overhead from east to northwest, in the general direction of {valleyazar}. It is too high or strange to identify, but it is not an ordinary bird."
+      ],
+      "reveals": [
+        "Fresh Hollows are still being created or activated somewhere recently enough to matter.",
+        "At least one Hollow appears drawn toward Cyriath.",
+        "A massive flying thing or omen is moving toward the Valley of Azar."
+      ],
+      "consequences": [
+        "The route becomes encampment, supplies, then Sarn, with Broken Teeth Peaks as a possible nearby complication.",
+        "The campaign now points simultaneously toward Sarn, Cyriath, and the Valley of Azar."
+      ]
+    },
+    {
+      "id": "s4-encampment-gate",
+      "title": "The party reaches the closed gate",
+      "loc": "Outside the encampment near {holdmount}",
+      "atmosphere": [
+        "The session ends on a social and political threshold rather than a monster threshold."
+      ],
+      "prose": [
+        "The party reaches the encampment. The gate is closed, and {mara} is positioned above like a lookout.",
+        "Before entering, someone asks Zaren whether he wants to hide or go in openly. The question matters because Zaren now carries revelations that could endanger him, the party, and the camp depending on who knows what."
+      ],
+      "reveals": [
+        "The immediate next scene is Zaren's public posture at the encampment gate."
+      ],
+      "consequences": [
+        "The party must decide how openly to handle Zaren's prophetic association, Mervel's status, and the coming route to Sarn."
+      ]
+    }
+  ],
+  "hooksSurfaced": [
+    "h-mervel",
+    "h-trust",
+    "h-sarn",
+    "h-azar",
+    "w-vermont",
+    "w-voice",
+    "h-hollowcyriath",
+    "h-malakai"
+  ],
+  "timeline": [
+    {
+      "title": "The cavern flood breaks the fight open",
+      "loc": "{cavernsorrow}",
+      "body": "Mervel's scream becomes physical, every embedded shard turns ice-cold, and seawater floods the cavern from walls and openings. When the tide recedes, the party survives, the followers are gone, Silver is above the flood line, and Mervel remains alive but shattered before the exposed circle-and-line mark."
+    },
+    {
+      "title": "Mervel names Zaren a prophet",
+      "loc": "{cavernsorrow}",
+      "body": "{mervel} tells {zaren} she does not know whether he is the Vessel, but she believes he is one of the prophets calling for the Father's return. She asks to be one of his nine, introducing a nine-and-nine prophetic structure and turning Zaren's secret faith into an immediate party crisis."
+    },
+    {
+      "title": "Mervel submerges herself marked thrice",
+      "loc": "Central pool, {cavernsorrow}",
+      "body": "Healing fails on Mervel's broken crystalline body. She smears herself with ash, lowers herself beneath the water without bubbles, and remains submerged while the ash does not wash away. Silver's painful reaction to touching the pool confirms that the rite is dangerous to glass, mind, or resonance."
+    },
+    {
+      "title": "Zaren's hidden doctrine becomes party leverage",
+      "loc": "{cavernsorrow} -> outside the cavern",
+      "body": "{alex} leaves the cavern overwhelmed, and {zaren} follows while asking what has happened to his mind. The group confronts the fact that Zaren entered with hidden Father-doctrine from his father, while Mervel, Zaren, the party, and past visions each hold different fragments of the same buried truth."
+    },
+    {
+      "title": "Lysandra enters the Ring of Echoes",
+      "loc": "Outside {cavernsorrow}",
+      "body": "{lysandra}'s {ringofechoes} heats and pulls her into a sealed room resembling her family home. A note from Andrew Vermont connects her firstborn inheritance, crystal cutting, and inner voice, but the group still does not understand how the ring's pocket-space ability fits the larger pattern."
+    },
+    {
+      "title": "Silver's stolen papers point to Malakai and Sarn",
+      "loc": "Outside {cavernsorrow}",
+      "body": "{silver} reveals writings stolen from Mervel. The papers identify {malakai}, Apothecary Prime, as the figure behind Mervel's glass experimentation in {sarn}, point to {dirtydocks} as an escape route, and name {lirren} as Mervel's lost love."
+    },
+    {
+      "title": "The party chooses supplies before Sarn",
+      "loc": "{cavernsorrow} -> road toward {holdmount}",
+      "body": "After debating whether to bring Mervel, the party leaves her submerged in the pool and decides to return to the encampment first for food, rest, and supplies. The planned route becomes encampment, then Sarn, with the Broken Teeth Peaks possibly intersecting the path."
+    },
+    {
+      "title": "A fresh Hollow walks toward Cyriath",
+      "loc": "Return route from {cavernsorrow}",
+      "body": "During the return journey, the party encounters a recently dead civilian {hollow} with glass growths and no normal pain response. Lysandra's voice gives the direction southeast, and the party determines the Hollow is moving toward {cyriath}, suggesting a draw, command, or resonance aimed at home."
+    },
+    {
+      "title": "A massive shadow crosses toward the Valley of Azar",
+      "loc": "Return route near the encampment",
+      "body": "Before reaching the encampment, something enormous passes high overhead from east to northwest, toward {valleyazar}. Vastraya should not produce ordinary shadows in that way, making the sighting an explicit omen rather than simple wildlife."
+    },
+    {
+      "title": "The closed gate leaves Zaren exposed",
+      "loc": "Outside the encampment near {holdmount}",
+      "body": "The party reaches the closed encampment gate with {mara} watching from above. The session ends on the question of whether {zaren} enters openly or hides, because his prophetic association, Mervel's recognition, and the party's new knowledge could collide with camp politics immediately."
+    }
+  ]
+}

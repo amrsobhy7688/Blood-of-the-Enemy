@@ -37,7 +37,7 @@ test("build emits a static dashboard from modular source files", () => {
   assert.ok(fs.existsSync(path.join(outDir, "data", "archive.js")));
 
   const html = fs.readFileSync(path.join(outDir, "index.html"), "utf8");
-  assert.match(html, /<link rel="stylesheet" href="src\/styles\.css">/);
+  assert.match(html, /<link rel="stylesheet" href="src\/styles\.css(?:\?v=[^"]+)?">/);
   assert.match(html, /<script src="data\/archive\.js"><\/script>/);
-  assert.match(html, /<script src="src\/app\.js"><\/script>/);
+  assert.match(html, /<script src="src\/app\.js(?:\?v=[^"]+)?"><\/script>/);
 });

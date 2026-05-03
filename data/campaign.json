@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Blood of the Enemy",
-    "sessions": 6,
+    "sessions": 7,
     "currentLevel": 6,
-    "currentArc": "Cavern of Sorrow - The Father's Witnesses",
-    "currentLocation": "Cavern of Sorrow",
-    "status": "Returned from pre-Shattering memory - water receding"
+    "currentArc": "Return to the Encampment - Road to Sarn",
+    "currentLocation": "Outside the encampment gate",
+    "status": "At the closed encampment gate - decide whether Zaren enters openly"
   },
   "pcs": [
     {
@@ -43,14 +43,14 @@
         ],
         [
           "Current",
-          "In Cavern of Sorrow vs {mervel}"
+          "Outside encampment gate; carrying Sarn/Malakai intel"
         ],
         [
           "Witness role",
           "Recognized as one of the {fatherwitnesses} in {churchfather}"
         ]
       ],
-      "body": "A Researcher Prime of the Ministry who was maneuvered into sounding heretical at the Beacon Ignition so his patents could be seized by {aurelian}. He joined {flame} five years ago out of curiosity, not devotion — \"I've been knocking on every door.\" Branded with two Null Sigils, exiled on {penance}, now free to cast again.\n\nHe thinks in systems. Even bound on the bench of a prison ship he read {castrell}'s surface thoughts while finishing lockpicks from tattoo-ink tools. He has revealed himself to {zaren} as {flame}. His shield channels preserving energy through his familiar — a mechanism he doesn't yet understand.\n\nIn Session 3.5 he is recognized as one of the {fatherwitnesses}. Inside the {preservedpause}, his shard heats when the Father notices the moment, and the ground-frequencies find both him and {lysandra} with the word \"Witnessed.\"",
+      "body": "A Researcher Prime of the Ministry who was maneuvered into sounding heretical at the Beacon Ignition so his patents could be seized by {aurelian}. He joined {flame} five years ago out of curiosity, not devotion — \"I've been knocking on every door.\" Branded with two Null Sigils, exiled on {penance}, now free to cast again.\n\nHe thinks in systems. Even bound on the bench of a prison ship he read {castrell}'s surface thoughts while finishing lockpicks from tattoo-ink tools. He has revealed himself to {zaren} as {flame}. His shield channels preserving energy through his familiar — a mechanism he doesn't yet understand.\n\nIn Session 3.5 he is recognized as one of the {fatherwitnesses}. Inside the {preservedpause}, his shard heats when the Father notices the moment, and the ground-frequencies find both him and {lysandra} with the word \"Witnessed.\"\n\nIn Session 4 he helps interpret Mervel's stolen papers, recognizes {malakai} as a high-ranking Apothecary Prime, and understands that Zaren has effectively handed the party dangerous leverage over his life.",
       "relationships": [
         [
           "zaren",
@@ -117,10 +117,14 @@
         ],
         [
           "Current",
-          "In Cavern of Sorrow; revealed his mark to {mervel}"
+          "Outside encampment gate; deciding whether to enter openly"
+        ],
+        [
+          "Prophetic risk",
+          "{mervel} recognizes him as one of the Father's prophets and asks to be one of his nine"
         ]
       ],
-      "body": "Fifty-five. Veteran enforcer. His inner sanctum at the {dryce} estate is three feet of metal-lined stone built by {vein}. For years he has hunted his own brotherhood while feeding intel back to it — \"They are martyrs. They understand.\"\n\nHe was handed the {penance} escort by {mccord} and ordered by {vein} to sabotage it. He refused the sabotage but kept the prisms. On the shore, in a coded exchange, {mara} placed him: \"the tide is coming\" / \"but the seal will hold.\" His Unbroken-raid memory returned: {unbroken} children reciting the Fifth Nail. In the Cavern he pressed ash to his mark and the cave answered.\n\nAt the start of Session 3.5, he remains in the interrupted {cavernsorrow} combat with {mervel}, but the tide-memory pulls focus away before the present-day fight resolves.",
+      "body": "Fifty-five. Veteran enforcer. His inner sanctum at the {dryce} estate is three feet of metal-lined stone built by {vein}. For years he has hunted his own brotherhood while feeding intel back to it — \"They are martyrs. They understand.\"\n\nHe was handed the {penance} escort by {mccord} and ordered by {vein} to sabotage it. He refused the sabotage but kept the prisms. On the shore, in a coded exchange, {mara} placed him: \"the tide is coming\" / \"but the seal will hold.\" His Unbroken-raid memory returned: {unbroken} children reciting the Fifth Nail. In the Cavern he pressed ash to his mark and the cave answered.\n\nAt the start of Session 3.5, he remains in the interrupted {cavernsorrow} combat with {mervel}, but the tide-memory pulls focus away before the present-day fight resolves.\n\nIn Session 4, Mervel names him not as the Vessel with certainty, but as one of the prophets who call for the Father's return. His father's hidden doctrine and the party's new knowledge now make his secrecy a shared danger.",
       "relationships": [
         [
           "caspian",
@@ -184,9 +188,13 @@
         [
           "Voice",
           "A childlike voice inside her mind since {silver} spoke about family"
+        ],
+        [
+          "Current",
+          "Outside/near encampment after leaving cavern overwhelmed"
         ]
       ],
-      "body": "Conscripted at the foyer as {mccord} cornered her father: a flaw was detected, the Ministry needed a Talus monitor, the choice was not a choice. Her father called it privately \"a blood sacrifice to prove the family is still in line\" and told her: \"Stick close to {zaren}. He will protect you.\"\n\nShe returned from the shore with blood on her face; {caspian} returned clean. She hasn't explained. She doesn't trust {zaren} yet and was caught by {silver} trying to search {mara}'s tent. Her stated goal widened from \"go home\" to \"understand Vastraya — what happens here is tied to what happened there.\"\n\nSession 3.5 largely follows {caspian} and {lysandra} inside the preserved Father-memory; Alex remains part of the unresolved present-day cavern aftermath.",
+      "body": "Conscripted at the foyer as {mccord} cornered her father: a flaw was detected, the Ministry needed a Talus monitor, the choice was not a choice. Her father called it privately \"a blood sacrifice to prove the family is still in line\" and told her: \"Stick close to {zaren}. He will protect you.\"\n\nShe returned from the shore with blood on her face; {caspian} returned clean. She hasn't explained. She doesn't trust {zaren} yet and was caught by {silver} trying to search {mara}'s tent. Her stated goal widened from \"go home\" to \"understand Vastraya — what happens here is tied to what happened there.\"\n\nSession 3.5 largely follows {caspian} and {lysandra} inside the preserved Father-memory; Alex remains part of the unresolved present-day cavern aftermath.\n\nIn Session 4 she leaves the cavern overwhelmed by Mervel, Zaren's prophetic implications, Silver, the construct, and the water rite. Her desire for home and something ordinary sharpens as the party moves back toward the encampment.",
       "relationships": [
         [
           "caspian",
@@ -246,9 +254,13 @@
         [
           "Voice change",
           "The inner voice calls her \"Lysandra\" after the worldbreak vision"
+        ],
+        [
+          "Ring revelation",
+          "{ringofechoes} pulled her into a Vermont living-room space with a note from Andrew Vermont"
         ]
       ],
-      "body": "Arrested three days before Ascension Day on forged crystal charges — the {vermontfacet} appeared on depleted boxes she never saw. Her mother smuggled her jeweler's tools into the {dampeningchamber} and revealed the Vermont inheritance: before Lysandra was born, her father met a king, and light came to sit where his heart had been. A burden.\n\nHer cutting is not craft alone. When she works, the material responds — something in her resonates with the crystal. {caspian} has started prodding at it. Inside her, a child's voice speaks; in her vision, the child calls her \"Mother.\" Four nails, through the heart.\n\nIn Session 3.5 the voice inside her falls silent when the tide-memory begins. After the worldbreak vision, it calls her by name \"Lysandra\" for the first time.",
+      "body": "Arrested three days before Ascension Day on forged crystal charges — the {vermontfacet} appeared on depleted boxes she never saw. Her mother smuggled her jeweler's tools into the {dampeningchamber} and revealed the Vermont inheritance: before Lysandra was born, her father met a king, and light came to sit where his heart had been. A burden.\n\nHer cutting is not craft alone. When she works, the material responds — something in her resonates with the crystal. {caspian} has started prodding at it. Inside her, a child's voice speaks; in her vision, the child calls her \"Mother.\" Four nails, through the heart.\n\nIn Session 3.5 the voice inside her falls silent when the tide-memory begins. After the worldbreak vision, it calls her by name \"Lysandra\" for the first time.\n\nIn Session 4, the Ring of Echoes pulls her into a sealed room resembling her family home. A note from Andrew Vermont ties the Vermont firstborn inheritance, her crystal cutting, and the whispers in her mind together, though the identity of the voice remains unresolved.",
       "relationships": [
         [
           "caspian",
@@ -540,7 +552,7 @@
           "\"Sometimes I hear whispers beneath the ground. They say it's this way.\" → {valleyazar}"
         ]
       ],
-      "body": "Born with a yellow shard inside him — {marisha} delivered him as his dying mother arrived on the shore. He identifies as {wingedwatch} (the sentry), even though {mara} is {ironwill}. Teleports. Caught {alex} trying to enter {mara}'s room: \"I can go anywhere. I am the sentry.\"",
+      "body": "Born with a yellow shard inside him — {marisha} delivered him as his dying mother arrived on the shore. He identifies as {wingedwatch} (the sentry), even though {mara} is {ironwill}. Teleports. Caught {alex} trying to enter {mara}'s room: \"I can go anywhere. I am the sentry.\"\n\nIn Session 4 he survives the cavern flood above the waterline, recoils from the pool's psychic pain when he touches it, and produces Mervel's stolen papers from the ledge. Those papers become the party's clearest lead toward {sarn}.",
       "relationships": [
         [
           "mara",
@@ -625,7 +637,7 @@
       "name": "Mervel Haloval",
       "alt": "The Crystallized Siren",
       "role": "Presides over the drowning rite at the {cavernsorrow}",
-      "status": "hostile",
+      "status": "alive - submerged, broken, unresolved",
       "portrait": "Me",
       "facts": [
         [
@@ -643,9 +655,13 @@
         [
           "Last line",
           "\"Just another actor on a stage made of corpses.\""
+        ],
+        [
+          "Session 4 state",
+          "Left submerged in {cavernsorrow} pool, marked thrice, psychic scream still dangerous"
         ]
       ],
-      "body": "Hold Mount-born noble. Presides over the ritual drowning in the {cavernsorrow}. Her resonance leaks; Silver says \"she isn't doing it on purpose.\" Challenged {zaren}: \"How about you enlighten us in the water with the tide?\" His answer: \"the water, the suffocation is only one thing. It is by the ashes that everything reveals.\"\n\nSession 3.5 clarifies the scream from the cavern fight as terror rather than triumph: Mervel sees or feels something coming, then the impossible tide and memory overtake the scene before her fate resolves.",
+      "body": "Hold Mount-born noble. Presides over the ritual drowning in the {cavernsorrow}. Her resonance leaks; Silver says \"she isn't doing it on purpose.\" Challenged {zaren}: \"How about you enlighten us in the water with the tide?\" His answer: \"the water, the suffocation is only one thing. It is by the ashes that everything reveals.\"\n\nSession 3.5 clarifies the scream from the cavern fight as terror rather than triumph: Mervel sees or feels something coming, then the impossible tide and memory overtake the scene before her fate resolves.\n\nIn Session 4 she survives the flood shattered, recognizes {zaren} as a prophet of the Father's return, asks to become one of his nine, then submerges herself in an ash-marked water rite. Her writings identify {malakai}, {sarn}, {dirtydocks}, and {lirren} as central to her trauma.",
       "relationships": [
         [
           "flame",
@@ -917,6 +933,71 @@
         ]
       ],
       "alt": "Wall listener"
+    },
+    {
+      "id": "malakai",
+      "name": "Malakai",
+      "alt": "Apothecary Prime",
+      "role": "High-ranking researcher tied to Sarn glass experiments",
+      "status": "hostile lead",
+      "portrait": "M",
+      "facts": [
+        [
+          "Title",
+          "Apothecary Prime"
+        ],
+        [
+          "Project",
+          "Glass experimentation on living subjects in {sarn}"
+        ],
+        [
+          "Known from",
+          "Mervel's stolen papers"
+        ]
+      ],
+      "body": "Identified in {mervel}'s writings as the figure who experimented on her in {sarn}. His title marks him as a major authority in medicine, alchemy, research, or sanctified crystal experimentation, not a minor torturer. The notes leave open whether his project is officially sanctioned or privately conducted under imperial cover.",
+      "relationships": [
+        [
+          "mervel",
+          "experimented on"
+        ],
+        [
+          "sarn",
+          "operated in"
+        ],
+        [
+          "ministrysanctity",
+          "possibly shielded by"
+        ]
+      ]
+    },
+    {
+      "id": "lirren",
+      "name": "Lirren",
+      "role": "Mervel's lost love",
+      "status": "dead or presumed dead",
+      "portrait": "L",
+      "facts": [
+        [
+          "Known from",
+          "Name circled with a heart in Mervel's papers"
+        ],
+        [
+          "Escape",
+          "Escaped {sarn} but survived only about a day"
+        ]
+      ],
+      "body": "A person Mervel loved, named in her writings with a heart around the name. Lirren escaped {sarn} but lived only about a day afterward; that loss appears to be one of the emotional fractures behind Mervel's transformation.",
+      "relationships": [
+        [
+          "mervel",
+          "beloved"
+        ],
+        [
+          "sarn",
+          "escaped from"
+        ]
+      ]
     }
   ],
   "places": [
@@ -1087,7 +1168,7 @@
       "id": "sarn",
       "name": "Sarn",
       "region": "{vastraya}",
-      "body": "Where exiles are processed and held. Where Mervel was strapped to an obsidian rack and had glass hammered into her body.",
+      "body": "Where exiles are processed and held. Where Mervel was strapped to an obsidian rack and had glass hammered into her body.\n\nSession 4 makes Sarn the party's next major target: Mervel's stolen writings tie it to {malakai}, living glass trials, the {dirtydocks}, and possible answers about bonded shard removal.",
       "rel": [
         [
           "ministrysanctity",
@@ -1224,6 +1305,32 @@
       "region": "Pre-Shattering Vastraya",
       "body": "Region or corridor containing 47 active churches of the Father, with the Father's presence strongest inland and weakest near the coast.",
       "alt": "Stripe"
+    },
+    {
+      "id": "dirtydocks",
+      "name": "The Dirty Docks",
+      "region": "{sarn}",
+      "facts": [
+        [
+          "Use",
+          "Less-guarded supply dock at {sarn}"
+        ],
+        [
+          "Known from",
+          "Mervel's stolen papers"
+        ]
+      ],
+      "body": "A less-guarded supply dock or unloading area connected to {sarn}. Mervel escaped through this route because she was near death and the guards were less careful, making it the party's strongest concrete infiltration lead.",
+      "rel": [
+        [
+          "sarn",
+          "part of"
+        ],
+        [
+          "mervel",
+          "escaped through"
+        ]
+      ]
     }
   ],
   "factions": [
@@ -1594,7 +1701,7 @@
       "name": "Ring of Echoes",
       "type": "Magic ring",
       "holder": "{lysandra}",
-      "body": "+1 spell attack · +1 spell save DC · Cast {command} twice per day.",
+      "body": "+1 spell attack - +1 spell save DC - Cast {command} twice per day. In Session 4 it heats and pulls {lysandra} into a sealed Vermont living-room-like interior where a note from Andrew Vermont connects her firstborn inheritance, crystal cutting, and inner voice.",
       "rel": [
         [
           "lysandra",
@@ -1637,7 +1744,7 @@
       "id": "construct",
       "name": "The Construct (Hold Mount statue)",
       "type": "Ancient automaton",
-      "body": "An ancient automaton, older and cruder than Cyriath-patent workshop constructs. Once dormant at Hold Mount, it was successfully awakened and now travels with the party as an ally. It still carries the old signatures of gears, pistons, and plated housing rather than a neat visible core, it suppresses the {static}, and it responds specifically to the {rod}.\n\nSession 3.5 reveals related constructs active in the pre-Shattering {churchfather}: command-sensitive, seal-bearing machines that respond to {haren}, halt when the Father notices the preserved moment, and may be ancestors or analogues of the present-day construct.",
+      "body": "An ancient automaton, older and cruder than Cyriath-patent workshop constructs. Once dormant at Hold Mount, it was successfully awakened and now travels with the party as an ally. It still carries the old signatures of gears, pistons, and plated housing rather than a neat visible core, it suppresses the {static}, and it responds specifically to the {rod}.\n\nSession 3.5 reveals related constructs active in the pre-Shattering {churchfather}: command-sensitive, seal-bearing machines that respond to {haren}, halt when the Father notices the preserved moment, and may be ancestors or analogues of the present-day construct.\n\nIn Session 4 it survives the cavern flood simply by remaining too heavy to move, then follows Silver and the party out of the cavern as an allied automaton.",
       "rel": [
         [
           "rod",
@@ -1793,7 +1900,7 @@
     {
       "id": "hollow",
       "name": "Hollow",
-      "body": "Exiles overtaken by the smog. Blue-skinned, breathing, but no longer awake. Kept around the {construct}; they crawl back toward it if moved."
+      "body": "Exiles overtaken by the smog. Blue-skinned, breathing, but no longer awake. Kept around the {construct}; they crawl back toward it if moved.\n\nIn Session 4 the party encounters a fresher civilian Hollow that walks through fire, ignores pain, and appears to be moving toward {cyriath}, suggesting the phenomenon is still active and may be drawn homeward."
     },
     {
       "id": "crystallizedsiren",
@@ -1966,6 +2073,12 @@
       "name": "The Shattering / Worldbreak",
       "body": "The world-scale breaking felt after the Sovereigns strike the Father. Warmth leaves the world, smog may be born, and the Cavern of Sorrow collapses around the witnesses.",
       "alt": "Worldbreak"
+    },
+    {
+      "id": "nineprophets",
+      "name": "The Nine Prophets",
+      "body": "Prophetic structure named by {mervel}: the Father or Azaraks has nine heralds or prophets at a given point, and each may have nine subordinate heralds. Mervel asks to become one of {zaren}'s nine rather than one of the first nine herself.",
+      "alt": "Nine heralds"
     }
   ],
   "hooks": [
@@ -1973,15 +2086,15 @@
       "id": "h-mervel",
       "lane": "active",
       "urgency": "high",
-      "title": "Drop Mervel — or convert her",
-      "body": "The fight in {cavernsorrow} is interrupted by Mervel Haloval screaming in terror as the tide and preserved memory overtake the cavern. The party returns from the pre-Shattering memory underwater, with the water receding and Mervel's fate unresolved.",
+      "title": "What happens to Mervel in the pool",
+      "body": "{mervel} survived the cavern flood shattered, named {zaren} as a prophet, asked to become one of his nine, and submerged herself in the ash-marked pool. She remains alive or not confirmed dead, psychically dangerous, and potentially the best witness to {sarn}.",
       "tags": [
         "mervel",
         "cavernsorrow",
-        "flame",
         "zaren",
-        "preservedpause",
-        "father"
+        "nineprophets",
+        "sarn",
+        "lirren"
       ]
     },
     {
@@ -2016,12 +2129,14 @@
       "lane": "active",
       "urgency": "medium",
       "title": "Can the party trust Zaren?",
-      "body": "{alex} does not. {caspian} has chosen to. Zaren's \"rescue\" plan was in motion before the ship exploded — he claims. Why was {caspian} worth rescuing specifically?",
+      "body": "{alex} does not fully trust {zaren}; {caspian} has chosen provisional trust. Session 4 makes the stakes sharper: Zaren's hidden Father-doctrine is now party knowledge, and repeating it could destroy him.",
       "tags": [
         "zaren",
         "caspian",
         "alex",
-        "flame"
+        "flame",
+        "father",
+        "nineprophets"
       ]
     },
     {
@@ -2062,14 +2177,16 @@
     {
       "id": "h-sarn",
       "lane": "active",
-      "urgency": "medium",
+      "urgency": "high",
       "title": "What is really happening in {sarn}?",
-      "body": "The party explicitly names investigating {sarn} as part of the broader goal of understanding what is happening in {vastraya}. {mervel}'s torture there, the processing of exiles, and the Ministry's experiments make it a major unresolved lead.",
+      "body": "The route now points to {sarn}. Mervel's stolen papers identify {malakai}, living glass experiments, {dirtydocks}, and Lirren's failed escape. Sarn may hold answers about shard bonding, extraction, and what the empire is doing with glass.",
       "tags": [
         "sarn",
+        "dirtydocks",
+        "malakai",
         "mervel",
-        "ministrysanctity",
-        "vastraya"
+        "glassbonding",
+        "lirren"
       ]
     },
     {
@@ -2125,11 +2242,12 @@
       "lane": "whispered",
       "urgency": "medium",
       "title": "Lysandra's father and the king without a crown",
-      "body": "\"He invited the light to sit where his heart used to be.\" {zaren} suspects he didn't die the way Lysandra was told.",
+      "body": "The {ringofechoes} pulls {lysandra} into a sealed room resembling her family home. A note from Andrew Vermont ties her firstborn inheritance, crystal cutting, and inner voice together, but the voice's identity and the family bargain remain unresolved.",
       "tags": [
         "lysandra",
         "vermont",
-        "flame"
+        "ringofechoes",
+        "father"
       ]
     },
     {
@@ -2137,11 +2255,13 @@
       "lane": "whispered",
       "urgency": "high",
       "title": "The child voice inside Lysandra",
-      "body": "The voice inside {lysandra} went silent as the Father-memory began, then called her by name - \"Lysandra\" - after the worldbreak vision ended. It now behaves less like a childlike echo and more like a direct presence.",
+      "body": "The voice inside {lysandra} went silent as the Father-memory began, later called her by name, and in Session 4 gives a direct direction - southeast - when the party studies a fresh {hollow} moving toward {cyriath}.",
       "tags": [
         "lysandra",
         "father",
-        "preservedpause"
+        "preservedpause",
+        "hollow",
+        "cyriath"
       ]
     },
     {
@@ -2301,6 +2421,45 @@
         "churchfather",
         "sovereigns",
         "father"
+      ]
+    },
+    {
+      "id": "h-malakai",
+      "lane": "active",
+      "urgency": "high",
+      "title": "Who is Malakai, Apothecary Prime",
+      "body": "{malakai} is named in Mervel's papers as the high-ranking figure behind the glass experiments in {sarn}. The party does not know whether he acts for the whole empire, under official cover, or as a private project with imperial infrastructure.",
+      "tags": [
+        "malakai",
+        "sarn",
+        "mervel",
+        "glassbonding",
+        "ministrysanctity"
+      ]
+    },
+    {
+      "id": "h-hollowcyriath",
+      "lane": "active",
+      "urgency": "high",
+      "title": "Why is a fresh Hollow walking toward Cyriath",
+      "body": "A recently dead civilian {hollow} with glass growths walks through fire and continues southeast. With {lysandra}'s voice giving the same direction, the party determines it is heading toward {cyriath}, suggesting command, instinct, resonance, or something in Cyriath calling to it.",
+      "tags": [
+        "hollow",
+        "cyriath",
+        "lysandra",
+        "glassbonding"
+      ]
+    },
+    {
+      "id": "w-flyingshadow",
+      "lane": "whispered",
+      "urgency": "medium",
+      "title": "The enormous shadow over Vastraya",
+      "body": "Before reaching the encampment, the party sees something enormous cross high overhead from east to northwest toward {valleyazar}. Vastraya should not produce ordinary shadows in this way, and the thing is not an ordinary bird or known flying creature.",
+      "tags": [
+        "valleyazar",
+        "vastraya",
+        "azar"
       ]
     }
   ]
